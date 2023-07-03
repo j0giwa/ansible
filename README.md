@@ -6,7 +6,6 @@ This repo containt my ansible config to maintain my Archlinux systems.
 ====================================
 ### Window Manager Configs
 - [dwm](https://github.com/j0giwa/dwm)
-- [dwmblocks](https://github.com/j0giwa/dwmblocks)
 - [dmenu](https://github.com/j0giwa/dmenu)
 - [st](https://github.com/j0giwa/st)
 - bspwm
