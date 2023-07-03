@@ -3,7 +3,7 @@
 This repo containt my ansible config to maintain my Archlinux systems.
 
 ## In this Configs in this Repository
-====================================
+
 ### Window Manager Configs
 - [dwm](https://github.com/j0giwa/dwm)
 - [dmenu](https://github.com/j0giwa/dmenu)
