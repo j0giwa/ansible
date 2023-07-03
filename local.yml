@@ -38,12 +38,11 @@
   - name: Clone Doom Emacs repository
     git:
       repo: https://github.com/hlissner/doom-emacs
-      dest: /home/jogiwa/doom-emacs
+      dest: /home/jogiwa/.config/emacs
 
   - name: Install Doom Emacs
     shell: |
-      cd /home/jogiwa/doom-emacs
-      ./bin/doom install
+      /home/jogiwa/.config/emac/bin/doom install
 
   - name: Clone DWM repository
     git:
