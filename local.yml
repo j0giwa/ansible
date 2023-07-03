@@ -6,4 +6,93 @@
   tasks:
   - name: install packages
     package:
-      name: htop
+      name:
+        - htop
+        - zellij
+        - nvim
+        - emacs
+        - tldr
+        - zsh
+        - biber
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - xorg
+        - xclip
+        - xdotool
+        - xwallpaper
+        - texlive-most
+        - texlive-langgerman
+        - texlive-latexextra
+        - texlive-bibtexextra
+        - texlive-fontsextra
+        - texlive-science
+        - texlive-pictures
+        - texlive-humanities
+        - zathura
+        - zathura-djvu
+        - zathura-pdf-mupdf
+        - zathura-ps
+  
+  - name: Clone Doom Emacs repository
+    git:
+      repo: https://github.com/hlissner/doom-emacs
+      dest: /home/jogiwa/doom-emacs
+
+  - name: Install Doom Emacs
+    shell: |
+      cd /home/jogiwa/doom-emacs
+      ./bin/doom install
+
+  - name: Clone DWM repository
+    git:
+      repo: https://github.com/j0giwa/dwm.git
+      dest: /home/jogiwa/suckless/dwm
+
+  - name: Clone DMENU repository
+    git:
+      repo: https://github.com/j0giwa/dmenu.git
+      dest: /home/jogiwa/suckless/dmenu
+
+  - name: Clone ST repository
+    git:
+      repo: https://github.com/j0giwa/st.git
+      dest: /home/jogiwa/suckless/st
+
+  - name: copy .profile
+    copy:
+      src: files/zshrc
+      dest: /home/jogiwa/.zshrc
+      owner: jogiwa
+      group: jogiwa
+
+  - name: copy .zshrc
+    copy:
+      src: files/zprofile
+      dest: /home/jogiwa/.zprofile
+      owner: jogiwa
+      group: jogiwa
+
+  - name: copy .dotfiles
+    copy:
+      src: files/config
+      dest: /home/jogiwa/.config
+      owner: jogiwa
+      group: jogiwa
+
+  - name: Build and install DWM
+    shell: |
+      cd /home/jogiwa/suckless/dwm
+      make clean install
+
+  - name: Build and install DWM
+    shell: |
+      cd /home/jogiwa/suckless/dwm
+      make clean install
+
+  - name: Build and install DWM
+    shell: |
+      cd /home/jogiwa/suckless/dwm
+      make clean install
+
