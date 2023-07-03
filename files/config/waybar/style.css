@@ -1,0 +1,198 @@
+@define-color dracula-background #282a36;
+@define-color dracula-light-background #44475a;
+@define-color dracula-foreground #f8f8f2;
+@define-color dracula-comment #6272a4;
+@define-color dracula-cyan #8be9fd;
+@define-color dracula-green #50fa7b;
+@define-color dracula-orange #ffb86c;
+@define-color dracula-pink #ff79c6;
+@define-color dracula-purple #bd93f9;
+@define-color dracula-red #ff5555;
+@define-color dracula-yellow #f1fa8c;
+
+/* =============================== */
+/* Universal Styling */
+/* =============================== */
+
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  border: none;
+  border-radius: 0;
+}
+
+/* =============================== */
+/* Bar Styling */
+/* =============================== */
+
+#waybar {
+  background-color: rgba(40, 42, 54, 0.95);
+  /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
+  /*border-radius: 6px;*/
+  color: @dracula-foreground;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+#waybar.hidden {
+  opacity: 0.2;
+}
+
+button {
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px transparent;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: inherit;
+  box-shadow: inset 0 -3px @dracula-pink;
+  box-shadow: inset 0 -3px @dracula-foreground;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  color: @dracula-purple;
+}
+
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.active {
+  box-shadow: inset 0 -3px @dracula-purple;
+}
+
+#workspaces button.focused {
+  color: @dracula-foreground;
+  box-shadow: inset 0 -3px @dracula-foreground;
+}
+
+#workspaces button.urgent {
+  color: @dracula-red;
+}
+
+#mode {
+  color: @dracula-comment;
+  border-bottom: 3px solid @dracula-foreground;
+}
+
+/* =============================== */
+/* Modules */
+/* =============================== */
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-seperrator,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad
+#mpd {
+  padding: 0 5px;
+  color: @dracula-foreground;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+@keyframes blink {
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+/* =============================== */
+/* Module colors */
+/* =============================== */
+
+#mpd,
+#mpd.paused,
+#mpd.stopped,
+#mpd.disconnected {
+  color: @dracula-comment;
+}
+
+#wireplumber,
+#pulseaudio,
+#wireplumber.muted,
+#pulseaudio.muted {
+  color: @dracula-cyan;
+}
+
+#cpu {
+  color: @dracula-yellow;
+}
+
+#temperature,
+#temperature.critical,
+#network.disconnected {
+  color: @dracula-red;
+}
+
+#memory {
+  color: @dracula-pink;
+}
+
+#disk {
+  color: @dracula-green;
+}
+
+#network{
+  color: @dracula-purple;
+}
+
+#battery, #battery.charging, #battery.plugged {
+  color: @dracula-orange;
+}
+
+#battery.critical:not(.charging) {
+  background-color: @dracula-red;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#clock {
+  color: @dracula-cyan;
+}
+
+#tray {
+  background-color: @dracula-background;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @dracula-red;
+}
+
