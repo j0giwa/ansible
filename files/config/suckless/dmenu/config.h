@@ -5,9 +5,8 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const int user_bh = 0;       /* 0 means that dmenu will calculate bar height, >= 1 means dwm will use user_bh as bar height */
 
-static const char *fonts[] = {
-	"monospace:size=10"
-};
+static const char *fonts[]          = {"Iosevka:style:medium:size=10" ,"JetBrainsMono Nerd Font Mono:style:medium:size=17" };
+
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */

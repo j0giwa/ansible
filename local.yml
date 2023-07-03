@@ -4,7 +4,7 @@
   become: true
 
   tasks:
-  - name: install packages
+  - name: packages
     package:
       name:
         - htop
@@ -25,30 +25,99 @@
         - zathura-djvu
         - zathura-pdf-mupdf
         - zathura-ps
+    tags:
+      - packages
   
-  - name: Clone Doom Emacs repository
+  - name: Doom Emacs repository
     git:
       repo: https://github.com/hlissner/doom-emacs
       dest: /home/jogiwa/.config/emacs
+    tags:
+      - packages
 
   - name: Install Doom Emacs
     shell: |
       /home/jogiwa/.config/emac/bin/doom install
+    tags:
+      - packages
 
   - name: Clone DWM repository
     git:
       repo: https://github.com/j0giwa/dwm.git
-      dest: /home/jogiwa/suckless/dwm
+      dest: /home/jogiwa/.config/suckless/dwm
+    tags:
+      - dwm
+      - suckless
+  
+  - name: Copy DWM headers
+    copy:
+      src: files/config/suckless/dwm/config.h
+      dest: /home/jogiwa/.config/suckless/dwm/config.h
+      owner: jogiwa
+      group: jogiwa
+    tags:
+      - dwm
+      - suckless
+
+  - name: Build and install DWM
+    shell: |
+      cd /home/jogiwa/suckless/dwm
+      make install
+    tags:
+      - dwm
+      - suckless
 
   - name: Clone DMENU repository
     git:
       repo: https://github.com/j0giwa/dmenu.git
-      dest: /home/jogiwa/suckless/dmenu
+      dest: /home/jogiwa/./config/suckless/dmenu
+    tags:
+      - dmenu
+      - suckless
+
+  - name: Copy DMENU headers
+    copy:
+      src: files/config/suckless/dmenu/config.h
+      dest: /home/jogiwa/.config/suckless/dmenu/config.h
+      owner: jogiwa
+      group: jogiwa
+    tags:
+      - dmenu
+      - suckless
+
+  - name: Build and install DMENU
+    shell: |
+      cd /home/jogiwa/.config/suckless/dmenu
+      make install
+    tags:
+      - dmenu
+      - suckless
 
   - name: Clone ST repository
     git:
       repo: https://github.com/j0giwa/st.git
       dest: /home/jogiwa/suckless/st
+    tags:
+      - st
+      - suckless
+
+  - name: Copy ST headers
+    copy:
+      src: files/config/suckless/st/config.h
+      dest: /home/jogiwa/.config/suckless/st/config.h
+      owner: jogiwa
+      group: jogiwa
+    tags:
+      - st
+      - suckless
+
+  - name: Build and install DMENU
+    shell: |
+      cd /home/jogiwa/.config/suckless/st
+      make install
+    tags:
+      - st
+      - suckless
 
   - name: copy .profile
     copy:
@@ -56,6 +125,8 @@
       dest: /home/jogiwa/.zshrc
       owner: jogiwa
       group: jogiwa
+    tags:
+    - dotfiles
 
   - name: copy .zshrc
     copy:
@@ -63,6 +134,8 @@
       dest: /home/jogiwa/.zprofile
       owner: jogiwa
       group: jogiwa
+    tags:
+      - dotfiles
 
   - name: copy .dotfiles
     copy:
@@ -70,19 +143,5 @@
       dest: /home/jogiwa/.config
       owner: jogiwa
       group: jogiwa
-
-  - name: Build and install DWM
-    shell: |
-      cd /home/jogiwa/suckless/dwm
-      make clean install
-
-  - name: Build and install DWM
-    shell: |
-      cd /home/jogiwa/suckless/dwm
-      make clean install
-
-  - name: Build and install DWM
-    shell: |
-      cd /home/jogiwa/suckless/dwm
-      make clean install
-
+    tags:
+      - dotfiles
