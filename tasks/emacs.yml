@@ -1,0 +1,26 @@
+- name: Install Doom depends
+  package:
+    name:
+      - fd
+      - find
+      - ripgrep
+  tags:
+    - packages 
+    - emacs
+
+- name: Doom Emacs repository
+  git:
+    repo: https://github.com/hlissner/doom-emacs
+    dest: /home/jogiwa/.config/emacs
+  tags:
+    - packages
+    - emacs
+    - doom
+
+- name: Install Doom Emacs
+  shell: |
+    /home/jogiwa/.config/emac/bin/doom install
+  tags:
+    - packages
+    - emacs
+    - doom

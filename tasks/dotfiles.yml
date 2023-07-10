@@ -1,0 +1,26 @@
+- name: copy .profile
+  copy:
+    src: files/.zshrc
+    dest: /home/jogiwa/.zshrc
+    owner: jogiwa
+    group: jogiwa
+  tags:
+  - dotfiles
+
+- name: copy .zshrc
+  copy:
+    src: files/.zprofile
+    dest: /home/jogiwa/.zprofile
+    owner: jogiwa
+    group: jogiwa
+  tags:
+    - dotfiles
+
+- name: copy .dotfiles
+  copy:
+    src: files/.config
+    dest: /home/jogiwa/
+    owner: jogiwa
+    group: jogiwa
+  tags:
+    - dotfiles

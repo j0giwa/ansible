@@ -1,0 +1,25 @@
+- name: Clone DWM repository
+  git:
+    repo: https://github.com/j0giwa/dwm.git
+    dest: /home/jogiwa/.config/suckless/dwm
+  tags:
+    - dwm
+    - suckless
+ 
+- name: Copy DWM headers
+  copy:
+    src: files/config/suckless/dwm/config.h
+    dest: /home/jogiwa/.config/suckless/dwm/config.h
+    owner: jogiwa
+    group: jogiwa
+  tags:
+    - dwm
+    - suckless
+
+- name: Build and install DWM
+  shell: |
+    cd /home/jogiwa/suckless/dwm
+    make install
+  tags:
+    - dwm
+    - suckless 

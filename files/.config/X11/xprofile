@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Activate Dbus
+. /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+
+# Set dpi
+xrandr --dpi 92
+
+# Remap some keys
+remaps
+
+wallpaper & # restore previous wallpaper
+#wallpaper $HOME/Pictures/wallpapers & # pick random wallpaper
+#wallpaper $HOME/Pictures/wallpapers/anime & # pick random weeb wallpaper
+
+# Load Xresources
+xrdb ${XDG_CONFIG_HOME:-$HOME.config}/X11/Xresources & xrdbpid=$!
+
+# Autostart some Programs
+#pidof -s dunst || dunst &
+#pidof -s sxhkd || sxhkd &
+pidof -s picom || picom &
+pidof -s unclutter || unclutter &
+pidof -s udiskie || udiskie  &
+pidof -s emacs || /usr/bin/emacs --daemon &
+
+#Wait fo xrdb if neccesary
+[ -n "$xrdbpid" ] && wait "$xrdbpid"
+

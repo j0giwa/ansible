@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# The setting for a generic X11 session are in xprofile
+if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
+    "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile"
+else
+    . "$HOME/.xprofile"
+fi
+
+# Start an xsession
+#exec emacs # fun test
+exec ~/.config/suckless/dwm/scripts/run.sh
+#exec herbstluftwm --locked
+#exec startxfce4

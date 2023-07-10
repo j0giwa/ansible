@@ -1,0 +1,22 @@
+- name: packages
+  package:
+    name:
+      - htop
+      - zellij
+      - neovim
+      - tldr
+      - zsh
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+      - xorg
+      - xclip
+      - xdotool
+      - xwallpaper
+      - zathura
+      - zathura-djvu
+      - zathura-pdf-mupdf
+      - zathura-ps
+  tags:
+    - packages
