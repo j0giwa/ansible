@@ -1,5 +1,0 @@
-/* ### Xresources palettes ### */
-
-#include "./Xresources-themes/dracula.Xresources"
-!#include "./Xresources-themes/nord.Xresources"
-!#include "./Xresources-themes/gruvbox-dark.Xresources"

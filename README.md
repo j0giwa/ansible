@@ -11,6 +11,7 @@ This repo containt my ansible config to maintain my Archlinux systems.
 - bspwm
 - hyprland
 - herbstluftwm
+- xmonad
 
 ### Editors
 - DOOM Emacs
@@ -31,3 +32,4 @@ This repo containt my ansible config to maintain my Archlinux systems.
 - zellij
 - waybar
 - oh-my-zsh
+- xmobar
