@@ -2,11 +2,12 @@
   package:
     name:
       - fd
-      - find
       - ripgrep
+      - emacs
   tags:
-    - packages 
+    - packages
     - emacs
+    - doom
 
 - name: Doom Emacs repository
   git:
@@ -19,7 +20,7 @@
 
 - name: Install Doom Emacs
   shell: |
-    /home/jogiwa/.config/emac/bin/doom install
+    /home/jogiwa/.config/emacs/bin/doom install
   tags:
     - packages
     - emacs
