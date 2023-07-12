@@ -1,18 +1,22 @@
 - name: packages
   package:
     name:
+      - emacs
       - htop
       - zellij
       - neovim
+      - tmux
       - tldr
+      - ttf-ubuntu-font-family
+      - ttf-ubuntu-nerd
+      - ttf-ubuntu-mono-nerd
       - zsh
-      - zsh-autosuggestions
-      - zsh-syntax-highlighting
       - zsh-autosuggestions
       - zsh-syntax-highlighting
       - xorg
       - xclip
       - xdotool
+      - picom
       - xwallpaper
       - zathura
       - zathura-djvu
