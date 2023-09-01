@@ -15,11 +15,14 @@
   - [[#buffers][Buffers]]
   - [[#global-auto-revert][Global Auto Revert]]
   - [[#keybindings-within-ibuffer-mode][Keybindings within ibuffer mode]]
+- [[#dashboard][Dashboard]]
+  - [[#splash][Splash]]
 - [[#doom-theme][DOOM Theme]]
+- [[#editing][Editing]]
 - [[#fonts][Fonts]]
 - [[#identification][Identification]]
-- [[#imenu][IMENU]]
 - [[#line-settings][Line Settings]]
+- [[#markdown][Markdown]]
 - [[#minimap][Minimap]]
 - [[#modeline][Modeline]]
 - [[#org-mode][Org-Mode]]
@@ -30,7 +33,8 @@
   - [[#org-roam-ui][Org-Roam-UI]]
   - [[#org-ai][Org-AI]]
 - [[#rainbow-mode][Rainbow Mode]]
-- [[#shells][shells]]
+- [[#shells][Shells]]
+- [[#winner-mode][Winner Mode]]
 - [[#whitespace-mode][Whitespace-mode]]
 
 * About this config
@@ -70,7 +74,7 @@ The prototypical use of bookmarks is to record where you were reading in various
 | bookmark-delete | /Delete bookmark/                        | SPC b M    |
 | bookmark-save   | /Save current bookmark to bookmark file/ | SPC b w    |
 
-#+BEGIN_SRC emacs-lisp
+#+BEGIN_SRC emacs-lisp tangle: yes
 (setq bookmark-default-file "~/.config/doom/bookmarks")
 
 (map! :leader
@@ -100,7 +104,7 @@ A buffer can get out of sync with respect to its visited file on disk if that fi
 To keep it up to date, you can enable Auto Revert mode by typing M-x auto-revert-mode, or you can set it to be turned on globally with 'global-auto-revert-mode'.
 I have also turned on Global Auto Revert on non-file buffers, which is especially useful for 'dired' buffers.
 
-#+begin_src emacs-lisp
+#+BEGIN_SRC emacs-lisp tangle: yes
 (global-auto-revert-mode 1)
 (setq global-auto-revert-non-file-buffers t)
 #+end_src
@@ -120,7 +124,7 @@ I have also turned on Global Auto Revert on non-file buffers, which is especiall
 | ibuffer-do-kill-lines             | /Hide marked buffers/                    | g h        |
 | ibuffer-update                    | /Restore hidden buffers/                 | g H        |
 
-#+begin_src emacs-lisp
+#+BEGIN_SRC emacs-lisp tangle: yes
 (evil-define-key 'normal ibuffer-mode-map
   (kbd "f c") 'ibuffer-filter-by-content
   (kbd "f d") 'ibuffer-filter-by-directory
@@ -132,6 +136,56 @@ I have also turned on Global Auto Revert on non-file buffers, which is especiall
   (kbd "g H") 'ibuffer-update)
 #+end_src
 
+* Dashboard
+** Splash
+
+Set an custom Slash image
+#+begin_src emacs-lisp :tangle yes
+(setq fancy-splash-image "~/.config/doom/hlb-splash.png")
+#+end_src
+
+Set asciiart as fallback
+#+begin_src emacs-lisp :tangle yes
+(defun dashboard-ascii ()
+  (let* ((banner '("                                                                     .                "
+                   "         .:  :                                                      :.               ."
+                   "..-:.   ..  .::..                                                ..=......:    .-::.. "
+                   "   ..::--::::-::===-====--.                             .:=---===+=-:--=-::::-:.      "
+                   "   :.     .:-. ....: :**+.                               .=++. : ..    ..:.           "
+                   "       .    .    .-:=-*++     -*+=.             .*++:    .*++::-..  ..                "
+                   "   . .:-:. .=  ... :. ===     .++:    .=+++-.    =+=.     +==-=:::::....              "
+                   "          ..:.::.=...:+==     :+=:      ++=      ===.     === +...       ..  .        "
+                   "               -:..=+.===     :+=-      +==      ==+.    .+==  .-. :.........:        "
+                   "       .:..::.::  ::: ==+     :=+:      ++=      -==.     +==-:-  =:.                 "
+                   "     ..   .    ..:..  ==+     :++-      +=-      -==.    .+=+..-=- ...:=::.           "
+                   "             :.....:= ==+     :+=-      +==      ===.    .+=+   -::-.  ..             "
+                   "         ......=-.:-::===     :==-      ++=      =++.    .+++:=+-.....                "
+                   "             ..   :   +++     :++-      ++=      =+*.     +==   ::-.....              "
+                   "                 .:   *++     :**-    .=***:     =+*.     ***=-+:::..                 "
+                   "           :::... =:=-+**     :*+        .  .    .+*.    .**=- .=.                    "
+                   "               .::::. -*#     :+                   *     .##:.  -::                   "
+                   "             .:.  .=::+*#     ..                   :     -##=   . ...                 "
+                   "                 .:.  -*#:                               =#= -.-.                     "
+                   "                     -  #=                               **: .                        "
+                   "                        :*                              .* .-.                        "
+                   "                       .::=                             =::   .                       "
+                   "                        .--:                           .-.                            "
+                   "                           -                          .- .                            "
+                   "                            --.                     .:..                              "
+                   "                              ..                   ..                                 "))
+         (longest-line (apply #'max (mapcar #'length banner))))
+    (put-text-property
+     (point)
+     (dolist (line banner (point))
+       (insert (+doom-dashboard--center
+                +doom-dashboard--width
+                (concat line (make-string (max 0 (- longest-line (length line))) 32)))
+               "\n"))
+     'face 'doom-dashboard-banner)))
+
+(setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
+#+end_src
+
 * DOOM Theme
 There are two ways to load a theme. Both assume the theme is installed and available. You can either set =doom-theme= or manually load a theme with the =load-theme= function.
 To try out new themes, there is a keybinding for M-x load-theme with =SPC h t=.
@@ -139,9 +193,15 @@ To try out new themes, there is a keybinding for M-x load-theme with =SPC h t=.
 #+begin_src emacs-lisp :tangle yes
 (setq doom-theme 'doom-dracula)
 (map! :leader
-      :desc "Load new theme" "h t" #'load-theme)
+      :desc "Load new theme" "t t" #'load-theme)
 #+end_src
 
+* Editing
+#+begin_src emacs-lisp :tangle yes
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 8)
+(setq indent-line-function 'insert-tab)
+#+end_src
 * Fonts
 Doom exposes five (optional) variables for controlling fonts in Doom:
 + =doom-font= -- the primary font to use
@@ -152,18 +212,24 @@ Doom exposes five (optional) variables for controlling fonts in Doom:
 
 See =C-h v doom-font= for documentation and more examples of what they accept.
 
-#+begin_src emacs-lisp :tangle yes
-(setq doom-font (font-spec :family "Iosevka" :size 12 :height 1.0)
-      doom-variable-pitch-font (font-spec :family "Iosevka" :height 1.3)
-      doom-big-font (font-spec :family "Iosevka" :size 24)
+#+begin_src emacs-lisp :tangle no
+(setq doom-font (font-spec :family "Firacode Nerd Font Mono" :size 12 :height 1.0)
+      doom-variable-pitch-font (font-spec :family "Firacode Nerd Font Mono" :height 1.3)
+      doom-big-font (font-spec :family "Firacode Nerd Font Mono" :size 24)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
+#+end_src
+
+Set Custom faces for fonts
+#+begin_src emacs-lisp :tangle yes
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
+
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
 #+end_src
+#
 
 If you or Emacs can't find your font, use =M-x describe-font= to look them up, =M-x eval-region= to execute elisp code, and =M-x doom/reload-font= to refresh your font settings.
 If Emacs still can't find your font, it likely wasn't installed correctly. Font issues are rarely Doom issues!
@@ -176,24 +242,27 @@ Some functionality uses this to identify you, e.g. GPG configuration, email clie
       user-mail-address "jonasschwind20021@gmx.de")
 #+end_src
 
-* IMENU
-Imenu produces menus for accessing locations in documents, typically in the current buffer.
-You can access the locations using an ordinary menu (menu bar or other) or using minibuffer completion, or you can install 'imenu-list' and have the imenu displayed as a vertical split that you can toggle show/hide.
+* Line Settings
 
-| COMMAND                 | DESCRIPTION                      | KEYBINDING |
-|-------------------------+----------------------------------+------------|
-| counsel-imenu           | /Menu to jump to places in buffer/ | SPC s i    |
+| COMMAND                  | DESCRIPTION                               | KEYBINDING  |
+|--------------------------+-------------------------------------------+-------------|
+| comment-line             | /Comment or uncomment lines/                | SPC TAB TAB |
+| hl-line-mode             | /Toggle line highlighting in current frame/ | SPC t h     |
+| global-hl-line-mode      | /Toggle line highlighting globally/         | SPC t H     |
+| doom/toggle-line-numbers | /Toggle line numbers/                       | SPC t l     |
+| toggle-truncate-lines    | /Toggle truncate lines/                     | SPC t t     |
 
 #+BEGIN_SRC emacs-lisp
-(setq imenu-list-focus-after-activation t)
-
+(setq display-line-numbers-type t)
 (map! :leader
-      (:prefix ("s" . "Search")
-       :desc "Menu to jump to places in buffer" "i" #'counsel-imenu))
-
+      :desc "Comment or uncomment lines"      "TAB TAB" #'comment-line
+      (:prefix ("t" . "toggle")
+       :desc "Toggle line numbers"            "l" #'doom/toggle-line-numbers
+       :desc "Toggle line highlight in frame" "h" #'hl-line-mode
+       :desc "Toggle line highlight globally" "H" #'global-hl-line-mode
+       :desc "Toggle truncate lines"          "t" #'toggle-truncate-lines))
 #+END_SRC
 
-* Line Settings
 This determines the style of line numbers in effect.
 If set to =nil=, line numbers are disabled. For relative line numbers, set this to =relative=.
 
@@ -206,6 +275,18 @@ Automaticaly wrap lengthy lines.
 #+begin_src emacs-lisp :tangle yes
 (+global-word-wrap-mode +1)
 #+end_src
+
+* Markdown
+#+begin_src emacs-lisp :tangle yes
+(custom-set-faces
+ '(markdown-header-face ((t (:inherit font-lock-function-name-face :weight bold :family "variable-pitch"))))
+ '(markdown-header-face-1 ((t (:inherit markdown-header-face :height 1.7))))
+ '(markdown-header-face-2 ((t (:inherit markdown-header-face :height 1.6))))
+ '(markdown-header-face-3 ((t (:inherit markdown-header-face :height 1.5))))
+ '(markdown-header-face-4 ((t (:inherit markdown-header-face :height 1.4))))
+ '(markdown-header-face-5 ((t (:inherit markdown-header-face :height 1.3))))
+ '(markdown-header-face-6 ((t (:inherit markdown-header-face :height 1.2)))))
+#+end_src emacs-lisp
 
 * Minimap
 #+begin_src emacs-lisp :tangle yes
@@ -377,10 +458,15 @@ Rainbow mode displays the actual color for any hex value color, regardless of wh
 The following creates a global minor mode for rainbow-mode and enables it.
 
 #+begin_src emacs-lisp :tangle yes
-(use-package rainbow-mode :hook (prog-mode . rainbow-mode ))
+(define-globalized-minor-mode global-rainbow-mode rainbow-mode
+  (lambda ()
+    (when (not (memq major-mode
+                (list 'org-agenda-mode)))
+     (rainbow-mode 1))))
+(global-rainbow-mode 1 )
 #+end_src
 
-* shells
+* Shells
 Settings for the various shells and terminal emulators within Emacs.
 
 | COMMAND             | DESCRIPTION                | KEYBINDING |
@@ -391,7 +477,7 @@ Settings for the various shells and terminal emulators within Emacs.
 | +vterm/toggle       | /Toggle vterm popup window/  | SPC v t    |
 
 #+begin_src emacs-lisp :tangle yes
-(setq shell-file-name "/bin/zsh"
+(setq shell-file-name "/bin/sh"
       vterm-max-scrollback 5000)
 (setq eshell-rc-script "~/.config/doom/eshell/profile"
       eshell-aliases-file "~/.config/doom/eshell/aliases"
@@ -408,6 +494,15 @@ Settings for the various shells and terminal emulators within Emacs.
       :desc "Vterm popup toggle"     "v t" #'+vterm/toggle)
 #+END_SRC
 
+* Winner Mode
+Winner mode has been included with GNU Emacs since version 20.  This is a global minor mode and, when activated, it allows you to “undo” (and “redo”) changes in the window configuration with the key commands 'SCP w <left>' and 'SPC w <right>'.
+
+#+BEGIN_SRC emacs-lisp
+(map! :leader
+      (:prefix ("w" . "window")
+       :desc "Winner redo" "<right>" #'winner-redo
+       :desc "Winner undo" "<left>"  #'winner-undo))
+#+END_SRC
 * Whitespace-mode
 #+begin_src emacs-lisp :tangle yes
 (use-package! whitespace
@@ -421,4 +516,3 @@ Settings for the various shells and terminal emulators within Emacs.
       (newline-mark ?\n    [?¬ ?\n])
       (tab-mark     ?\t    [?\u00BB ?\t] [?\\ ?\t]))))
 #+end_src emacs-lisp
-
