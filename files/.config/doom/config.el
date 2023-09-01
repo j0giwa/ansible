@@ -4,17 +4,70 @@
 
 (beacon-mode t)
 
+(setq fancy-splash-image (concat doom-private-dir "splash/hlb-splash.png"))
+
+(defun dashboard-ascii ()
+  (let* ((banner '("                                                                     .                "
+                   "         .:  :                                                      :.               ."
+                   "..-:.   ..  .::..                                                ..=......:    .-::.. "
+                   "   ..::--::::-::===-====--.                             .:=---===+=-:--=-::::-:.      "
+                   "   :.     .:-. ....: :**+.                               .=++. : ..    ..:.           "
+                   "       .    .    .-:=-*++     -*+=.             .*++:    .*++::-..  ..                "
+                   "   . .:-:. .=  ... :. ===     .++:    .=+++-.    =+=.     +==-=:::::....              "
+                   "          ..:.::.=...:+==     :+=:      ++=      ===.     === +...       ..  .        "
+                   "               -:..=+.===     :+=-      +==      ==+.    .+==  .-. :.........:        "
+                   "       .:..::.::  ::: ==+     :=+:      ++=      -==.     +==-:-  =:.                 "
+                   "     ..   .    ..:..  ==+     :++-      +=-      -==.    .+=+..-=- ...:=::.           "
+                   "             :.....:= ==+     :+=-      +==      ===.    .+=+   -::-.  ..             "
+                   "         ......=-.:-::===     :==-      ++=      =++.    .+++:=+-.....                "
+                   "             ..   :   +++     :++-      ++=      =+*.     +==   ::-.....              "
+                   "                 .:   *++     :**-    .=***:     =+*.     ***=-+:::..                 "
+                   "           :::... =:=-+**     :*+        .  .    .+*.    .**=- .=.                    "
+                   "               .::::. -*#     :+                   *     .##:.  -::                   "
+                   "             .:.  .=::+*#     ..                   :     -##=   . ...                 "
+                   "                 .:.  -*#:                               =#= -.-.                     "
+                   "                     -  #=                               **: .                        "
+                   "                        :*                              .* .-.                        "
+                   "                       .::=                             =::   .                       "
+                   "                        .--:                           .-.                            "
+                   "                           -                          .- .                            "
+                   "                            --.                     .:..                              "
+                   "                              ..                   ..                                 "))
+         (longest-line (apply #'max (mapcar #'length banner))))
+    (put-text-property
+     (point)
+     (dolist (line banner (point))
+       (insert (+doom-dashboard--center
+                +doom-dashboard--width
+                (concat line (make-string (max 0 (- longest-line (length line))) 32)))
+               "\n"))
+     'face 'doom-dashboard-banner)))
+
+(setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
+
 (setq doom-theme 'doom-dracula)
 (map! :leader
-      :desc "Load new theme" "h t" #'load-theme)
+      :desc "Load new theme" "t t" #'load-theme)
 
-(setq doom-font (font-spec :family "Iosevka" :size 12 :height 1.0)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 8)
+(setq indent-line-function 'insert-tab)
+
+(setq doom-font (font-spec :family "FiraCode Nerd Font Mono" :size 12 :height 1.0)
       doom-variable-pitch-font (font-spec :family "Iosevka" :height 1.3)
-      doom-big-font (font-spec :family "Iosevka" :size 24)
+      doom-big-font (font-spec :family "FiraCode Nerd Font Mono" :size 24)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-keyword-face :slant italic))
+
+(after! doom-themes
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t))
+
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
@@ -132,9 +185,14 @@
         org-roam-ui-update-on-save t
         org-roam-ui-open-on-start t))
 
-(use-package rainbow-mode :hook (prog-mode . rainbow-mode ))
+(define-globalized-minor-mode global-rainbow-mode rainbow-mode
+  (lambda ()
+    (when (not (memq major-mode
+                (list 'org-agenda-mode)))
+     (rainbow-mode 1))))
+(global-rainbow-mode 1 )
 
-(setq shell-file-name "/bin/zsh"
+(setq shell-file-name "/bin/sh"
       vterm-max-scrollback 5000)
 (setq eshell-rc-script "~/.config/doom/eshell/profile"
       eshell-aliases-file "~/.config/doom/eshell/aliases"
