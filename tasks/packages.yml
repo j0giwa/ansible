@@ -7,9 +7,9 @@
       - neovim
       - tmux
       - tldr
+      - ttf-jetbrains-mono
       - ttf-ubuntu-font-family
-      - ttf-ubuntu-nerd
-      - ttf-ubuntu-mono-nerd
+      - ttf-firacode-nerd
       - zsh
       - zsh-autosuggestions
       - zsh-syntax-highlighting

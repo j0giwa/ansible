@@ -4,6 +4,18 @@
 
 (beacon-mode t)
 
+(setq bookmark-default-file "~/.config/doom/bookmarks")
+
+(map! :leader
+      (:prefix ("b". "buffer")
+       :desc "List bookmarks"                          "L" #'list-bookmarks
+       :desc "Set bookmark"                            "m" #'bookmark-set
+       :desc "Delete bookmark"                         "M" #'bookmark-set
+       :desc "Save current bookmarks to bookmark file" "w" #'bookmark-save))
+
+(global-auto-revert-mode 1)
+(setq global-auto-revert-non-file-buffers t)
+
 (setq fancy-splash-image (concat doom-private-dir "splash/hlb-splash.png"))
 
 (defun dashboard-ascii ()
@@ -53,21 +65,13 @@
 (setq-default tab-width 8)
 (setq indent-line-function 'insert-tab)
 
-(setq doom-font (font-spec :family "FiraCode Nerd Font Mono" :size 12 :height 1.0)
-      doom-variable-pitch-font (font-spec :family "Iosevka" :height 1.3)
-      doom-big-font (font-spec :family "FiraCode Nerd Font Mono" :size 24)
+(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :height 1.0)
+      doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
+      doom-big-font (font-spec :family "JetBrains Mono" :size 24)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
-(custom-set-faces!
-  '(font-lock-comment-face :slant italic)
-  '(font-lock-keyword-face :slant italic))
-
-(after! doom-themes
-  (setq doom-themes-enable-bold t
-        doom-themes-enable-italic t))
-
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
@@ -78,6 +82,12 @@
 (setq display-line-numbers-type 'relative)
 
 (+global-word-wrap-mode +1)
+
+(set-face-attribute 'mode-line nil :font "Ubuntu-10")
+(setq doom-modeline-height 25     ;; sets modeline height
+      doom-modeline-bar-width 5   ;; sets right bar width
+      doom-modeline-persp-name t  ;; adds perspective name to modeline
+      doom-modeline-persp-icon t) ;; adds folder icon next to persp name
 
 (map! :leader :desc "Org babel tangle" "m B" #'org-babel-tangle)
 (after! org
@@ -185,14 +195,9 @@
         org-roam-ui-update-on-save t
         org-roam-ui-open-on-start t))
 
-(define-globalized-minor-mode global-rainbow-mode rainbow-mode
-  (lambda ()
-    (when (not (memq major-mode
-                (list 'org-agenda-mode)))
-     (rainbow-mode 1))))
-(global-rainbow-mode 1 )
+(use-package rainbow-mode :hook (prog-mode . rainbow-mode ))
 
-(setq shell-file-name "/bin/sh"
+(setq shell-file-name "/bin/zsh"
       vterm-max-scrollback 5000)
 (setq eshell-rc-script "~/.config/doom/eshell/profile"
       eshell-aliases-file "~/.config/doom/eshell/aliases"
