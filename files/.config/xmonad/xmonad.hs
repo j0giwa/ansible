@@ -1,32 +1,42 @@
---
--- xmonad example config file for xmonad-0.9
---
--- A template showing all available configuration hooks,
--- and how to override the defaults in your own xmonad.hs conf file.
---
--- Normally, you'd only override those defaults you care about.
---
--- NOTE: Those updating from earlier xmonad versions, who use
--- EwmhDesktops, safeSpawn, WindowGo, or the simple-status-bar
--- setup functions (dzen, xmobar) probably need to change
--- xmonad.hs, please see the notes below, or the following
--- link for more details:
---
--- http://www.haskell.org/haskellwiki/Xmonad/Notable_changes_since_0.8
---
-
+-- Base
 import XMonad
+import System.Directory
 import System.IO (hClose, hPutStr, hPutStrLn)
-import Data.Monoid
-import System.Exit
---import XMonad.Util.SpawnOnce
+import System.Exit (exitSuccess)
 import qualified XMonad.StackSet as W
-import qualified Data.Map        as M
 
+-- Actions
+import XMonad.Actions.CopyWindow (kill1)
+import XMonad.Actions.CycleWS (Direction1D(..), moveTo, shiftTo, WSType(..), nextScreen, prevScreen)
+import XMonad.Actions.GridSelect
+import XMonad.Actions.MouseResize
+import XMonad.Actions.Promote
+import XMonad.Actions.RotSlaves (rotSlavesDown, rotAllDown)
+import XMonad.Actions.WindowGo (runOrRaise)
+import XMonad.Actions.WithAll (sinkAll, killAll)
+import qualified XMonad.Actions.Search as S
+
+-- Data
+import Data.Char (isSpace, toUpper)
+import Data.Maybe (fromJust)
+import Data.Monoid
+import Data.Maybe (isJust)
+import Data.Tree
+import qualified Data.Map as M
+
+-- Hooks
+import XMonad.Hooks.DynamicLog (dynamicLogWithPP, wrap, xmobarPP, xmobarColor, shorten, PP(..))
+import XMonad.Hooks.EwmhDesktops  -- for some fullscreen events, also for xcomposite in obs.
 import XMonad.Hooks.ManageDocks (avoidStruts, docks, manageDocks, ToggleStruts(..))
+import XMonad.Hooks.ManageHelpers (isFullscreen, doFullFloat, doCenterFloat)
+import XMonad.Hooks.ServerMode
+import XMonad.Hooks.SetWMName
 import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
+import XMonad.Hooks.WindowSwallowing
+import XMonad.Hooks.WorkspaceHistory
 
+-- Layouts
 import XMonad.Layout.Accordion
 import XMonad.Layout.GridVariants (Grid(Grid))
 import XMonad.Layout.SimplestFloat
@@ -35,6 +45,7 @@ import XMonad.Layout.ResizableTile
 import XMonad.Layout.Tabbed
 import XMonad.Layout.ThreeColumns
 
+-- Layouts modifiers
 import XMonad.Layout.LayoutModifier
 import XMonad.Layout.LimitWindows (limitWindows, increaseLimit, decreaseLimit)
 import XMonad.Layout.MultiToggle (mkToggle, single, EOT(EOT), (??))
@@ -50,33 +61,52 @@ import XMonad.Layout.WindowNavigation
 import qualified XMonad.Layout.ToggleLayouts as T (toggleLayouts, ToggleLayout(Toggle))
 import qualified XMonad.Layout.MultiToggle as MT (Toggle(..))
 
-import XMonad.Util.Run (spawnPipe)
+-- Utilities
+import XMonad.Util.Dmenu
+import XMonad.Util.EZConfig (additionalKeysP, mkNamedKeymap)
+import XMonad.Util.Hacks (windowedFullscreenFixEventHook, javaHack, trayerAboveXmobarEventHook, trayAbovePanelEventHook, trayerPaddingXmobarEventHook, trayPaddingXmobarEventHook, trayPaddingEventHook)
+import XMonad.Util.NamedActions
+import XMonad.Util.NamedScratchpad
+import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
+import XMonad.Util.SpawnOnce
 
-import XMonad.Actions.MouseResize
-
-import Data.Maybe (fromJust)
-
--- ColorScheme module (SET ONLY ONE!)
--- Possible choice are:
-  -- DoomOne
-  -- Dracula
-  -- GruvboxDark
-  -- MonokaiPro
-  -- Nord
-  -- OceanicNext
-  -- Palenight
-  -- SolarizedDark
-  -- SolarizedLight
-  -- TomorrowNight
+   -- ColorScheme module (SET ONLY ONE!)
+      -- Possible choice are:
+      -- DoomOne
+      -- Dracula
+      -- GruvboxDark
+      -- MonokaiPro
+      -- Nord
+      -- OceanicNext
+      -- Palenight
+      -- SolarizedDark
+      -- SolarizedLight
+      -- TomorrowNight
 import Colors.Dracula
 
 myFont :: String
 myFont = "xft:Ubuntu Nerd Font :size=9:antialias=true:hinting=true"
 
--- The preferred terminal program, which is used in a binding below and by
--- certain contrib modules.
+-- Border colors for unfocused and focused windows, respectively.
 --
-myTerminal      = "alacritty"
+myNormColor :: String       -- Border color of normal windows
+myNormColor   = colorBack   -- This variable is imported from Colors.THEME
+
+myFocusColor :: String      -- Border color of focused windows
+myFocusColor  = color15     -- This variable is imported from Colors.THEME
+
+myModMask :: KeyMask
+myModMask = mod4Mask        -- Sets modkey to super/windows key
+
+myTerminal :: String
+myTerminal = "alacritty"    -- Sets default terminal
+
+myEmacs :: String
+myEmacs = "emacsclient -c -a 'emacs' "  -- Makes emacs keybindings easier to type
+
+myLauncher :: String
+--myLauncher = "exe=`dmenu_path | dmenu` && eval \"exec $exe\""
+myLauncher = "rofi -show drun" 
 
 -- Whether focus follows the mouse pointer.
 myFocusFollowsMouse :: Bool
@@ -87,186 +117,14 @@ myFocusFollowsMouse = True
 myBorderWidth :: Dimension
 myBorderWidth   = 2
 
-
 windowCount :: X (Maybe String)
 windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace . W.current . windowset
 
-
--- modMask lets you specify which modkey you want to use. The default
--- is mod1Mask ("left alt").  You may also consider using mod3Mas
--- ("right alt"), which does not conflict with emacs keybindings. The
--- "windows key" is usually mod4Mask.
---
-myModMask  = mod1Mask
-
--- NOTE: from 0.9.1 on numlock mask is set automatically. The numlockMask
--- setting should be removed from configs.
---
--- You can safely remove this even on earlier xmonad versions unless you
--- need to set it to something other than the default mod2Mask, (e.g. OSX).
---
--- The mask for the numlock key. Numlock status is "masked" from the
--- current modifier status, so the keybindings will work with numlock on or
--- off. You may need to change this on some systems.
---
--- You can find the numlock modifier by running "xmodmap" and looking for a
--- modifier with Num_Lock bound to it:
---
--- > $ xmodmap | grep Num
--- > mod2        Num_Lock (0x4d)
---
--- Set numlockMask = 0 if you don't have a numlock key, or want to treat
--- numlock status separately.
---
--- myNumlockMask   = mod2Mask -- deprecated in xmonad-0.9.1
-------------------------------------------------------------
-
-
--- The default number of workspaces (virtual screens) and their names.
--- By default we use numeric strings, but any string may be used as a
--- workspace name. The number of workspaces is determined by the length
--- of this list.
---
--- A tagging example:
---
--- > workspaces = ["web", "irc", "code" ] ++ map show [4..9]
---
---myWorkspaces = ["1","2","3","4","5","6","7","8","9"]
-myWorkspaces = [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
---myWorkspaces = ["1: dev", "2: www", "3: sys", "4: doc", "5: vbox", "6: chat", "7: mus", "8: vid", "9: gfx"]
-
-myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..] -- (,) == \x y -> (x,y)
-
-clickable ws = "<action=xdotool key alt+"++show i++">"++ws++"</action>"
-    where i = fromJust $ M.lookup ws myWorkspaceIndices
-
--- Border colors for unfocused and focused windows, respectively.
---
-myNormColor :: String       -- Border color of normal windows
-myNormColor   = colorBack   -- This variable is imported from Colors.THEME
-
-myFocusColor :: String      -- Border color of focused windows
-myFocusColor  = color15     -- This variable is imported from Colors.THEME
-
-------------------------------------------------------------------------
--- Key bindings. Add, modify or remove key bindings here.
---
-myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
-
-    -- launch a terminal
-    [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
-
-    -- launch dmenu
-    , ((modm,               xK_p     ), spawn "exe=`dmenu_path | dmenu` && eval \"exec $exe\"")
-
-    -- Bookmarking
-    , ((modm .|. shiftMask, xK_b     ), spawn "bookmark")
-    , ((modm,               xK_Insert), spawn "xdotool type $(grep -v '^#' ~/.local/share/snippets | dmenu -i -l 50 | cut -d' ' -f1)")
-
-    -- launch gmrun
-    , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
-
-    -- close focused window
-    , ((modm .|. shiftMask, xK_c     ), kill)
-
-     -- Rotate through the available layout algorithms
-    , ((modm,               xK_space ), sendMessage NextLayout)
-
-    --  Reset the layouts on the current workspace to default
-    , ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
-
-    -- Resize viewed windows to the correct size
-    , ((modm,               xK_n     ), refresh)
-
-    -- Move focus to the next window
-    , ((modm,               xK_Tab   ), windows W.focusDown)
-
-    -- Move focus to the next window
-    , ((modm,               xK_j     ), windows W.focusDown)
-
-    -- Move focus to the previous window
-    , ((modm,               xK_k     ), windows W.focusUp  )
-
-    -- Move focus to the master window
-    , ((modm,               xK_m     ), windows W.focusMaster  )
-
-    -- Swap the focused window and the master window
-    , ((modm,               xK_Return), windows W.swapMaster)
-
-    -- Swap the focused window with the next window
-    , ((modm .|. shiftMask, xK_j     ), windows W.swapDown  )
-
-    -- Swap the focused window with the previous window
-    , ((modm .|. shiftMask, xK_k     ), windows W.swapUp    )
-
-    -- Shrink the master area
-    , ((modm,               xK_h     ), sendMessage Shrink)
-
-    -- Expand the master area
-    , ((modm,               xK_l     ), sendMessage Expand)
-
-    -- Push window back into tiling
-    , ((modm,               xK_t     ), withFocused $ windows . W.sink)
-
-    -- Increment the number of windows in the master area
-    , ((modm              , xK_comma ), sendMessage (IncMasterN 1))
-
-    -- Deincrement the number of windows in the master area
-    , ((modm              , xK_period), sendMessage (IncMasterN (-1)))
-
-    -- Toggle the status bar gap
-    -- Use this binding with avoidStruts from Hooks.ManageDocks.
-    -- See also the statusBar function from Hooks.DynamicLog.
-    --
-    , ((modm              , xK_b     ), sendMessage ToggleStruts)
-
-    -- Quit xmonad
-    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
-
-    -- Restart xmonad
-    , ((modm              , xK_q     ), spawn "xmonad --recompile; xmonad --restart")
-    ]
-    ++
-
-    --
-    -- mod-[1..9], Switch to workspace N
-    --
-    -- mod-[1..9], Switch to workspace N
-    -- mod-shift-[1..9], Move client to workspace N
-    --
-    [((m .|. modm, k), windows $ f i)
-        | (i, k) <- zip (XMonad.workspaces conf) [xK_1 .. xK_9]
-        , (f, m) <- [(W.greedyView, 0), (W.shift, shiftMask)]]
-    ++
-
-    --
-    -- mod-{w,e,r}, Switch to physical/Xinerama screens 1, 2, or 3
-    -- mod-shift-{w,e,r}, Move client to screen 1, 2, or 3
-    --
-    [((m .|. modm, key), screenWorkspace sc >>= flip whenJust (windows . f))
-        | (key, sc) <- zip [xK_w, xK_e, xK_r] [0..]
-        , (f, m) <- [(W.view, 0), (W.shift, shiftMask)]]
-
-
-------------------------------------------------------------------------
--- Mouse bindings: default actions bound to mouse events
---
-myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
-
-    -- mod-button1, Set the window to floating mode and move by dragging
-    [ ((modm, button1), (\w -> focus w >> mouseMoveWindow w
-                                       >> windows W.shiftMaster))
-
-    -- mod-button2, Raise the window to the top of the stack
-    , ((modm, button2), (\w -> focus w >> windows W.shiftMaster))
-
-    -- mod-button3, Set the window to floating mode and resize by dragging
-    , ((modm, button3), (\w -> focus w >> mouseResizeWindow w
-                                       >> windows W.shiftMaster))
-
-    -- you may also bind events to the mouse scroll wheel (button4 and button5)
-    ]
-
+myStartupHook :: X ()
+myStartupHook = do
+	spawnOnce ("sleep 2 && ~/.local/bin/wallpaper")
+	spawn ("sleep 2 && trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 " ++ colorTrayer ++ " --height 22")
+	spawn ("activate-linux -t 'Activate Arch Linux' -m 'Go to Settings to Activate Arch Linux'")
 
 --Makes setting the spacingRaw simpler to write. The spacingRaw module adds a configurable amount of space around windows.
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
@@ -390,22 +248,24 @@ myLayoutHook = avoidStruts $ mouseResize $ windowArrange $ T.toggleLayouts float
                                            ||| tallAccordion
                                            ||| wideAccordion
 
+-- The default number of workspaces (virtual screens) and their names.
+-- By default we use numeric strings, but any string may be used as a
+-- workspace name. The number of workspaces is determined by the length
+-- of this list.
+--
+-- A tagging example:
+--
+-- > workspaces = ["web", "irc", "code" ] ++ map show [4..9]
 
-------------------------------------------------------------------------
--- Window rules:
+--myWorkspaces = ["1","2","3","4","5","6","7","8","9"]
+myWorkspaces = [" dev ", " www ", " sys ", " doc ", " vbox ", " chat ", " mus ", " vid ", " gfx "]
+--myWorkspaces = ["1: dev", "2: www", "3: sys", "4: doc", "5: vbox", "6: chat", "7: mus", "8: vid", "9: gfx"]
 
--- Execute arbitrary actions and WindowSet manipulations when managing
--- a new window. You can use this to, for example, always float a
--- particular program, or have a client always appear on a particular
--- workspace.
---
--- To find the property name associated with a program, use
--- > xprop | grep WM_CLASS
--- and click on the client you're interested in.
---
--- To match on the WM_NAME, you can use 'title' in the same way that
--- 'className' and 'resource' are used below.
---
+myWorkspaceIndices = M.fromList $ zipWith (,) myWorkspaces [1..] -- (,) == \x y -> (x,y)
+
+clickable ws = "<action=xdotool key super+"++show i++">"++ws++"</action>"
+    where i = fromJust $ M.lookup ws myWorkspaceIndices
+
 myManageHook :: XMonad.Query (Data.Monoid.Endo WindowSet)
 myManageHook = composeAll
     [ className =? "confirm"         --> doFloat
@@ -421,7 +281,7 @@ myManageHook = composeAll
   , className =? "MPlayer"        --> doFloat
   , className =? "Gimp"           --> doFloat
   , resource  =? "desktop_window" --> doIgnore
-  , resource  =? "kdesktop"       --> doIgnore 
+  , resource  =? "kdesktop"       --> doIgnore
   , className =? "mpv"             --> doShift ( myWorkspaces !! 7 )
   , title =? "Mozilla Firefox"     --> doShift ( myWorkspaces !! 1 )
   , className =? "VirtualBox Manager" --> doShift  ( myWorkspaces !! 4 )
@@ -429,59 +289,147 @@ myManageHook = composeAll
   , className =? "Gimp"            --> doShift ( myWorkspaces !! 8 )
   ]
 
-------------------------------------------------------------------------
--- Event handling
+subtitle' ::  String -> ((KeyMask, KeySym), NamedAction)
+subtitle' x = ((0,0), NamedAction $ map toUpper
+                      $ sep ++ "\n-- " ++ x ++ " --\n" ++ sep)
+  where
+    sep = replicate (6 + length x) '-'
 
--- Defines a custom handler function for X Events. The function should
--- return (All True) if the default handler is to be run afterwards. To
--- combine event hooks use mappend or mconcat from Data.Monoid.
---
--- * NOTE: EwmhDesktops users should use the 'ewmh' function from
--- XMonad.Hooks.EwmhDesktops to modify their defaultConfig as a whole.
--- It will add EWMH event handling to your custom event hooks by
--- combining them with ewmhDesktopsEventHook.
---
+showKeybindings :: [((KeyMask, KeySym), NamedAction)] -> NamedAction
+showKeybindings x = addName "Show Keybindings" $ io $ do
+  h <- spawnPipe $ "yad --text-info --fontname=\"SauceCodePro Nerd Font Mono 12\" --fore=#46d9ff back=#282c36 --center --geometry=1200x800 --title \"XMonad keybindings\""
+  --hPutStr h (unlines $ showKm x) -- showKM adds ">>" before subtitles
+  hPutStr h (unlines $ showKmSimple x) -- showKmSimple doesn't add ">>" to subtitles
+  hClose h
+  return ()
+
+myKeys :: XConfig l0 -> [((KeyMask, KeySym), NamedAction)]
+myKeys c =
+  --(subtitle "Custom Keys":) $ mkNamedKeymap c $
+  let subKeys str ks = subtitle' str : mkNamedKeymap c ks in
+  subKeys "Xmonad Essentials"
+  [ ("M1-C-r", addName "Recompile XMonad"       $ spawn "xmonad --recompile")
+  , ("M1-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
+  , ("M1-S-c", addName "Kill focused window"    $ kill1)
+  , ("M1-S-a", addName "Kill all windows on WS" $ killAll)
+  , ("M1-p", addName "Show run prompt"        $ spawn myLauncher)
+  , ("M1-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)]
+
+  ^++^ subKeys "Switch to workspace"
+  [ ("M1-1", addName "Switch to workspace 1"    $ (windows $ W.greedyView $ myWorkspaces !! 0))
+  , ("M1-2", addName "Switch to workspace 2"    $ (windows $ W.greedyView $ myWorkspaces !! 1))
+  , ("M1-3", addName "Switch to workspace 3"    $ (windows $ W.greedyView $ myWorkspaces !! 2))
+  , ("M1-4", addName "Switch to workspace 4"    $ (windows $ W.greedyView $ myWorkspaces !! 3))
+  , ("M1-5", addName "Switch to workspace 5"    $ (windows $ W.greedyView $ myWorkspaces !! 4))
+  , ("M1-6", addName "Switch to workspace 6"    $ (windows $ W.greedyView $ myWorkspaces !! 5))
+  , ("M1-7", addName "Switch to workspace 7"    $ (windows $ W.greedyView $ myWorkspaces !! 6))
+  , ("M1-8", addName "Switch to workspace 8"    $ (windows $ W.greedyView $ myWorkspaces !! 7))
+  , ("M1-9", addName "Switch to workspace 9"    $ (windows $ W.greedyView $ myWorkspaces !! 8))]
+
+  ^++^ subKeys "Send window to workspace"
+  [ ("M1-S-1", addName "Send to workspace 1"    $ (windows $ W.shift $ myWorkspaces !! 0))
+  , ("M1-S-2", addName "Send to workspace 2"    $ (windows $ W.shift $ myWorkspaces !! 1))
+  , ("M1-S-3", addName "Send to workspace 3"    $ (windows $ W.shift $ myWorkspaces !! 2))
+  , ("M1-S-4", addName "Send to workspace 4"    $ (windows $ W.shift $ myWorkspaces !! 3))
+  , ("M1-S-5", addName "Send to workspace 5"    $ (windows $ W.shift $ myWorkspaces !! 4))
+  , ("M1-S-6", addName "Send to workspace 6"    $ (windows $ W.shift $ myWorkspaces !! 5))
+  , ("M1-S-7", addName "Send to workspace 7"    $ (windows $ W.shift $ myWorkspaces !! 6))
+  , ("M1-S-8", addName "Send to workspace 8"    $ (windows $ W.shift $ myWorkspaces !! 7))
+  , ("M1-S-9", addName "Send to workspace 9"    $ (windows $ W.shift $ myWorkspaces !! 8))]
+
+  ^++^ subKeys "Window navigation"
+  [ ("M1-j", addName "Move focus to next window"                $ windows W.focusDown)
+  , ("M1-k", addName "Move focus to prev window"                $ windows W.focusUp)
+  , ("M1-m", addName "Move focus to master window"              $ windows W.focusMaster)
+  , ("M1-S-j", addName "Swap focused window with next window"   $ windows W.swapDown)
+  , ("M1-S-k", addName "Swap focused window with prev window"   $ windows W.swapUp)
+  , ("M1-S-m", addName "Swap focused window with master window" $ windows W.swapMaster)
+  , ("M1-<Backspace>", addName "Move focused window to master"  $ promote)
+  , ("M1-S-,", addName "Rotate all windows except master"       $ rotSlavesDown)
+  , ("M1-S-.", addName "Rotate all windows current stack"       $ rotAllDown)]
+
+  ^++^ subKeys "Favorite programs"
+  [ ("M1-<Return>", addName "Launch terminal"   $ spawn (myTerminal))]
+
+  ^++^ subKeys "Monitors"
+  [ ("M1-.", addName "Switch focus to next monitor" $ nextScreen)
+  , ("M1-,", addName "Switch focus to prev monitor" $ prevScreen)]
+
+  -- Switch layouts
+  ^++^ subKeys "Switch layouts"
+  [ ("M1-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
+  , ("M1-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
+
+  -- Window resizing
+  ^++^ subKeys "Window resizing"
+  [ ("M1-h", addName "Shrink window"               $ sendMessage Shrink)
+  , ("M1-l", addName "Expand window"               $ sendMessage Expand)
+  , ("M1-M-j", addName "Shrink window vertically" $ sendMessage MirrorShrink)
+  , ("M1-M-k", addName "Expand window vertically" $ sendMessage MirrorExpand)]
+
+  -- Floating windows
+  ^++^ subKeys "Floating windows"
+  [ ("M1-f", addName "Toggle float layout"        $ sendMessage (T.Toggle "floats"))
+  , ("M1-t", addName "Sink a floating window"     $ withFocused $ windows . W.sink)
+  , ("M1-S-t", addName "Sink all floated windows" $ sinkAll)]
+
+  -- Increase/decrease spacing (gaps)
+  ^++^ subKeys "Window spacing (gaps)"
+  [ ("C-M-j", addName "Decrease window spacing" $ decWindowSpacing 4)
+  , ("C-M-k", addName "Increase window spacing" $ incWindowSpacing 4)
+  , ("C-M-h", addName "Decrease screen spacing" $ decScreenSpacing 4)
+  , ("C-M-l", addName "Increase screen spacing" $ incScreenSpacing 4)]
+
+  -- Increase/decrease windows in the master pane or the stack
+  ^++^ subKeys "Increase/decrease windows in master pane or the stack"
+  [ ("M1-S-<Up>", addName "Increase clients in master pane"   $ sendMessage (IncMasterN 1))
+  , ("M1-S-<Down>", addName "Decrease clients in master pane" $ sendMessage (IncMasterN (-1)))
+  , ("M1-=", addName "Increase max # of windows for layout"   $ increaseLimit)
+  , ("M1--", addName "Decrease max # of windows for layout"   $ decreaseLimit)]
+
+  -- Sublayouts
+  -- This is used to push windows to tabbed sublayouts, or pull them out of it.
+  ^++^ subKeys "Sublayouts"
+  [ ("M1-C-h", addName "pullGroup L"           $ sendMessage $ pullGroup L)
+  , ("M1-C-l", addName "pullGroup R"           $ sendMessage $ pullGroup R)
+  , ("M1-C-k", addName "pullGroup U"           $ sendMessage $ pullGroup U)
+  , ("M1-C-j", addName "pullGroup D"           $ sendMessage $ pullGroup D)
+  , ("M1-C-m", addName "MergeAll"              $ withFocused (sendMessage . MergeAll))
+  , ("M1-C-u", addName "UnMergeAll"            $  withFocused (sendMessage . UnMergeAll))
+  , ("M1-C-.", addName "Switch focus next tab" $  onGroup W.focusUp')
+  , ("M1-C-,", addName "Switch focus prev tab" $  onGroup W.focusDown')]
+
+  -- Emacs (SUPER-e followed by a key)
+  ^++^ subKeys "Emacs"
+  [("M1-e e", addName "Emacsclient"               $ spawn (myEmacs))
+  -- ("M1-e e", addName "Emacsclient Dashboard"    $ spawn (myEmacs ++ ("--eval '(dashboard-refresh-buffer)'")))
+  , ("M1-e b", addName "Emacsclient Ibuffer"      $ spawn (myEmacs ++ ("--eval '(ibuffer)'")))
+  , ("M1-e d", addName "Emacsclient Dired"        $ spawn (myEmacs ++ ("--eval '(dired nil)'")))
+  , ("M1-e s", addName "Emacsclient Eshell"       $ spawn (myEmacs ++ ("--eval '(eshell)'")))
+  , ("M1-e v", addName "Emacsclient Vterm"        $ spawn (myEmacs ++ ("--eval '(+vterm/here nil)'")))]
+
+  -- Multimedia Keys
+  ^++^ subKeys "Multimedia keys"
+  [ ("<XF86AudioPlay>", addName "mocp play"           $ spawn "mocp --play")
+  , ("<XF86AudioPrev>", addName "mocp next"           $ spawn "mocp --previous")
+  , ("<XF86AudioNext>", addName "mocp prev"           $ spawn "mocp --next")
+  , ("<XF86AudioMute>", addName "Toggle audio mute"   $ spawn "amixer set Master toggle")
+  , ("<XF86AudioLowerVolume>", addName "Lower vol"    $ spawn "amixer set Master 5%- unmute")
+  , ("<XF86AudioRaiseVolume>", addName "Raise vol"    $ spawn "amixer set Master 5%+ unmute")
+  , ("<XF86Search>", addName "Web search (dmscripts)" $ spawn "dm-websearch")
+  , ("<XF86Mail>", addName "Email client"             $ runOrRaise "thunderbird" (resource =? "thunderbird"))
+  , ("<XF86Calculator>", addName "Calculator"         $ runOrRaise "qalculate-gtk" (resource =? "qalculate-gtk"))
+  , ("<XF86Eject>", addName "Eject /dev/cdrom"        $ spawn "eject /dev/cdrom")
+  , ("<Print>", addName "Take screenshot (dmscripts)" $ spawn "dm-maim")
+  ]
+
 myEventHook = mempty
 
-------------------------------------------------------------------------
--- Status bars and logging
-
--- Perform an arbitrary action on each internal state change or X event.
--- See the 'XMonad.Hooks.DynamicLog' extension for examples.
---
---
--- * NOTE: EwmhDesktops users should use the 'ewmh' function from
--- XMonad.Hooks.EwmhDesktops to modify their defaultConfig as a whole.
--- It will add EWMH logHook actions to your custom log hook by
--- combining it with ewmhDesktopsLogHook.
---myLogHook = return ()
-
-------------------------------------------------------------------------
--- Startup hook
-
--- Perform an arbitrary action each time xmonad starts or is restarted
--- with mod-q.  Used by, e.g., XMonad.Layout.PerWorkspace to initialize
--- per-workspace layout choices.
---
--- By default, do nothing.
---
--- * NOTE: EwmhDesktops users should use the 'ewmh' function from
--- XMonad.Hooks.EwmhDesktops to modify their defaultConfig as a whole.
--- It will add initialization of EWMH support to your custom startup
--- hook by combining it with ewmhDesktopsStartup.
---
-myStartupHook = return ()
-
-------------------------------------------------------------------------
--- Now run xmonad with all the defaults we set up.
-
--- Run xmonad with the settings you specify. No need to modify this.
---
 main :: IO ()
 main = do
   xmproc0 <- spawnPipe ("xmobar -x 0 $HOME/.config/xmobar/xmobarrc")
   xmproc1 <- spawnPipe ("xmobar -x 1 $HOME/.config/xmobar/xmobarrc")
-  xmonad $ docks $ def
+  xmonad $ addDescrKeys' ((mod4Mask, xK_F1), showKeybindings) myKeys $ ewmh  $ docks $ def
     { manageHook         = myManageHook <+> manageDocks
     , handleEventHook    = myEventHook
     , modMask            = myModMask
@@ -495,11 +443,11 @@ main = do
     , logHook = dynamicLogWithPP  $ xmobarPP
         { ppOutput = \x -> hPutStrLn xmproc0 x   -- xmobar on monitor 1
                         >> hPutStrLn xmproc1 x   -- xmobar on monitor 2
-        , ppCurrent = xmobarColor color03 "" . wrap "[" "]"
+        , ppCurrent = xmobarColor color06 "" . wrap "[" "]"
           -- Visible but not current workspace
-        , ppVisible = xmobarColor color03 "" . clickable
+        , ppVisible = xmobarColor color06 "" . clickable
           -- Hidden workspace
-        , ppHidden = xmobarColor color03 "" . clickable
+        , ppHidden = xmobarColor color05 "" . wrap "(" ")" . clickable
           -- Hidden workspaces (no windows)
         , ppHiddenNoWindows = xmobarColor color05 ""  . clickable
           -- Title of active window

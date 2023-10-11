@@ -6,8 +6,15 @@
 #+OPTIONS: toc:t
 #+auto_tangle: t
 
+This is my private configuration.
+It is supposed to be used in DOOM Emacs
+Remember, you do not need to =doom sync= or =SCP h r r= after modifying this file!
+
+ #+begin_src emacs-lisp :tangle yes
+;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+#+end_src
+       
 * Table of Contents :toc:
-- [[#about-this-config][About this config]]
 - [[#autosave][Autosave]]
 - [[#beacon][Beacon]]
 - [[#bookmarks-and-buffers][Bookmarks and Buffers]]
@@ -19,7 +26,9 @@
   - [[#splash][Splash]]
 - [[#doom-theme][DOOM Theme]]
 - [[#editor][Editor]]
+- [[#exwm][EXWM]]
 - [[#fonts][Fonts]]
+  - [[#font-scale][Font scale]]
 - [[#identification][Identification]]
 - [[#line-settings][Line Settings]]
 - [[#minimap][Minimap]]
@@ -33,15 +42,6 @@
 - [[#rainbow-mode][Rainbow Mode]]
 - [[#shells][Shells]]
 - [[#whitespace-mode][Whitespace-mode]]
-
-* About this config
-This is my private configuration.
-It is supposed to be used in DOOM Emacs
-Remember, you do not need to run 'doom sync' after modifying this file!
-
-#+begin_src emacs-lisp :tangle yes
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-#+end_src
 
 * Autosave
 
@@ -200,6 +200,38 @@ To try out new themes: =M-x load-theme= or =SPC h t=.
 (setq-default tab-width 8)
 (setq indent-line-function 'insert-tab)
 #+end_src
+
+* EXWM
+
+Taking the emacs OS joke a bit to far.
+
+#+begin_src emacs-lisp :tangle no
+(require 'exwm)
+(require 'exwm-config)
+(exwm-config-default)
+#+end_src
+
+Screen setup
+
+#+begin_src emacs-lisp :tangle no
+(require 'exwm-randr)
+(setq exwm-randr-workspace-output-plist '(0 "eDP-1"))
+(add-hook 'exwm-randr-screen-change-hook
+          (lambda ()
+            (start-process-shell-command
+             "xrandr" nil "xrandr --output eDP-1 --auto")))
+(exwm-randr-enable)
+#+end_src
+
+#+RESULTS:
+| exwm-randr--exit | exwm-systemtray--exit |
+
+Enable EXWM tray
+#+begin_src emacs-lisp :tangle no
+(require 'exwm-systemtray)
+(exwm-systemtray-enable)
+#+end_src
+
 * Fonts
 Doom exposes five (optional) variables for controlling fonts in Doom:
 + =doom-font= -- the primary font to use
@@ -211,9 +243,9 @@ Doom exposes five (optional) variables for controlling fonts in Doom:
 See =C-h v doom-font= for documentation and more examples of what they accept.
 
 #+begin_src emacs-lisp :tangle yes
-(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :height 1.0)
+(setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
-      doom-big-font (font-spec :family "JetBrains Mono" :size 24)
+      doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -225,6 +257,16 @@ See =C-h v doom-font= for documentation and more examples of what they accept.
 
 If you or Emacs can't find your font, use =M-x describe-font= to look them up, =M-x eval-region= to execute elisp code, and =M-x doom/reload-font= to refresh your font settings.
 If Emacs still can't find your font, it likely wasn't installed correctly. Font issues are rarely Doom issues!
+
+** Font scale
+Remaped the resizekeys to a more sane buttons
+
+#+begin_src emacs-lisp :tangle yes
+(map!
+ :n "C-=" #'doom/reset-font-size
+ :n "C-+" #'text-scale-increase
+ :n "C--" #'text-scale-decrease)
+#+end_src
 
 * Identification
 Some functionality uses this to identify you, e.g. GPG configuration, email clients, file templates and snippets.
@@ -385,6 +427,7 @@ Set mixed pitch font for =org-mode= buffers
 #+end_src
 
 ** Org-Roam-UI
+
 #+begin_src emacs-lisp :tangle yes
 (use-package! websocket
   :after org-roam)
@@ -437,6 +480,7 @@ Settings for the various shells and terminal emulators within Emacs.
 #+END_SRC
 
 * Whitespace-mode
+
 #+begin_src emacs-lisp :tangle yes
 (use-package! whitespace
   :config

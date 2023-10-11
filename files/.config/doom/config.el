@@ -65,9 +65,9 @@
 (setq-default tab-width 8)
 (setq indent-line-function 'insert-tab)
 
-(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :height 1.0)
+(setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
-      doom-big-font (font-spec :family "JetBrains Mono" :size 24)
+      doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
 (after! doom-themes
   (setq doom-themes-enable-bold t
@@ -75,6 +75,11 @@
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
+
+(map!
+ :n "C-=" #'doom/reset-font-size
+ :n "C-+" #'text-scale-increase
+ :n "C--" #'text-scale-decrease)
 
 (setq user-full-name "Jonas Schwind"
       user-mail-address "jonasschwind20021@gmx.de")

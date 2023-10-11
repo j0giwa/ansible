@@ -9,11 +9,11 @@
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;(package! some-package)
 
+(package! exwm)
 (package! org-auto-tangle)
 (package! beacon)
 (package! latex-preview-pane)
 (package! org-roam-ui)
-(package! org-ai)
 (package! imenu-list)
 (unpin! (:lang java) (:tools lsp))
 

@@ -24,3 +24,15 @@
       - zathura-ps
   tags:
     - packages
+
+- name: gnome
+  package:
+    name:
+      - gnome
+      - gnome-extras
+    tags:
+    - packages
+    - desktop
+    - gnome
+
+

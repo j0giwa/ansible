@@ -39511,3 +39511,1225 @@ Jul 02 12:40 : zeroconf: No global port, disabling zeroconf
 Jul 03 12:01 : zeroconf: No global port, disabling zeroconf
 Jul 03 13:01 : zeroconf: No global port, disabling zeroconf
 Jul 03 17:35 : zeroconf: No global port, disabling zeroconf
+Sep 01 15:55 : zeroconf: No global port, disabling zeroconf
+Sep 01 19:17 : zeroconf: No global port, disabling zeroconf
+Sep 01 19:18 : zeroconf: No global port, disabling zeroconf
+Sep 03 13:54 : zeroconf: No global port, disabling zeroconf
+Sep 03 15:44 : zeroconf: No global port, disabling zeroconf
+Sep 04 18:33 : zeroconf: No global port, disabling zeroconf
+Sep 04 18:42 : zeroconf: No global port, disabling zeroconf
+Sep 04 18:54 : zeroconf: No global port, disabling zeroconf
+Sep 04 19:23 : zeroconf: No global port, disabling zeroconf
+Sep 04 20:02 : zeroconf: No global port, disabling zeroconf
+Sep 04 20:44 : zeroconf: No global port, disabling zeroconf
+Sep 05 13:09 : zeroconf: No global port, disabling zeroconf
+Sep 05 16:23 : zeroconf: No global port, disabling zeroconf
+Sep 05 19:01 : zeroconf: No global port, disabling zeroconf
+Sep 06 00:12 : zeroconf: No global port, disabling zeroconf
+Sep 06 14:16 : zeroconf: No global port, disabling zeroconf
+Sep 06 15:02 : player: played "songs/humanitys_last_breath/ashen/06 - Labyrinthian.mp3"
+Sep 06 15:08 : player: played "songs/humanitys_last_breath/ashen/06 - Labyrinthian.mp3"
+Sep 06 15:12 : player: played "songs/eskimo_callboy/01 - Welcome to Raveland (Extended).mp3"
+Sep 06 17:33 : zeroconf: No global port, disabling zeroconf
+Sep 06 17:55 : zeroconf: No global port, disabling zeroconf
+Sep 06 18:54 : zeroconf: No global port, disabling zeroconf
+Sep 06 22:49 : zeroconf: No global port, disabling zeroconf
+Sep 07 11:46 : zeroconf: No global port, disabling zeroconf
+Sep 07 13:32 : zeroconf: No global port, disabling zeroconf
+Sep 07 14:23 : zeroconf: No global port, disabling zeroconf
+Sep 07 14:48 : zeroconf: No global port, disabling zeroconf
+Sep 07 18:40 : zeroconf: No global port, disabling zeroconf
+Sep 07 22:26 : zeroconf: No global port, disabling zeroconf
+Sep 08 11:49 : zeroconf: No global port, disabling zeroconf
+Sep 08 15:38 : zeroconf: No global port, disabling zeroconf
+Sep 08 18:10 : zeroconf: No global port, disabling zeroconf
+Sep 08 18:34 : zeroconf: No global port, disabling zeroconf
+Sep 11 13:28 : zeroconf: No global port, disabling zeroconf
+Sep 12 22:23 : zeroconf: No global port, disabling zeroconf
+Sep 12 23:58 : zeroconf: No global port, disabling zeroconf
+Sep 13 12:35 : zeroconf: No global port, disabling zeroconf
+Sep 13 12:43 : zeroconf: No global port, disabling zeroconf
+Sep 13 14:59 : inotify: Failed to register /home/jogiwa/Music/songs/Burzum/Filosofem: inotify_add_watch() has failed: Permission denied
+Sep 13 14:59 : update: added songs/Ai Mori/01 - The Rumbling.mp3
+Sep 13 14:59 : exception: Failed to access /home/jogiwa/Music/Bathory: No such file or directory
+Sep 13 14:59 : exception: Failed to access /home/jogiwa/Music/Bathory: No such file or directory
+Sep 13 14:59 : exception: Failed to access /home/jogiwa/Music/Bathory: No such file or directory
+Sep 13 14:59 : exception: Failed to access /home/jogiwa/Music/Bury Tomorrow: No such file or directory
+Sep 13 14:59 : exception: Failed to access /home/jogiwa/Music/Burzum: No such file or directory
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Carcosa/Anthology: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : update: added songs/Carcosa/Carcosa - Born To Lose.flac
+Sep 13 15:00 : update: added songs/Carcosa/Carcosa - Nihilus.flac
+Sep 13 15:00 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/02 - We Got the Moves.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/05 - Mindreader.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/07 - Parasite.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/01 - Pump It.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/06 - Arrow of Love.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/08 - Tekkno Train.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/03 - Fuckboi.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/09 - Hurrikan.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/04 - Spaceman.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/Tekkno/10 - Neon.mp3
+Sep 13 15:00 : update: added songs/Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : inotify: Failed to register /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: inotify_add_watch() has failed: Permission denied
+Sep 13 15:00 : update: added songs/Johnny Ciardullo/01 - The Edge of Time.mp3
+Sep 13 15:00 : update: added songs/Nik Nocturnal/01 - The Rumbling.mp3
+Sep 13 15:01 : exception: Failed to access /home/jogiwa/Music/Slipknot: No such file or directory
+Sep 13 15:01 : exception: Failed to access /home/jogiwa/Music/Vildjarta: No such file or directory
+Sep 13 15:01 : exception: Failed to access /home/jogiwa/Music/Within Destruction: No such file or directory
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/02 - Toxic.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/01 - Lotus.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/12 - Ultima.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/11 - P.O.P..mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/09 - Illusions.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/08 - Dehumanized.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/07 - Dying World.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/06 - Revenge.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/05 - Scars.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/04 - Survival.mp3
+Sep 13 15:01 : update: removing songs/within_destruction/lotus/03 - Nightmare.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/02 - Massacre.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/08 - 13 Candles.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/05 - Equimanthorn.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/04 - Call from the Grave.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/03 - Woman of Dark Desires.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/07 - Chariots of Fire.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/01 - Nocternal Obeisance.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/09 - Of Doom.......mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/10 - Outro.mp3
+Sep 13 15:01 : update: added songs/Bathory/Under the Sign of the Black Mark/06 - Enter the Enternal Fire.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/01 - Shores in Flames.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/08 - Outro.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/03 - Baptised in Fire and Ice.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/05 - Song to Hall Up High.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/07 - One Rode to Asa Bay.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/02 - Valhalla.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/06 - Home of Once Brave.mp3
+Sep 13 15:01 : update: added songs/Bathory/Hammerheart/04 - From Father to Son.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/12 - Deceit.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/06 - Traces.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/09 - When No One Walks With You.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/02 - Dagger.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/01 - Shadow.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/05 - Östpeppar.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/08 - Måsstadens Nationalsång.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/03 - Eternal Golden Monk.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/11 - Nojja.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/10 - (Th)All These Feelings.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/04 - Benblåst.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/07 - Phobon Nika.mp3
+Sep 13 15:01 : update: added songs/Vildjarta/masstaden-forte/13 - The Lone Deranger.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/01 - Shadow.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/02 - Dagger.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/03 - Eternal Golden Monk.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/04 - Benblåst.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/05 - Östpeppar.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/06 - Traces.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/07 - Phobon Nika.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/08 - Måsstadens Nationalsång.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/09 - When No One Walks With You.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/10 - (Th)All These Feelings.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/11 - Nojja.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/12 - Deceit.mp3
+Sep 13 15:01 : update: removing songs/vildjarta/masstaden-forte/13 - The Lone Deranger.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/10 - Care.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/09 - Recovery.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/02 - Abandon Us.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/11 - The Carcass King.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/03 - Begin Again.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/07 - Majesty.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/04 - Forced Divide.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/08 - Heretic.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/06 - Wrath.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/01 - The Seventh Sun.mp3
+Sep 13 15:01 : update: added songs/Bury Tomorrow/The Seventh Sun/05 - Boltcutter.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:01 : update: added songs/Slipknot/Iowa/14 - Iowa.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/05 - Zavali Ebalo.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/04 - Made In Russia.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/03 - Baba Yaga.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/02 - Demolisher.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/01 - Bonebreaker.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/14 - Iowa.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/13 - Metabolic.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/12 - New Abortion.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/11 - Skin Ticket.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/10 - I Am Hated.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/09 - The Shape.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/08 - Left Behind.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/07 - Gently.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/05 - Everything Ends.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/04 - My Plague.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/03 - Disasterpiece.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/02 - People = Shit.mp3
+Sep 13 15:01 : update: removing songs/slipknot/iowa/01 - [515].mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/12 - Father.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/11 - Head On A Plate.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/10 - Ouroboros.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/09 - Bratva.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/08 - I Killed A Man.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/07 - Your Only.mp3
+Sep 13 15:01 : update: removing songs/slaughter_to_prevail/kostolom/06 - Agony.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:01 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:01 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:01 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:01 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:01 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/12 - Vittring.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/11 - Futility.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/10 - Sirens.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/09 - Väldet.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/08 - Tide.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/07 - Hadean.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/06 - Dehumanize.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/05 - Spectre.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/04 - Descent.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/03 - Earthless.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/02 - Glutton.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/vaelde/01 - Dödsdans.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/ashen/06 - Labyrinthian.mp3
+Sep 13 15:02 : update: removing songs/humanitys_last_breath/ashen/05 - Instill.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:02 : update: removing songs/nik_nocturnal/01 - The Rumbling.mp3
+Sep 13 15:02 : update: removing songs/johnny_ciardullo/01 - The Edge of Time.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:02 : update: removing songs/ai_mori/01 - The Rumbling.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/02 - Hades.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/03 - Reaper.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/04 - Necromancy.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/05 - Sacrifice.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/07 - Armageddon.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/08 - Raise the Dead.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/10 - Outro.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/09 - Of Doom.......mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/08 - 13 Candles.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/07 - Chariots of Fire.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/06 - Enter the Enternal Fire.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/05 - Equimanthorn.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/04 - Call from the Grave.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/03 - Woman of Dark Desires.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/02 - Massacre.mp3
+Sep 13 15:02 : update: removing songs/bathory/under_the_sign_of_the_black_mark/01 - Nocternal Obeisance.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/08 - Outro.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/07 - One Rode to Asa Bay.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/06 - Home of Once Brave.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/05 - Song to Hall Up High.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/04 - From Father to Son.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/03 - Baptised in Fire and Ice.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/02 - Valhalla.mp3
+Sep 13 15:02 : update: removing songs/bathory/hammerheart/01 - Shores in Flames.mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:02 : update: removing songs/bathory/bathory/09 - War.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/01 - Welcome to Raveland (Extended).mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/10 - Neon.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/09 - Hurrikan.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/08 - Tekkno Train.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/07 - Parasite.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/06 - Arrow of Love.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/05 - Mindreader.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/04 - Spaceman.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/03 - Fuckboi.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/02 - We Got the Moves.mp3
+Sep 13 15:02 : update: removing songs/eskimo_callboy/tekkno/01 - Pump It.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/06 - God is My Enemy.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/05 - Graverot.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/04 - The Pain of Existence.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/03 - Realistic Flesh Mask.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/02 - Hellsphere.mp3
+Sep 13 15:02 : update: removing songs/crown_magnetar/alone_in_death/01 - Alone in Death.mp3
+Sep 13 15:02 : update: removing songs/carcosa/nihilus/01 - Nihilus.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/11 - Absent Post.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/10 - A Plague.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/09 - Our Scars.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/08 - Vanta Black.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/07 - Present Precursor.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/06 - Devoid.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/05 - Vermin.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/04 - Spiral.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/03 - Descensus.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/02 - Hypnos.mp3
+Sep 13 15:02 : update: removing songs/carcosa/anthology/01 - Excerpt.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/06 - Gebrechlichkeit II.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/05 - Rundgang Um Die Transzendentale Säule Der Singularität.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/04 - Gebrechlichkeit I.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/03 - Erblicket Die Tochter Des Firmaments.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/02 - Jesus' Tod.mp3
+Sep 13 15:02 : update: removing songs/burzum/filosofem/01 - Dunkelheit.mp3
+Sep 13 15:02 : update: removing songs/burzum/aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:02 : update: removing songs/burzum/aske/02 - Dominus Sathanas.mp3
+Sep 13 15:02 : update: removing songs/burzum/aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/11 - The Carcass King.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/10 - Care.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/09 - Recovery.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/08 - Heretic.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/07 - Majesty.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/06 - Wrath.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/05 - Boltcutter.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/04 - Forced Divide.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/03 - Begin Again.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/02 - Abandon Us.mp3
+Sep 13 15:02 : update: removing songs/bury_tomorrow/the_seventh_sun/01 - The Seventh Sun.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:02 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:02 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:02 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:02 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:02 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:03 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:03 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:03 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:03 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:03 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:05 : update: no read permissions on songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:05 : update: no read permissions on songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: Permission denied
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: Permission denied
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:05 : update: no read permissions on songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:05 : update: no read permissions on songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:05 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Burzum/Filosofem: inotify_add_watch() has failed: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Carcosa/Anthology: inotify_add_watch() has failed: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: inotify_add_watch() has failed: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: inotify_add_watch() has failed: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: inotify_add_watch() has failed: Permission denied
+Sep 13 15:06 : inotify: Failed to register /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: inotify_add_watch() has failed: Permission denied
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/01 - Ddsdans.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/03 - Earthless.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/11 - Futility.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/07 - Hadean.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/12 - Vittring.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/04 - Descent.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/09 - Vldet.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/06 - Dehumanize.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/05 - Spectre.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/02 - Glutton.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/08 - Tide.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Välde/10 - Sirens.mp3
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Passage.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Bearer.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Death Spiral.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Shell.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Lifeless, Deathless.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Instill.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Catastrophize.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Withering.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Linger.flac
+Sep 13 15:07 : update: added songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Burden.flac
+Sep 13 15:07 : update: added songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/09 - War.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 13 15:07 : update: added songs/Bathory/Bathory/02 - Hades.mp3
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Hypnos.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Vermin.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Devoid.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Present Precursor.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Our Scars.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Vanta Black.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Descensus.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - A Plague.flac
+Sep 13 15:07 : update: added songs/Carcosa/Anthology/Carcosa - Excerpt.flac
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/01 - [515].mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 13 15:07 : update: added songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - God is My Enemy.flac
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - The Pain of Existence.flac
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - Alone in Death.flac
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - Hellsphere.flac
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - Graverot.flac
+Sep 13 15:07 : update: added songs/Crown Magnetar/Alone in Death/Crown Magnetar - Realistic Flesh Mask.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Gebrechlichkeit I.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Jesus-' Tod.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Dunkelheit.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Rundgang Um Die Transzendentale Saule Der Singularitat.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Gebrechlichkeit II.flac
+Sep 13 15:07 : update: added songs/Burzum/Filosofem/Burzum - Erblicket Die Tochter Des Firmaments.flac
+Sep 13 15:07 : update: added songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 13 15:07 : update: added songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 13 15:07 : update: added songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 13 15:07 : update: added songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Ouroboros.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Demolisher.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - I Killed A Man.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Your Only.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Made In Russia.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Head On A Plate.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Agony.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Father.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Zavali Ebalo.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bonebreaker.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac
+Sep 13 15:07 : update: added songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bratva.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Passage.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Bearer.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Death Spiral.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Shell.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Lifeless, Deathless.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Instill.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Catastrophize.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Withering.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Linger.flac
+Sep 13 15:08 : update: updating songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Burden.flac
+Sep 13 15:08 : player: played "songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac"
+Sep 13 15:11 : player: played "songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac"
+Sep 13 15:35 : player: played "songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac"
+Sep 14 13:07 : zeroconf: No global port, disabling zeroconf
+Sep 15 00:15 : zeroconf: No global port, disabling zeroconf
+Sep 15 22:47 : zeroconf: No global port, disabling zeroconf
+Sep 19 22:20 : zeroconf: No global port, disabling zeroconf
+Sep 20 00:11 : zeroconf: No global port, disabling zeroconf
+Sep 23 19:50 : zeroconf: No global port, disabling zeroconf
+Sep 23 20:12 : zeroconf: No global port, disabling zeroconf
+Sep 23 20:59 : zeroconf: No global port, disabling zeroconf
+Sep 23 22:22 : zeroconf: No global port, disabling zeroconf
+Sep 25 19:25 : zeroconf: No global port, disabling zeroconf
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/01 - Ddsdans.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/03 - Earthless.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/11 - Futility.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/07 - Hadean.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/12 - Vittring.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/04 - Descent.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/09 - Vldet.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/06 - Dehumanize.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/05 - Spectre.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/02 - Glutton.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/08 - Tide.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Välde/10 - Sirens.mp3
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Passage.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Bearer.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Death Spiral.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Shell.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Lifeless, Deathless.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Instill.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Catastrophize.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Withering.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Linger.flac
+Sep 25 20:37 : update: added Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Burden.flac
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/04 - Necromancy.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/05 - Sacrifice.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/09 - War.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/03 - Reaper.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/07 - Armageddon.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Bathory/02 - Hades.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/02 - Massacre.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/08 - 13 Candles.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/05 - Equimanthorn.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/04 - Call from the Grave.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/03 - Woman of Dark Desires.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/07 - Chariots of Fire.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/01 - Nocternal Obeisance.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/09 - Of Doom.......mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/10 - Outro.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Under the Sign of the Black Mark/06 - Enter the Enternal Fire.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/01 - Shores in Flames.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/08 - Outro.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/03 - Baptised in Fire and Ice.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/05 - Song to Hall Up High.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/07 - One Rode to Asa Bay.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/02 - Valhalla.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/06 - Home of Once Brave.mp3
+Sep 25 20:37 : update: added Songs/Bathory/Hammerheart/04 - From Father to Son.mp3
+Sep 25 20:37 : update: added Songs/Johnny Ciardullo/01 - The Edge of Time.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/12 - Deceit.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/06 - Traces.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/09 - When No One Walks With You.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/02 - Dagger.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/01 - Shadow.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/05 - Östpeppar.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/08 - Måsstadens Nationalsång.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/03 - Eternal Golden Monk.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/11 - Nojja.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/10 - (Th)All These Feelings.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/04 - Benblåst.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/07 - Phobon Nika.mp3
+Sep 25 20:37 : update: added Songs/Vildjarta/masstaden-forte/13 - The Lone Deranger.mp3
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/09 King Bran's Final Voyage.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/20 Fate Calls.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/24 Yes, I Do....flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/17 Eyes of the Wolf.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/34 Merchants of Novigrad.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/06 Commanding the Fury.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/01 The Trail.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/12 The Nightingale.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/31 The Hunt is Coming.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/14 The Hunter's Path.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/11 Whispers of Oxenfurt.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/07 Emhyr var Emreis.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/30 The Song of the Swordâ€“Dancer.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/02 Geralt of Rivia.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/22 Cloak and Dagger.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/25 Welcome, Imlerith.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/33 Ladies of the Woods.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/05 Aen Seidhe.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/29 Farewell, Old Friend.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/10 Silver for Monsters....flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/04 Wake Up, Ciri.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/16 Kaer Morhen.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/23 Forged in Fire.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/26 Drink Up, Thereâ€™s More!.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/27 After the Storm.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/13 City of Intrigues.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/28 Blood on the Cobblestones.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/18 Witch Hunters.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/19 ...Steel for Humans.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/03 Eredin, King of the Hunt.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/21 The Vagabond.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/35 Hunt or Be Hunted.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/08 Spikeroog.flac
+Sep 25 20:37 : update: added Songs/The Witcher 3 Wild Hunt - Official Soundtrack/32 The Fields of Ard Skellig.flac
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/02 - We Got the Moves.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/05 - Mindreader.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/07 - Parasite.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/01 - Pump It.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/06 - Arrow of Love.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/08 - Tekkno Train.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/03 - Fuckboi.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/09 - Hurrikan.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/04 - Spaceman.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/Tekkno/10 - Neon.mp3
+Sep 25 20:37 : update: added Songs/Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/10 - Care.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/09 - Recovery.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/02 - Abandon Us.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/11 - The Carcass King.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/03 - Begin Again.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/07 - Majesty.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/04 - Forced Divide.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/08 - Heretic.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/06 - Wrath.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/01 - The Seventh Sun.mp3
+Sep 25 20:37 : update: added Songs/Bury Tomorrow/The Seventh Sun/05 - Boltcutter.mp3
+Sep 25 20:37 : update: added Songs/Ai Mori/01 - The Rumbling.mp3
+Sep 25 20:37 : update: added Songs/Nik Nocturnal/01 - The Rumbling.mp3
+Sep 25 20:37 : update: added Songs/Carcosa/Carcosa - Born To Lose.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Carcosa - Nihilus.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Hypnos.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Vermin.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Devoid.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Present Precursor.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Our Scars.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Vanta Black.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Descensus.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - A Plague.flac
+Sep 25 20:37 : update: added Songs/Carcosa/Anthology/Carcosa - Excerpt.flac
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/08 - Left Behind.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/09 - The Shape.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/12 - New Abortion.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/14 - Iowa.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/02 - People = Shit.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/01 - [515].mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/07 - Gently.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/13 - Metabolic.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/04 - My Plague.mp3
+Sep 25 20:37 : update: added Songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - God is My Enemy.flac
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - The Pain of Existence.flac
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Alone in Death.flac
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Hellsphere.flac
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Graverot.flac
+Sep 25 20:37 : update: added Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Realistic Flesh Mask.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/15 - P.T. Adamczyk - The Heist.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd1/01 - Marcin Przybylowicz - V.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Sep 25 20:37 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Gebrechlichkeit I.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Jesus-' Tod.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Dunkelheit.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Rundgang Um Die Transzendentale Saule Der Singularitat.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Gebrechlichkeit II.flac
+Sep 25 20:37 : update: added Songs/Burzum/Filosofem/Burzum - Erblicket Die Tochter Des Firmaments.flac
+Sep 25 20:37 : update: added Songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Sep 25 20:37 : update: added Songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Sep 25 20:37 : update: added Songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/01 - Lotus.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/09 - Illusions.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/12 - Ultima.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/07 - Dying World.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/06 - Revenge.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/05 - Scars.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/04 - Survival.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/02 - Toxic.mp3
+Sep 25 20:37 : update: added Songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Ouroboros.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Demolisher.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - I Killed A Man.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Your Only.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Made In Russia.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Head On A Plate.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Agony.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Father.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Zavali Ebalo.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bonebreaker.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac
+Sep 25 20:37 : update: added Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bratva.flac
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd1: inotify_add_watch() has failed: Permission denied
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd2: inotify_add_watch() has failed: Permission denied
+Sep 25 20:37 : exception: Failed to open /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd1: Permission denied
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd1: inotify_add_watch() has failed: Permission denied
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd2: inotify_add_watch() has failed: Permission denied
+Sep 25 20:37 : exception: Failed to open /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd2: Permission denied
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd1: inotify_add_watch() has failed: Permission denied
+Sep 25 20:37 : inotify: Failed to register /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd2: inotify_add_watch() has failed: Permission denied
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/06 - Marcin Przybylowicz - Cloudy Day.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/10 - P.T. Adamczyk - Atlantis.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/18 - Paul Leonard-Morgan - Mining Minds.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/09 - Marcin Przybylowicz - Urban Downunder.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/14 - P.T. Adamczyk - Code Red Initiated.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/03 - P.T. Adamczyk - The Rebel Path.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/14 - P.T. Adamczyk - To Hell and Back.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/19 - P.T. Adamczyk - Rite Of Passage.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/02 - Paul Leonard-Morgan - Extraction Action.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/09 - P.T. Adamczyk - Мусорщики.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/10 - Marcin Przybylowicz - Close Probing.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/02 - Marcin Przybylowicz - Modern Anthill.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/05 - P.T. Adamczyk - Outsider No More.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/11 - Marcin Przybylowicz - Cyberninja.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/16 - Marcin Przybylowicz - Streetfighters.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/01 - P.T. Adamczyk - The Voice In My Head.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/04 - P.T. Adamczyk - Kang Tao Down.flac
+Sep 25 20:43 : exception: Failed to open /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd1: Permission denied
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/01 - Marcin Przybylowicz - V.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/15 - P.T. Adamczyk - The Heist.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/15 - P.T. Adamczyk - The Heist.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/01 - Marcin Przybylowicz - V.flac
+Sep 25 20:43 : exception: Failed to open /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack/cd2: Permission denied
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Sep 25 20:43 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Sep 25 20:43 : update: added Songs/Cyberpunk 2077 - Official Soundtrack/07 - P.T. Adamczyk - Juiced Up.flac
+Sep 26 20:54 : zeroconf: No global port, disabling zeroconf
+Sep 27 11:41 : zeroconf: No global port, disabling zeroconf
+Sep 27 13:38 : zeroconf: No global port, disabling zeroconf
+Sep 27 15:03 : zeroconf: No global port, disabling zeroconf
+Sep 27 18:44 : zeroconf: No global port, disabling zeroconf
+Sep 27 19:34 : zeroconf: No global port, disabling zeroconf
+Sep 28 12:30 : zeroconf: No global port, disabling zeroconf
+Sep 28 13:51 : zeroconf: No global port, disabling zeroconf
+Sep 28 17:50 : zeroconf: No global port, disabling zeroconf
+Sep 28 18:20 : zeroconf: No global port, disabling zeroconf
+Sep 29 09:07 : zeroconf: No global port, disabling zeroconf
+Oct 04 13:46 : zeroconf: No global port, disabling zeroconf
+Oct 04 13:48 : zeroconf: No global port, disabling zeroconf
+Oct 04 13:50 : zeroconf: No global port, disabling zeroconf
+Oct 04 14:34 : zeroconf: No global port, disabling zeroconf
+Oct 04 14:52 : zeroconf: No global port, disabling zeroconf
+Oct 04 14:54 : zeroconf: No global port, disabling zeroconf
+Oct 04 15:50 : zeroconf: No global port, disabling zeroconf
+Oct 04 16:43 : zeroconf: No global port, disabling zeroconf
+Oct 05 09:43 : zeroconf: No global port, disabling zeroconf
+Oct 05 09:47 : zeroconf: No global port, disabling zeroconf
+Oct 05 13:57 : zeroconf: No global port, disabling zeroconf
+Oct 05 17:33 : zeroconf: No global port, disabling zeroconf
+Oct 09 23:35 : zeroconf: No global port, disabling zeroconf
+Oct 10 08:03 : zeroconf: No global port, disabling zeroconf
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Humanity's Last Breath: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Humanity's Last Breath/Välde: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Humanity's Last Breath: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Humanity's Last Breath/Ashen: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Humanity's Last Breath: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory/Bathory: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory/Under the Sign of the Black Mark: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory/Hammerheart: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bathory: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Johnny Ciardullo: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Vildjarta: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Vildjarta/masstaden-forte: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Vildjarta: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/The Witcher 3 Wild Hunt - Official Soundtrack: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Eskimo Callboy: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Eskimo Callboy/Tekkno: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Eskimo Callboy: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bury Tomorrow: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bury Tomorrow/The Seventh Sun: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Bury Tomorrow: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Ai Mori: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Nik Nocturnal: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Carcosa: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Carcosa/Anthology: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Carcosa: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slipknot: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slipknot/Iowa: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slipknot: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Crown Magnetar: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Crown Magnetar/Alone in Death: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Crown Magnetar: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Cyberpunk 2077 - Official Soundtrack: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Burzum: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Burzum/Filosofem: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Burzum: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Burzum/Aske: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Burzum: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Within Destruction: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Within Destruction/Lotus: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Within Destruction: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slaughter To Prevail: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slaughter To Prevail/Kostolom: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slaughter To Prevail: No such file or directory
+Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
