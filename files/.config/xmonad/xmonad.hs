@@ -35,6 +35,7 @@ import XMonad.Hooks.StatusBar
 import XMonad.Hooks.StatusBar.PP
 import XMonad.Hooks.WindowSwallowing
 import XMonad.Hooks.WorkspaceHistory
+import XMonad.Hooks.InsertPosition (insertPosition, Focus(Newer), Position(End))
 
 -- Layouts
 import XMonad.Layout.Accordion
@@ -124,7 +125,7 @@ myStartupHook :: X ()
 myStartupHook = do
 	spawnOnce ("sleep 2 && ~/.local/bin/wallpaper")
 	spawn ("sleep 2 && trayer --edge top --align right --widthtype request --padding 6 --SetDockType true --SetPartialStrut true --expand true --monitor 1 --transparent true --alpha 0 " ++ colorTrayer ++ " --height 22")
-	spawn ("activate-linux -t 'Activate Arch Linux' -m 'Go to Settings to Activate Arch Linux'")
+	spawnOnce ("activate-linux -t 'Activate Arch Linux' -m 'Go to Settings to Activate Arch Linux'")
 
 --Makes setting the spacingRaw simpler to write. The spacingRaw module adds a configurable amount of space around windows.
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
@@ -268,7 +269,8 @@ clickable ws = "<action=xdotool key super+"++show i++">"++ws++"</action>"
 
 myManageHook :: XMonad.Query (Data.Monoid.Endo WindowSet)
 myManageHook = composeAll
-    [ className =? "confirm"         --> doFloat
+    [ insertPosition End Newer -- open new windows at the end
+  , className =? "confirm"         --> doFloat
   , className =? "file_progress"   --> doFloat
   , className =? "dialog"          --> doFloat
   , className =? "download"        --> doFloat
@@ -308,70 +310,70 @@ myKeys c =
   --(subtitle "Custom Keys":) $ mkNamedKeymap c $
   let subKeys str ks = subtitle' str : mkNamedKeymap c ks in
   subKeys "Xmonad Essentials"
-  [ ("M1-C-r", addName "Recompile XMonad"       $ spawn "xmonad --recompile")
-  , ("M1-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
-  , ("M1-S-c", addName "Kill focused window"    $ kill1)
-  , ("M1-S-a", addName "Kill all windows on WS" $ killAll)
-  , ("M1-p", addName "Show run prompt"        $ spawn myLauncher)
-  , ("M1-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)]
+  [ ("M-C-r", addName "Recompile XMonad"       $ spawn "xmonad --recompile")
+  , ("M-S-r", addName "Restart XMonad"         $ spawn "xmonad --restart")
+  , ("M-S-c", addName "Kill focused window"    $ kill1)
+  , ("M-S-a", addName "Kill all windows on WS" $ killAll)
+  , ("M-p", addName "Show run prompt"        $ spawn myLauncher)
+  , ("M-S-b", addName "Toggle bar show/hide"   $ sendMessage ToggleStruts)]
 
   ^++^ subKeys "Switch to workspace"
-  [ ("M1-1", addName "Switch to workspace 1"    $ (windows $ W.greedyView $ myWorkspaces !! 0))
-  , ("M1-2", addName "Switch to workspace 2"    $ (windows $ W.greedyView $ myWorkspaces !! 1))
-  , ("M1-3", addName "Switch to workspace 3"    $ (windows $ W.greedyView $ myWorkspaces !! 2))
-  , ("M1-4", addName "Switch to workspace 4"    $ (windows $ W.greedyView $ myWorkspaces !! 3))
-  , ("M1-5", addName "Switch to workspace 5"    $ (windows $ W.greedyView $ myWorkspaces !! 4))
-  , ("M1-6", addName "Switch to workspace 6"    $ (windows $ W.greedyView $ myWorkspaces !! 5))
-  , ("M1-7", addName "Switch to workspace 7"    $ (windows $ W.greedyView $ myWorkspaces !! 6))
-  , ("M1-8", addName "Switch to workspace 8"    $ (windows $ W.greedyView $ myWorkspaces !! 7))
-  , ("M1-9", addName "Switch to workspace 9"    $ (windows $ W.greedyView $ myWorkspaces !! 8))]
+  [ ("M-1", addName "Switch to workspace 1"    $ (windows $ W.greedyView $ myWorkspaces !! 0))
+  , ("M-2", addName "Switch to workspace 2"    $ (windows $ W.greedyView $ myWorkspaces !! 1))
+  , ("M-3", addName "Switch to workspace 3"    $ (windows $ W.greedyView $ myWorkspaces !! 2))
+  , ("M-4", addName "Switch to workspace 4"    $ (windows $ W.greedyView $ myWorkspaces !! 3))
+  , ("M-5", addName "Switch to workspace 5"    $ (windows $ W.greedyView $ myWorkspaces !! 4))
+  , ("M-6", addName "Switch to workspace 6"    $ (windows $ W.greedyView $ myWorkspaces !! 5))
+  , ("M-7", addName "Switch to workspace 7"    $ (windows $ W.greedyView $ myWorkspaces !! 6))
+  , ("M-8", addName "Switch to workspace 8"    $ (windows $ W.greedyView $ myWorkspaces !! 7))
+  , ("M-9", addName "Switch to workspace 9"    $ (windows $ W.greedyView $ myWorkspaces !! 8))]
 
   ^++^ subKeys "Send window to workspace"
-  [ ("M1-S-1", addName "Send to workspace 1"    $ (windows $ W.shift $ myWorkspaces !! 0))
-  , ("M1-S-2", addName "Send to workspace 2"    $ (windows $ W.shift $ myWorkspaces !! 1))
-  , ("M1-S-3", addName "Send to workspace 3"    $ (windows $ W.shift $ myWorkspaces !! 2))
-  , ("M1-S-4", addName "Send to workspace 4"    $ (windows $ W.shift $ myWorkspaces !! 3))
-  , ("M1-S-5", addName "Send to workspace 5"    $ (windows $ W.shift $ myWorkspaces !! 4))
-  , ("M1-S-6", addName "Send to workspace 6"    $ (windows $ W.shift $ myWorkspaces !! 5))
-  , ("M1-S-7", addName "Send to workspace 7"    $ (windows $ W.shift $ myWorkspaces !! 6))
-  , ("M1-S-8", addName "Send to workspace 8"    $ (windows $ W.shift $ myWorkspaces !! 7))
-  , ("M1-S-9", addName "Send to workspace 9"    $ (windows $ W.shift $ myWorkspaces !! 8))]
+  [ ("M-S-1", addName "Send to workspace 1"    $ (windows $ W.shift $ myWorkspaces !! 0))
+  , ("M-S-2", addName "Send to workspace 2"    $ (windows $ W.shift $ myWorkspaces !! 1))
+  , ("M-S-3", addName "Send to workspace 3"    $ (windows $ W.shift $ myWorkspaces !! 2))
+  , ("M-S-4", addName "Send to workspace 4"    $ (windows $ W.shift $ myWorkspaces !! 3))
+  , ("M-S-5", addName "Send to workspace 5"    $ (windows $ W.shift $ myWorkspaces !! 4))
+  , ("M-S-6", addName "Send to workspace 6"    $ (windows $ W.shift $ myWorkspaces !! 5))
+  , ("M-S-7", addName "Send to workspace 7"    $ (windows $ W.shift $ myWorkspaces !! 6))
+  , ("M-S-8", addName "Send to workspace 8"    $ (windows $ W.shift $ myWorkspaces !! 7))
+  , ("M-S-9", addName "Send to workspace 9"    $ (windows $ W.shift $ myWorkspaces !! 8))]
 
   ^++^ subKeys "Window navigation"
-  [ ("M1-j", addName "Move focus to next window"                $ windows W.focusDown)
-  , ("M1-k", addName "Move focus to prev window"                $ windows W.focusUp)
-  , ("M1-m", addName "Move focus to master window"              $ windows W.focusMaster)
-  , ("M1-S-j", addName "Swap focused window with next window"   $ windows W.swapDown)
-  , ("M1-S-k", addName "Swap focused window with prev window"   $ windows W.swapUp)
-  , ("M1-S-m", addName "Swap focused window with master window" $ windows W.swapMaster)
-  , ("M1-<Backspace>", addName "Move focused window to master"  $ promote)
-  , ("M1-S-,", addName "Rotate all windows except master"       $ rotSlavesDown)
-  , ("M1-S-.", addName "Rotate all windows current stack"       $ rotAllDown)]
+  [ ("M-j", addName "Move focus to next window"                $ windows W.focusDown)
+  , ("M-k", addName "Move focus to prev window"                $ windows W.focusUp)
+  , ("M-m", addName "Move focus to master window"              $ windows W.focusMaster)
+  , ("M-S-j", addName "Swap focused window with next window"   $ windows W.swapDown)
+  , ("M-S-k", addName "Swap focused window with prev window"   $ windows W.swapUp)
+  , ("M-S-m", addName "Swap focused window with master window" $ windows W.swapMaster)
+  , ("M-<Return>", addName "Move focused window to master"  $ promote)
+  , ("M-S-,", addName "Rotate all windows except master"       $ rotSlavesDown)
+  , ("M-S-.", addName "Rotate all windows current stack"       $ rotAllDown)]
 
   ^++^ subKeys "Favorite programs"
-  [ ("M1-<Return>", addName "Launch terminal"   $ spawn (myTerminal))]
+  [ ("M-S-<Return>", addName "Launch terminal"   $ spawn (myTerminal))]
 
   ^++^ subKeys "Monitors"
-  [ ("M1-.", addName "Switch focus to next monitor" $ nextScreen)
-  , ("M1-,", addName "Switch focus to prev monitor" $ prevScreen)]
+  [ ("M-.", addName "Switch focus to next monitor" $ nextScreen)
+  , ("M-,", addName "Switch focus to prev monitor" $ prevScreen)]
 
   -- Switch layouts
   ^++^ subKeys "Switch layouts"
-  [ ("M1-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
-  , ("M1-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
+  [ ("M-<Tab>", addName "Switch to next layout"   $ sendMessage NextLayout)
+  , ("M-<Space>", addName "Toggle noborders/full" $ sendMessage (MT.Toggle NBFULL) >> sendMessage ToggleStruts)]
 
   -- Window resizing
   ^++^ subKeys "Window resizing"
-  [ ("M1-h", addName "Shrink window"               $ sendMessage Shrink)
-  , ("M1-l", addName "Expand window"               $ sendMessage Expand)
-  , ("M1-M-j", addName "Shrink window vertically" $ sendMessage MirrorShrink)
-  , ("M1-M-k", addName "Expand window vertically" $ sendMessage MirrorExpand)]
+  [ ("M-h", addName "Shrink window"               $ sendMessage Shrink)
+  , ("M-l", addName "Expand window"               $ sendMessage Expand)
+  , ("M-M1-j", addName "Shrink window vertically" $ sendMessage MirrorShrink)
+  , ("M-M1-k", addName "Expand window vertically" $ sendMessage MirrorExpand)]
 
   -- Floating windows
   ^++^ subKeys "Floating windows"
-  [ ("M1-f", addName "Toggle float layout"        $ sendMessage (T.Toggle "floats"))
-  , ("M1-t", addName "Sink a floating window"     $ withFocused $ windows . W.sink)
-  , ("M1-S-t", addName "Sink all floated windows" $ sinkAll)]
+  [ ("M-f", addName "Toggle float layout"        $ sendMessage (T.Toggle "floats"))
+  , ("M-t", addName "Sink a floating window"     $ withFocused $ windows . W.sink)
+  , ("M-S-t", addName "Sink all floated windows" $ sinkAll)]
 
   -- Increase/decrease spacing (gaps)
   ^++^ subKeys "Window spacing (gaps)"
@@ -382,31 +384,31 @@ myKeys c =
 
   -- Increase/decrease windows in the master pane or the stack
   ^++^ subKeys "Increase/decrease windows in master pane or the stack"
-  [ ("M1-S-<Up>", addName "Increase clients in master pane"   $ sendMessage (IncMasterN 1))
-  , ("M1-S-<Down>", addName "Decrease clients in master pane" $ sendMessage (IncMasterN (-1)))
-  , ("M1-=", addName "Increase max # of windows for layout"   $ increaseLimit)
-  , ("M1--", addName "Decrease max # of windows for layout"   $ decreaseLimit)]
+  [ ("M-S-<Up>", addName "Increase clients in master pane"   $ sendMessage (IncMasterN 1))
+  , ("M-S-<Down>", addName "Decrease clients in master pane" $ sendMessage (IncMasterN (-1)))
+  , ("M-=", addName "Increase max # of windows for layout"   $ increaseLimit)
+  , ("M--", addName "Decrease max # of windows for layout"   $ decreaseLimit)]
 
   -- Sublayouts
   -- This is used to push windows to tabbed sublayouts, or pull them out of it.
   ^++^ subKeys "Sublayouts"
-  [ ("M1-C-h", addName "pullGroup L"           $ sendMessage $ pullGroup L)
-  , ("M1-C-l", addName "pullGroup R"           $ sendMessage $ pullGroup R)
-  , ("M1-C-k", addName "pullGroup U"           $ sendMessage $ pullGroup U)
-  , ("M1-C-j", addName "pullGroup D"           $ sendMessage $ pullGroup D)
-  , ("M1-C-m", addName "MergeAll"              $ withFocused (sendMessage . MergeAll))
-  , ("M1-C-u", addName "UnMergeAll"            $  withFocused (sendMessage . UnMergeAll))
-  , ("M1-C-.", addName "Switch focus next tab" $  onGroup W.focusUp')
-  , ("M1-C-,", addName "Switch focus prev tab" $  onGroup W.focusDown')]
+  [ ("M-C-h", addName "pullGroup L"           $ sendMessage $ pullGroup L)
+  , ("M-C-l", addName "pullGroup R"           $ sendMessage $ pullGroup R)
+  , ("M-C-k", addName "pullGroup U"           $ sendMessage $ pullGroup U)
+  , ("M-C-j", addName "pullGroup D"           $ sendMessage $ pullGroup D)
+  , ("M-C-m", addName "MergeAll"              $ withFocused (sendMessage . MergeAll))
+  , ("M-C-u", addName "UnMergeAll"            $  withFocused (sendMessage . UnMergeAll))
+  , ("M-C-.", addName "Switch focus next tab" $  onGroup W.focusUp')
+  , ("M-C-,", addName "Switch focus prev tab" $  onGroup W.focusDown')]
 
   -- Emacs (SUPER-e followed by a key)
   ^++^ subKeys "Emacs"
-  [("M1-e e", addName "Emacsclient"               $ spawn (myEmacs))
+  [("M-e e", addName "Emacsclient"               $ spawn (myEmacs))
   -- ("M1-e e", addName "Emacsclient Dashboard"    $ spawn (myEmacs ++ ("--eval '(dashboard-refresh-buffer)'")))
-  , ("M1-e b", addName "Emacsclient Ibuffer"      $ spawn (myEmacs ++ ("--eval '(ibuffer)'")))
-  , ("M1-e d", addName "Emacsclient Dired"        $ spawn (myEmacs ++ ("--eval '(dired nil)'")))
-  , ("M1-e s", addName "Emacsclient Eshell"       $ spawn (myEmacs ++ ("--eval '(eshell)'")))
-  , ("M1-e v", addName "Emacsclient Vterm"        $ spawn (myEmacs ++ ("--eval '(+vterm/here nil)'")))]
+  , ("M-e b", addName "Emacsclient Ibuffer"      $ spawn (myEmacs ++ ("--eval '(ibuffer)'")))
+  , ("M-e d", addName "Emacsclient Dired"        $ spawn (myEmacs ++ ("--eval '(dired nil)'")))
+  , ("M-e s", addName "Emacsclient Eshell"       $ spawn (myEmacs ++ ("--eval '(eshell)'")))
+  , ("M-e v", addName "Emacsclient Vterm"        $ spawn (myEmacs ++ ("--eval '(+vterm/here nil)'")))]
 
   -- Multimedia Keys
   ^++^ subKeys "Multimedia keys"
