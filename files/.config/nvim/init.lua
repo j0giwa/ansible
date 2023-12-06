@@ -146,6 +146,7 @@ require('lazy').setup({
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'dracula'
+      transparent_bg = true
     end,
   },
 
