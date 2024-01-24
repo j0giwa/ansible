@@ -1,0 +1,5 @@
+---
+- name: "scripts | Strowing scripts"
+  command: stow -t {{ ansible_user_dir }} scripts
+  args:
+    chdir: {{ role_dir }}/files
