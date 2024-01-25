@@ -1,2 +1,8 @@
 default_roles:
   - alacritty
+  - dunst
+  - scripts
+  - X11
+  #- xmonad
+  - zathura
+  

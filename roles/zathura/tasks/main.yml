@@ -1,0 +1,15 @@
+---
+- name: "zathura | Install zathura"
+  pacman:
+    name: 
+      - zathura
+      - zathura-djvu
+      - zathura-pdf-mupdf
+      - zathura-ps
+    state: present
+  become: true
+
+- name: "zathura | stow configs"
+  command: stow -t {{ ansible_user_dir }} zathura
+  args:
+    chdir: "{{ role_path }}/files"

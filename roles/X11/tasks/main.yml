@@ -1,0 +1,18 @@
+---
+- name: "X11 | Install X11"
+  pacman:
+    name: 
+      - xorg
+      - xclip
+      - xdotool
+      - xwallpaper
+      - ttf-jetbrains-mono
+      - ttf-ubuntu-font-family
+      - ttf-firacode-nerd
+    state: present
+  become: true
+
+- name: "X11 | stow configs"
+  command: stow -t {{ ansible_user_dir }} X11
+  args:
+    chdir: "{{ role_path }}/files"
