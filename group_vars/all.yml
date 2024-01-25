@@ -3,28 +3,28 @@ default_roles:
   - system        # managing the chaos of existence needs a system
   - X11           # the stalwart warrior of graphical interfaces
   - scripts       # automate the boring stuff
-  - zsh           # Making your shell prompt fancier than your weekend plans
+  - zsh           # making your shell prompt fancier than your weekend plans
 
   # === WM's ===
   - awesome       # being ordinary is just not an option
-  - bspwm         # When you want your windows tiled, but also have a deep appreciation for consonants
-  - i3            # Because you don't want to waste time dragging windows around like a caveman
+  - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
+  - i3            # because you don't want to waste time dragging windows around like a caveman
   - hypr          # calm and composed desktops are overrated
   - alacritty     # waiting for your terminal is for peasants
   - suckless      # who needs features when you have the beauty of simplicity
   - dunst         # notifications are the spice of life. Or just really annoying interruptions
 # - herbstluftwm  # The only WM that makes you feel like you're outdoors
-# - xmonad        # Because windows deserve a well-tailored Haskell suit
+# - xmonad        # because windows deserve a well-tailored Haskell suit
 
 # === Terminal ===
   - kitty         # 🐱
   - lf            # navigating the filesystem should be more straightforward than your love life
   - mpd           # life is a playlist, and silence is not on it.
   - ncmpcpp       # loud and relentless
-# - zellij        # Because normal multiplexers were just too mainstream
+# - zellij        # because normal multiplexers were just too mainstream
 
 # === Office? ===
-# - doom          # An Emacs framework for the stubborn martian hacker
-  - nvim          # Because vim wasn't complicated enough
-  - zathura       # The PDF-reader that doesn't judge your document choices
+# - doom          # an Emacs framework for the stubborn martian hacker
+  - nvim          # because vim wasn't complicated enough
+  - zathura       # the PDF-reader that doesn't judge your document choices
   - sxiv          # look mom, corny grafics
