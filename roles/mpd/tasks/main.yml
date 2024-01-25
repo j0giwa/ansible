@@ -1,0 +1,13 @@
+---
+- name: "mpd | Install mpd"
+  pacman:
+    name: 
+      - mpd
+      - mpc
+    state: present
+  become: true
+
+- name: "mpd | stow configs"
+  command: stow -t {{ ansible_user_dir }} mpd
+  args:
+    chdir: "{{ role_path }}/files"

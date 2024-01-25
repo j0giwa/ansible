@@ -1,0 +1,11 @@
+---
+- name: "kitty | Install hyprland"
+  pacman:
+    name: kitty
+    state: present
+  become: true
+
+- name: "kitty | stow configs"
+  command: stow -t {{ ansible_user_dir }} kitty
+  args:
+    chdir: "{{ role_path }}/files"

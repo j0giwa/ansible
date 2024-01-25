@@ -2,9 +2,15 @@ default_roles:
   - alacritty
   - awesome
   - bspwm
-  - doom #partial
+  #- doom #partial
   - dunst
+  - herbstluftwm
+  - hypr
   - i3
+  - kitty
+  - lf
+  - mpd
+  - ncmpcpp
   - nvim
   - scripts
   - X11

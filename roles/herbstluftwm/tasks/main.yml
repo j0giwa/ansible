@@ -1,0 +1,11 @@
+---
+- name: "herbstluftwm | Install herbstluftwm"
+  pacman:
+    name: herbstluftwm
+    state: present
+  become: true
+
+- name: "herbstluftwm | stow configs"
+  command: stow -t {{ ansible_user_dir }} herbstluftwm
+  args:
+    chdir: "{{ role_path }}/files"

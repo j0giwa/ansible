@@ -1,0 +1,11 @@
+---
+- name: "ncmpcpp | Install ncmpcpp"
+  pacman:
+    name: ncmpcpp
+    state: present
+  become: true
+
+- name: "ncmpcpp | stow configs"
+  command: stow -t {{ ansible_user_dir }} ncmpcpp
+  args:
+    chdir: "{{ role_path }}/files"
