@@ -1,21 +1,21 @@
 # Ansible system management
 
-This repo containt my ansible config to maintain my Archlinux systems.
+Syystem Maintainance and Dotfile management via ansible & stow
 
-## In this Configs in this Repository
+## Configs in this Repository
 
-### Window Manager Configs
-- [dwm](https://github.com/j0giwa/dwm)
-- [dmenu](https://github.com/j0giwa/dmenu)
-- [st](https://github.com/j0giwa/st)
+### WM Configs
+- [dwm](https://github.com/j0giwa/dwm) (Role comming soon)
+- [dmenu](https://github.com/j0giwa/dmenu) (Role comming soon) 
+- [st](https://github.com/j0giwa/st) (Role comming soon)
 - bspwm
-- hyprland
 - herbstluftwm
+- hyprland
+- i3
 - xmonad
 
 ### Editors
 - DOOM Emacs
-- vim
 - nvim
 
 ### Other Programms
@@ -32,4 +32,3 @@ This repo containt my ansible config to maintain my Archlinux systems.
 - zellij
 - waybar
 - oh-my-zsh
-- xmobar
