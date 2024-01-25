@@ -1,0 +1,11 @@
+---
+- name: "qutebrowser | installing qutebrowser"
+  pacman:
+    name: qutebrowser
+    state: present
+  become: true
+
+- name: "qutebrowser | stow configs"
+  command: stow -t {{ ansible_user_dir }} qutebrowser
+  args:
+    chdir: "{{ role_path }}/files"

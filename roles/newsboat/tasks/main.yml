@@ -1,0 +1,11 @@
+---
+- name: "newsboat | Install newsboat"
+  pacman:
+    name: newsboat
+    state: present
+  become: true
+
+- name: "newsboat | stow configs"
+  command: stow -t {{ ansible_user_dir }} newsboat
+  args:
+    chdir: "{{ role_path }}/files"

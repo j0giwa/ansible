@@ -1,0 +1,11 @@
+---
+- name: "zellij | installing zellij"
+  pacman:
+    name: zellij
+    state: present
+  become: true
+
+- name: "zellij | stow configs"
+  command: stow -t {{ ansible_user_dir }} zellij
+  args:
+    chdir: "{{ role_path }}/files"

@@ -1,0 +1,11 @@
+---
+- name: "picom | Install picom"
+  pacman:
+    name: neovim
+    state: present
+  become: true
+
+- name: "picom | stow configs"
+  command: stow -t {{ ansible_user_dir }} picom
+  args:
+    chdir: "{{ role_path }}/files"

@@ -1,0 +1,11 @@
+---
+- name: "rofi | installing rofi"
+  pacman:
+    name: rofi
+    state: present
+  become: true
+
+- name: "rofi | stow configs"
+  command: stow -t {{ ansible_user_dir }} rofi
+  args:
+    chdir: "{{ role_path }}/files"

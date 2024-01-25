@@ -1,0 +1,11 @@
+---
+- name: "waybar | installing waybar"
+  pacman:
+    name: waybar
+    state: present
+  become: true
+
+- name: "waybar | stow configs"
+  command: stow -t {{ ansible_user_dir }} waybar
+  args:
+    chdir: "{{ role_path }}/files"
