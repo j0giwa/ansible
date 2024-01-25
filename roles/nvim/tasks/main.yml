@@ -1,0 +1,11 @@
+---
+- name: "nvim | Install nvim"
+  pacman:
+    name: neovim
+    state: present
+  become: true
+
+- name: "nvim | stow configs"
+  command: stow -t {{ ansible_user_dir }} nvim
+  args:
+    chdir: "{{ role_path }}/files"

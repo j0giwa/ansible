@@ -1,0 +1,13 @@
+---
+- name: "bspwm | Install bspwm"
+  pacman:
+    name:
+      - bspwm
+      - sxhkd
+    state: present
+  become: true
+
+- name: "bspwm | stow configs"
+  command: stow -t {{ ansible_user_dir }} bspwm sxhkd
+  args:
+    chdir: "{{ role_path }}/files"

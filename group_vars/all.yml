@@ -1,6 +1,11 @@
 default_roles:
   - alacritty
+  - awesome
+  - bspwm
+  - doom #partial
   - dunst
+  - i3
+  - nvim
   - scripts
   - X11
   #- xmonad

@@ -1,0 +1,11 @@
+---
+- name: "awesome | Install awesome"
+  pacman:
+    name: awesomewm
+    state: present
+  become: true
+
+- name: "awesome | stow configs"
+  command: stow -t {{ ansible_user_dir }} awesome
+  args:
+    chdir: "{{ role_path }}/files"
