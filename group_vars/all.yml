@@ -27,3 +27,4 @@ default_roles:
 # - doom          # An Emacs framework for the stubborn martian hacker
   - nvim          # Because vim wasn't complicated enough
   - zathura       # The PDF-reader that doesn't judge your document choices
+  - sxiv          # look mom, corny grafics

@@ -1,0 +1,11 @@
+---
+- name: "sxiv | installing rofi"
+  pacman:
+    name: sxiv
+    state: present
+  become: true
+
+- name: "sxiv | stow configs"
+  command: stow -t {{ ansible_user_dir }} sxiv
+  args:
+    chdir: "{{ role_path }}/files"
