@@ -1,7 +1,7 @@
 ---
-- name: "alacritty | Install alacritty"
+- name: "alacritty | installing alacritty"
   pacman:
-    name: tmux
+    name: alacritty
     state: present
   become: true
 

@@ -1,0 +1,13 @@
+---
+- name: "i3wm | installing i3"
+  pacman:
+    name:
+      - i3
+      - i3status
+    state: present
+  become: true
+
+- name: "i3wm | stowing configs"
+  command: stow -t {{ ansible_user_dir }} i3 i3status
+  args:
+    chdir: {{ role_dir }}/files

@@ -2,7 +2,7 @@ default_roles:
   - alacritty
   - awesome
   - bspwm
-  #- doom #partial
+  #- doom # partial
   - dunst
   - herbstluftwm
   - hypr
@@ -16,4 +16,3 @@ default_roles:
   - X11
   #- xmonad
   - zathura
-  
