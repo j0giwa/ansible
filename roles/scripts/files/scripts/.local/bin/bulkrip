@@ -5,11 +5,7 @@ while read line; do
         album=$(echo $line | awk '{print $2}')
         link=$(echo $line | awk '{print $3}')
 
-
-        echo $album
-        echo $artist
-
-        # create⁵ file structure
+        # create file structure
         [[ -d  ./$artist ]] || mkdir $artist
         [[ -d  ./$artist/$album ]] || mkdir $artist/$album
 
