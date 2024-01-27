@@ -1,10 +1,14 @@
-#!/bin/sh                                                         
+#!/bin/sh
+                                                   
 while read line; do
-        artist=$(echo $line | awk '{print $1}')
-        album=$(echo $line | awk '{print $2}')
-        link=$(echo $line | awk '{print $3}')
 
-        [[ -d  ./$artist ]] || mkdir $artist                              [[ -d  ./$artist/$album ]] || mkdir $artist/$album
+  artist=$(echo $line | awk '{print $1}')
+  album=$(echo $line | awk '{print $2}')
+  link=$(echo $line | awk '{print $3}')
 
-        yt-dlp --extract-audio --audio-format mp3 -o "$artist/$album/%(playlist_index)s - %(title)s.%(ext)s" $link
-                                                                  done < $1
+  [[ -d  ./$artist ]] || mkdir $artist
+  [[ -d  ./$artist/$album ]] || mkdir $artist/$album
+
+  yt-dlp --extract-audio --audio-format mp3 -o "$artist/$album/%(playlist_index)s - %(title)s.%(ext)s" $link
+
+done < $1
