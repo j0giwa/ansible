@@ -1,0 +1,18 @@
+#!/bin/sh
+
+while read line; do
+        artist=$(echo $line | awk '{print $1}')
+        album=$(echo $line | awk '{print $2}')
+        link=$(echo $line | awk '{print $3}')
+
+
+        echo $album
+        echo $artist
+
+        # create⁵ file structure
+        [[ -d  ./$artist ]] || mkdir $artist
+        [[ -d  ./$artist/$album ]] || mkdir $artist/$album
+
+        yt-dlp --extract-audio --audio-format mp3 -o "$artist/$album/%(title)s.%(ext)s" $link
+
+done < $1
