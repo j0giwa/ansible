@@ -1,0 +1,30 @@
+---
+- name: "System | updating packages"
+  pacman:
+    update_cache: true
+    upgrade: true
+  become: true
+
+- name: "System | Installing paru depends"
+  pacman:
+    name: base-devel
+    state: present
+    reason: dependency
+    reason_for: new
+
+- name: "System | clone paru repository" 
+  git:
+    repo: https://github.com/hlissner/doom-emacs
+    dest: {{ role_path }}/temp
+
+- name: "System | Install paru"
+  command: makepkg -si
+  args:
+    chdir: "{{ role_path }}/temp/paru"
+
+- name: "System | updating AUR packages"
+  pacman:
+    update_cache: true
+    upgrade: true
+    executable: paru
+  become: true
