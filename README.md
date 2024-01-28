@@ -5,9 +5,9 @@ Syystem Maintainance and Dotfile management via ansible & stow
 ## Configs in this Repository
 
 ### WM Configs
-- [dwm](https://github.com/j0giwa/dwm) (Role comming soon)
-- [dmenu](https://github.com/j0giwa/dmenu) (Role comming soon) 
-- [st](https://github.com/j0giwa/st) (Role comming soon)
+- [dwm](https://github.com/j0giwa/dwm)
+- [dmenu](https://github.com/j0giwa/dmenu)
+- [st](https://github.com/j0giwa/st)
 - bspwm
 - herbstluftwm
 - hyprland
