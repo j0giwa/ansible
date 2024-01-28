@@ -1,0 +1,18 @@
+- name: "DOOM | Install Depends"
+  pacman:
+    name:
+      - fd
+      - ripgrep
+      - emacs
+    state: present
+  become: true
+
+- name: "DOOM | clone Doom Emacs repository" 
+  git:
+    repo: https://github.com/hlissner/doom-emacs
+    dest: {{ ansible_user_dir }}/.config/emacs
+
+- name: "DOOM | Install Doom Emacs"
+  command: doom install
+  args:
+    chdir: "{{ ansible_user_dir }}/.config/emacs/bin"
