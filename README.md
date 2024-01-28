@@ -12,14 +12,12 @@ Personal GNU/Linux setup deployment sourcery
  
 ### Configs
 #### WM's
-- [dwm](https://github.com/j0giwa/dwm)
-- [dmenu](https://github.com/j0giwa/dmenu)
-- [st](https://github.com/j0giwa/st)
 - awesome
 - bspwm
-- i3
 - herbstluftwm
 - hyprland
+- i3
+- [suckless software](https://github.com/j0giwa/suckless-desktop)( [dwm](https://github.com/j0giwa/dwm), [dmenu](https://github.com/j0giwa/dmenu), [st](https://github.com/j0giwa/st))
 - xmonad
 
 #### Editors
