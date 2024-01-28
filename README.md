@@ -1,34 +1,42 @@
 # Ansible system management
+Personal GNU/Linux setup deployment sourcery
 
-Syystem Maintainance and Dotfile management via ansible & stow
+> DISCLAIMER !!!
+> 
+> This works only on Arch btw ... or Arch based distros
 
-## Configs in this Repository
-
-### WM Configs
+## In this Repository
+* Setup wizzard for Arch systems
+* More or less usefull Scripts either written by me or complied from various sources
+* Dotfiles for various programms i use, or have used at some point
+ 
+### Configs
+#### WM's
 - [dwm](https://github.com/j0giwa/dwm)
 - [dmenu](https://github.com/j0giwa/dmenu)
 - [st](https://github.com/j0giwa/st)
+- awesome
 - bspwm
+- i3
 - herbstluftwm
 - hyprland
-- i3
 - xmonad
 
-### Editors
+#### Editors
 - DOOM Emacs
 - nvim
 
-### Other Programms
+#### Other Programms
 - alacritty
 - kitty
 - lf
-- mpd/ncmpcpp
+- mpd
+- ncmpcpp
 - neofetch
+- oh-my-zsh
 - rofi
-- starship
-- tmux
 - sxhkd
+- tmux
+- waybar
 - zathura
 - zellij
-- waybar
-- oh-my-zsh
