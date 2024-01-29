@@ -9,6 +9,6 @@
   become: true
 
 - name: "zsh | stow configs"
-  command: stow -t {{ ansible_user_dir }} alacritty
+  command: stow -t {{ ansible_user_dir }} zsh
   args:
     chdir: "{{ role_path }}/files"
