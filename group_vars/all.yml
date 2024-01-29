@@ -10,20 +10,20 @@ default_roles:
 # - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
 # - i3            # because you don't want to waste time dragging windows around like a caveman
   - hypr          # calm and composed desktops are overrated
-  - alacritty     # waiting for your terminal is for peasants
 # - suckless      # who needs features when you have the beauty of simplicity
 # - dunst         # notifications are the spice of life. Or just really annoying interruptions
 # - herbstluftwm  # The only WM that makes you feel like you're outdoors
 # - xmonad        # because windows deserve a well-tailored Haskell suit
 
-# === Terminal ===
+  # === Terminal ===
+  - alacritty     # waiting for your terminal is for peasants
   - kitty         # 🐱
   - lf            # navigating the filesystem should be more straightforward than your love life
   - mpd           # life is a playlist, and silence is not on it.
   - ncmpcpp       # loud and relentless
 # - zellij        # because normal multiplexers were just too mainstream
 
-# === Office? ===
+  # === Office? ===
 # - doom          # an Emacs framework for the stubborn martian hacker
   - nvim          # because vim wasn't complicated enough
   - zathura       # the PDF-reader that doesn't judge your document choices
