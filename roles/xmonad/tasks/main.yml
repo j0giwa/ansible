@@ -1,5 +1,5 @@
 ---
-- name: "xmonad | Install alacritty"
+- name: "xmonad | Install xmonad"
   pacman:
     name: 
       - xmonad
