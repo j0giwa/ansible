@@ -1,6 +1,6 @@
 - name: "suckless | Install Depends"
   pacman:
-    name: libx11-dev
+    name: libx11
     state: present
   become: true
 
