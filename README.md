@@ -5,6 +5,11 @@ Personal GNU/Linux setup deployment sourcery
 > 
 > This works only on Arch btw ... or Arch based distros
 
+## Dependencys
+This playbook needs 
+* python-watchdog
+* paru
+
 ## In this Repository
 * Setup wizzard for Arch systems
 * More or less usefull Scripts either written by me or complied from various sources
