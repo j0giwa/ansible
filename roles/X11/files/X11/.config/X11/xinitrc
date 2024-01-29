@@ -9,6 +9,8 @@ fi
 
 # Start an xsession
 #exec emacs # fun test
+#exec i3
 exec ~/.config/suckless/dwm/scripts/run.sh
+#exec xmonad
 #exec herbstluftwm --locked
 #exec startxfce4

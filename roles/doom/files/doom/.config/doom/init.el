@@ -128,7 +128,7 @@
        ;;elm               ; care for a cup of TEA?
        emacs-lisp        ; drown in parentheses
        ;;erlang            ; an elegant language for a more civilized age
-       ;;ess               ; emacs speaks statistics
+       (ess +lsp +tree-sitter)               ; emacs speaks statistics
        ;;factor
        ;;faust             ; dsp, but you get to keep your soul
        ;;fortran           ; in FORTRAN, GOD is REAL (unless declared INTEGER)
@@ -155,7 +155,7 @@
        ;;ocaml             ; an objective camel
        (org +roam2 +pretty)       ; organize your plain life in plain text
        (php +lsp +tree-sitter)               ; perl's insecure younger brother
-       ;;plantuml          ; diagrams for confusing people more
+       plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
        (python +lsp +tree-sitter)            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever

@@ -8,6 +8,6 @@
   become: true
 
 - name: "i3wm | stowing configs"
-  command: stow -t {{ ansible_user_dir }} i3
+  command: stow -t {{ ansible_user_dir }} i3 i3status
   args:
     chdir: "{{ role_dir }}/files"

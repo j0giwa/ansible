@@ -79,6 +79,7 @@ require('lazy').setup({
   {
     -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
+      --opts= {autoformat = false}
     dependencies = {
       -- Automatically install LSPs to stdpath for neovim
       { 'williamboman/mason.nvim', config = true },
@@ -145,8 +146,11 @@ require('lazy').setup({
     'Mofiqul/dracula.nvim',
     priority = 1000,
     config = function()
+      vim.g.dracula_disable_background = true
+      require('dracula').setup({
+        transparent_bg = true
+      })
       vim.cmd.colorscheme 'dracula'
-      transparent_bg = true
     end,
   },
 
@@ -274,6 +278,10 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- Disable autoformat
+vim.g.autoformat = false -- globally
+vim.b.autoformat = false -- buffer-local
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
@@ -342,7 +350,7 @@ vim.keymap.set("n", "<C-s>", function() require("harpoon.ui").nav_file(4) end)
 vim.defer_fn(function()
   require('nvim-treesitter.configs').setup {
     -- Add languages to be installed here that you want installed for treesitter
-    ensure_installed = {
+    ensure_installed = { 
       'c',
       'cpp',
       'java',
@@ -358,10 +366,10 @@ vim.defer_fn(function()
       'vimdoc',
       'vim'
     },
-
+  
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
     auto_install = false,
-
+  
     highlight = { enable = true },
     indent = { enable = true },
     incremental_selection = {
@@ -574,3 +582,4 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+

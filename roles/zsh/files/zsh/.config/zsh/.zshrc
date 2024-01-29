@@ -61,7 +61,7 @@ ZSH_THEME="robbyrussell"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
-export HISTFILE="$XDG_STATE_HOME"/zsh/history
+#export HISTFILE="$XDG_STATE_HOME"/zsh/history
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -113,7 +113,7 @@ alias diff='diff --color=auto'
 alias ip='ip --color=auto'
 
 # vim and emacs
-alias vi="nvim"
+alias vi="vim"
 alias vim="nvim"
 alias em="/usr/bin/emacs -nw"
 alias emacs="emacsclient -c -a 'emacs'"
@@ -130,6 +130,7 @@ alias wget="wget -c --user-agent 'noleak' --hsts-file='$XDG_DATA_HOME/wget-hsts'
 #alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc" -- "$XDG_CONFIG_HOME/X11/xserverrc" vt1'
 alias mysql-workbench='mysql-workbench --configdir="$XDG_DATA_HOME/mysql/workbench"'
 alias netbeans='netbeans --userdir "${XDG_CONFIG_HOME}"/netbeans'
+#alias lampp='/opt/lampp/manager-linux-x64.run'
 alias htdocs='cd /opt/lampp/htdocs'
 alias python='python3'
 alias open='xdg-open'
@@ -157,7 +158,7 @@ alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 alias hc='herbstclient'
 
 # Merge Xresources
-alias merge='xrdb -merge ~/.Xresources'
+alias merge='xrdb merge ~/.config/X11/Xresources'
 
 # git
 alias addup='git add -u'
@@ -177,11 +178,10 @@ alias gittree='git log --pretty=oneline --graph --decorate --all'
 alias config='/usr/bin/git --git-dir=$HOME/Documents/projekte/arch-config/ --work-tree=$HOME'
 
 # keybinds
-
 bindkey -s '^r' 'histsearch\n'
 bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^o' 'lfcd\n'
 bindkey -s '^b' 'tmux-windowizer ./ ./build\n'
 
 # Autostart
-pokemon-colorscripts --random --no-title
+#pokemon-colorscripts --random --no-title

@@ -40733,3 +40733,1216 @@ Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slaughter To P
 Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
 Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs/Slaughter To Prevail: No such file or directory
 Oct 10 08:45 : exception: Failed to open /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 10:59 : zeroconf: No global port, disabling zeroconf
+Oct 10 10:59 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 10 12:32 : zeroconf: No global port, disabling zeroconf
+Oct 10 12:32 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 11 13:39 : zeroconf: No global port, disabling zeroconf
+Oct 11 13:39 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 12 09:18 : zeroconf: No global port, disabling zeroconf
+Oct 12 09:18 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 12 11:33 : zeroconf: No global port, disabling zeroconf
+Oct 12 11:33 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 12 13:30 : zeroconf: No global port, disabling zeroconf
+Oct 12 13:30 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 12 14:01 : zeroconf: No global port, disabling zeroconf
+Oct 12 14:01 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 07:53 : zeroconf: No global port, disabling zeroconf
+Oct 17 07:53 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 08:30 : zeroconf: No global port, disabling zeroconf
+Oct 17 08:30 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 11:28 : zeroconf: No global port, disabling zeroconf
+Oct 17 11:28 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 12:34 : zeroconf: No global port, disabling zeroconf
+Oct 17 12:34 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 13:57 : zeroconf: No global port, disabling zeroconf
+Oct 17 13:57 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 17 16:31 : zeroconf: No global port, disabling zeroconf
+Oct 17 16:31 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 18 13:38 : zeroconf: No global port, disabling zeroconf
+Oct 18 13:38 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 18 14:06 : zeroconf: No global port, disabling zeroconf
+Oct 18 14:06 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 19 09:56 : zeroconf: No global port, disabling zeroconf
+Oct 19 09:56 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 19 14:09 : zeroconf: No global port, disabling zeroconf
+Oct 19 14:09 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 24 12:52 : zeroconf: No global port, disabling zeroconf
+Oct 24 12:52 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 24 15:13 : zeroconf: No global port, disabling zeroconf
+Oct 24 15:13 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 25 14:00 : zeroconf: No global port, disabling zeroconf
+Oct 25 14:00 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 25 14:08 : zeroconf: No global port, disabling zeroconf
+Oct 25 14:08 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 25 16:25 : zeroconf: No global port, disabling zeroconf
+Oct 25 16:25 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 26 09:27 : zeroconf: No global port, disabling zeroconf
+Oct 26 09:27 : exception: Failed to access /home/jogiwa/Music/Songs: No such file or directory
+Oct 26 12:16 : inotify: music directory was removed - cannot continue to watch it
+Oct 26 12:20 : inotify: music directory was removed - cannot continue to watch it
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/webradio: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/hellhammer: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/hellhammer: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/hellhammer/satanic-rites: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Ai Mori: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory/Bathory: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory/Hammerheart: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bathory/Under the Sign of the Black Mark: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bury Tomorrow: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bury Tomorrow: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Bury Tomorrow/The Seventh Sun: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Burzum: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Burzum: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Aske: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Burzum: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Burzum/Filosofem: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Carcosa/Anthology: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Crown Magnetar/Alone in Death: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Eskimo Callboy: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Eskimo Callboy: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Eskimo Callboy/Tekkno: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Ashen: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Humanity's Last Breath/Välde: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Johnny Ciardullo: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Nik Nocturnal: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slaughter To Prevail/Kostolom: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slipknot: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slipknot: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Slipknot/Iowa: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Vildjarta: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Vildjarta: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Vildjarta/masstaden-forte: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Within Destruction: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Within Destruction: No such file or directory
+Oct 26 12:21 : exception: Failed to open /home/jogiwa/Music/songs/Within Destruction/Lotus: No such file or directory
+Oct 26 12:21 : inotify: music directory was removed - cannot continue to watch it
+Oct 26 12:21 : update: removing songs/Ai Mori/01 - The Rumbling.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/02 - Hades.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/03 - Reaper.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/04 - Necromancy.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/05 - Sacrifice.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/07 - Armageddon.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/09 - War.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/01 - Shores in Flames.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/02 - Valhalla.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/03 - Baptised in Fire and Ice.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/04 - From Father to Son.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/05 - Song to Hall Up High.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/06 - Home of Once Brave.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/07 - One Rode to Asa Bay.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Hammerheart/08 - Outro.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/01 - Nocternal Obeisance.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/02 - Massacre.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/03 - Woman of Dark Desires.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/04 - Call from the Grave.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/05 - Equimanthorn.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/06 - Enter the Enternal Fire.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/07 - Chariots of Fire.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/08 - 13 Candles.mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/09 - Of Doom.......mp3
+Oct 26 12:21 : update: removing songs/Bathory/Under the Sign of the Black Mark/10 - Outro.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/01 - The Seventh Sun.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/02 - Abandon Us.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/03 - Begin Again.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/04 - Forced Divide.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/05 - Boltcutter.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/06 - Wrath.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/07 - Majesty.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/08 - Heretic.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/09 - Recovery.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/10 - Care.mp3
+Oct 26 12:21 : update: removing songs/Bury Tomorrow/The Seventh Sun/11 - The Carcass King.mp3
+Oct 26 12:21 : update: removing songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Oct 26 12:21 : update: removing songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Oct 26 12:21 : update: removing songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Dunkelheit.flac
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Erblicket Die Tochter Des Firmaments.flac
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Gebrechlichkeit I.flac
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Gebrechlichkeit II.flac
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Jesus-' Tod.flac
+Oct 26 12:21 : update: removing songs/Burzum/Filosofem/Burzum - Rundgang Um Die Transzendentale Saule Der Singularitat.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - A Plague.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Descensus.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Devoid.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Excerpt.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Hypnos.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Our Scars.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Present Precursor.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Vanta Black.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Anthology/Carcosa - Vermin.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Carcosa - Born To Lose.flac
+Oct 26 12:21 : update: removing songs/Carcosa/Carcosa - Nihilus.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - Alone in Death.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - God is My Enemy.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - Graverot.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - Hellsphere.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - Realistic Flesh Mask.flac
+Oct 26 12:21 : update: removing songs/Crown Magnetar/Alone in Death/Crown Magnetar - The Pain of Existence.flac
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/01 - Pump It.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/02 - We Got the Moves.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/03 - Fuckboi.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/04 - Spaceman.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/05 - Mindreader.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/06 - Arrow of Love.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/07 - Parasite.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/08 - Tekkno Train.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/09 - Hurrikan.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/Tekkno/10 - Neon.mp3
+Oct 26 12:21 : update: removing songs/Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/01 - Intro.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/02 - Messiah.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/03 - The Third of the Storms.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/04 - Buried and Forgotten.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/05 - Maniac.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/06 - Eurynomos.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/07 - Triumph of Death.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/08 - Revelations of Doom.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/09 - Reaper.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/10 - Satanic Rites.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/11 - Crucifixion.mp3
+Oct 26 12:21 : update: removing songs/hellhammer/satanic-rites/12 - Outro.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Bearer.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Burden.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Catastrophize.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Death Spiral.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Instill.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Lifeless, Deathless.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Linger.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Passage.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Shell.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Withering.flac
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/01 - Ddsdans.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/02 - Glutton.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/03 - Earthless.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/04 - Descent.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/05 - Spectre.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/06 - Dehumanize.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/07 - Hadean.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/08 - Tide.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/09 - Vldet.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/10 - Sirens.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/11 - Futility.mp3
+Oct 26 12:21 : update: removing songs/Humanity's Last Breath/Välde/12 - Vittring.mp3
+Oct 26 12:21 : update: removing songs/Johnny Ciardullo/01 - The Edge of Time.mp3
+Oct 26 12:21 : update: removing songs/Nik Nocturnal/01 - The Rumbling.mp3
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Agony.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bonebreaker.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bratva.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Demolisher.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Father.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Head On A Plate.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - I Killed A Man.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Made In Russia.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Ouroboros.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Your Only.flac
+Oct 26 12:21 : update: removing songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Zavali Ebalo.flac
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/01 - [515].mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/02 - People = Shit.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/04 - My Plague.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/07 - Gently.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/08 - Left Behind.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/09 - The Shape.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/12 - New Abortion.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/13 - Metabolic.mp3
+Oct 26 12:21 : update: removing songs/Slipknot/Iowa/14 - Iowa.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/01 - Shadow.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/02 - Dagger.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/03 - Eternal Golden Monk.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/04 - Benblåst.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/05 - Östpeppar.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/06 - Traces.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/07 - Phobon Nika.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/08 - Måsstadens Nationalsång.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/09 - When No One Walks With You.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/10 - (Th)All These Feelings.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/11 - Nojja.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/12 - Deceit.mp3
+Oct 26 12:21 : update: removing songs/Vildjarta/masstaden-forte/13 - The Lone Deranger.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/01 - Lotus.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/02 - Toxic.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/04 - Survival.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/05 - Scars.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/06 - Revenge.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/07 - Dying World.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/09 - Illusions.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Oct 26 12:21 : update: removing songs/Within Destruction/Lotus/12 - Ultima.mp3
+Oct 26 12:27 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:27 : update: removing Songs/Ai Mori/01 - The Rumbling.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/02 - Hades.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/03 - Reaper.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/04 - Necromancy.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/05 - Sacrifice.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/07 - Armageddon.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/08 - Raise the Dead.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/09 - War.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/01 - Shores in Flames.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/02 - Valhalla.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/03 - Baptised in Fire and Ice.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/04 - From Father to Son.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/05 - Song to Hall Up High.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/06 - Home of Once Brave.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/07 - One Rode to Asa Bay.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/04 - Forced Divide.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/03 - Begin Again.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/02 - Abandon Us.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/01 - The Seventh Sun.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/10 - Outro.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/09 - Of Doom.......mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/08 - 13 Candles.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/07 - Chariots of Fire.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/06 - Enter the Enternal Fire.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/05 - Equimanthorn.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/04 - Call from the Grave.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/03 - Woman of Dark Desires.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/02 - Massacre.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Under the Sign of the Black Mark/01 - Nocternal Obeisance.mp3
+Oct 26 12:27 : update: removing Songs/Bathory/Hammerheart/08 - Outro.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/04 - My Plague.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/03 - Disasterpiece.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/02 - People = Shit.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/01 - [515].mp3
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Zavali Ebalo.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Your Only.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Ouroboros.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Made In Russia.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - I Killed A Man.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Head On A Plate.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Father.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Demolisher.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bratva.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bonebreaker.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac
+Oct 26 12:27 : update: removing Songs/Slaughter To Prevail/Kostolom/Slaughter to Prevail - Agony.flac
+Oct 26 12:27 : update: removing Songs/Nik Nocturnal/01 - The Rumbling.mp3
+Oct 26 12:27 : update: removing Songs/Johnny Ciardullo/01 - The Edge of Time.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/12 - Vittring.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/11 - Futility.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/10 - Sirens.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/09 - Vldet.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/08 - Tide.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/07 - Hadean.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/06 - Dehumanize.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/05 - Spectre.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/04 - Descent.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/03 - Earthless.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/02 - Glutton.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Välde/01 - Ddsdans.mp3
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Withering.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Shell.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Passage.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Linger.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Lifeless, Deathless.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Labyrinthian.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Instill.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Death Spiral.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Catastrophize.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Burden.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Blood Spilled.flac
+Oct 26 12:27 : update: removing Songs/Humanity's Last Breath/Ashen/Humanity-'s Last Breath - Bearer.flac
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/10 - Neon.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/09 - Hurrikan.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/08 - Tekkno Train.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/07 - Parasite.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/06 - Arrow of Love.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/05 - Mindreader.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/04 - Spaceman.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/03 - Fuckboi.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/02 - We Got the Moves.mp3
+Oct 26 12:27 : update: removing Songs/Eskimo Callboy/Tekkno/01 - Pump It.mp3
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/14 - P.T. Adamczyk - To Hell and Back.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/11 - Marcin Przybylowicz - Cyberninja.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/10 - P.T. Adamczyk - Atlantis.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/09 - Marcin Przybylowicz - Urban Downunder.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/07 - P.T. Adamczyk - Juiced Up.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/04 - P.T. Adamczyk - Kang Tao Down.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/02 - Marcin Przybylowicz - Modern Anthill.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/01 - P.T. Adamczyk - The Voice In My Head.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/19 - P.T. Adamczyk - Rite Of Passage.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/18 - Paul Leonard-Morgan - Mining Minds.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/16 - Marcin Przybylowicz - Streetfighters.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/15 - P.T. Adamczyk - The Heist.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/14 - P.T. Adamczyk - Code Red Initiated.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/10 - Marcin Przybylowicz - Close Probing.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/09 - P.T. Adamczyk - Мусорщики.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/06 - Marcin Przybylowicz - Cloudy Day.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/05 - P.T. Adamczyk - Outsider No More.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/03 - P.T. Adamczyk - The Rebel Path.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/02 - Paul Leonard-Morgan - Extraction Action.flac
+Oct 26 12:27 : update: removing Songs/Cyberpunk 2077 - Official Soundtrack/01 - Marcin Przybylowicz - V.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - The Pain of Existence.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Realistic Flesh Mask.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Hellsphere.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Graverot.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - God is My Enemy.flac
+Oct 26 12:27 : update: removing Songs/Crown Magnetar/Alone in Death/Crown Magnetar - Alone in Death.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Carcosa - Nihilus.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Carcosa - Born To Lose.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Vermin.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Vanta Black.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Present Precursor.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Our Scars.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Hypnos.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Excerpt.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Devoid.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - Descensus.flac
+Oct 26 12:27 : update: removing Songs/Carcosa/Anthology/Carcosa - A Plague.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Rundgang Um Die Transzendentale Saule Der Singularitat.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Jesus-' Tod.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Gebrechlichkeit II.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Gebrechlichkeit I.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Erblicket Die Tochter Des Firmaments.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Filosofem/Burzum - Dunkelheit.flac
+Oct 26 12:27 : update: removing Songs/Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Oct 26 12:27 : update: removing Songs/Burzum/Aske/02 - Dominus Sathanas.mp3
+Oct 26 12:27 : update: removing Songs/Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/11 - The Carcass King.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/10 - Care.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/09 - Recovery.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/08 - Heretic.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/07 - Majesty.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/06 - Wrath.mp3
+Oct 26 12:27 : update: removing Songs/Bury Tomorrow/The Seventh Sun/05 - Boltcutter.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/12 - Ultima.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/11 - P.O.P..mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/09 - Illusions.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/08 - Dehumanized.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/07 - Dying World.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/06 - Revenge.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/05 - Scars.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/04 - Survival.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/03 - Nightmare.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/02 - Toxic.mp3
+Oct 26 12:27 : update: removing Songs/Within Destruction/Lotus/01 - Lotus.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/13 - The Lone Deranger.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/12 - Deceit.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/11 - Nojja.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/10 - (Th)All These Feelings.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/09 - When No One Walks With You.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/08 - Måsstadens Nationalsång.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/07 - Phobon Nika.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/06 - Traces.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/05 - Östpeppar.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/04 - Benblåst.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/03 - Eternal Golden Monk.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/02 - Dagger.mp3
+Oct 26 12:27 : update: removing Songs/Vildjarta/masstaden-forte/01 - Shadow.mp3
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/35 Hunt or Be Hunted.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/34 Merchants of Novigrad.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/33 Ladies of the Woods.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/32 The Fields of Ard Skellig.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/31 The Hunt is Coming.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/30 The Song of the Swordâ€“Dancer.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/29 Farewell, Old Friend.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/28 Blood on the Cobblestones.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/27 After the Storm.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/26 Drink Up, Thereâ€™s More!.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/25 Welcome, Imlerith.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/24 Yes, I Do....flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/23 Forged in Fire.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/22 Cloak and Dagger.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/21 The Vagabond.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/20 Fate Calls.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/19 ...Steel for Humans.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/18 Witch Hunters.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/17 Eyes of the Wolf.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/16 Kaer Morhen.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/14 The Hunter's Path.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/13 City of Intrigues.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/12 The Nightingale.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/11 Whispers of Oxenfurt.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/10 Silver for Monsters....flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/09 King Bran's Final Voyage.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/08 Spikeroog.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/07 Emhyr var Emreis.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/06 Commanding the Fury.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/05 Aen Seidhe.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/04 Wake Up, Ciri.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/03 Eredin, King of the Hunt.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/02 Geralt of Rivia.flac
+Oct 26 12:27 : update: removing Songs/The Witcher 3 Wild Hunt - Official Soundtrack/01 The Trail.flac
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/14 - Iowa.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/13 - Metabolic.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/12 - New Abortion.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/11 - Skin Ticket.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/10 - I Am Hated.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/09 - The Shape.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/08 - Left Behind.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/07 - Gently.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Oct 26 12:27 : update: removing Songs/Slipknot/Iowa/05 - Everything Ends.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/03 - Earthless.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/11 - Futility.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/07 - Hadean.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/12 - Vittring.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/04 - Descent.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/06 - Dehumanize.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/05 - Spectre.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/01 - Dödsdans.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/09 - Väldet.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/02 - Glutton.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/08 - Tide.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/vaelde/10 - Sirens.mp3
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/12 - Shell.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/06 - Lifeless, Deathless.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/03 - Burden.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/11 - Death Spiral.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/01 - Blood Spilled.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/08 - Instill.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/10 - Catastrophize.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/09 - Labyrinthian.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/02 - Passage.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/07 - Withering.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/04 - Bearer.flac
+Oct 26 12:27 : update: added Humanity's Last Breath/Ashen/05 - Linger.flac
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/02 - Massacre.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/08 - 13 Candles.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/05 - Equimanthorn.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/04 - Call from the Grave.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/03 - Woman of Dark Desires.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/07 - Chariots of Fire.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/01 - Nocternal Obeisance.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/09 - Of Doom.......mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/10 - Outro.mp3
+Oct 26 12:27 : update: added Bathory/Under The Sign of The Black Mark/06 - Enter the Enternal Fire.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/10 - The Winds of Mayhem (Outro).mp3
+Oct 26 12:27 : update: added Bathory/Bathory/04 - Necromancy.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/05 - Sacrifice.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/09 - War.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/01 - Storm of Damnation (Intro).mp3
+Oct 26 12:27 : update: added Bathory/Bathory/08 - Raise the Dead.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/03 - Reaper.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/06 - In Consperacy with Satan.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/07 - Armageddon.mp3
+Oct 26 12:27 : update: added Bathory/Bathory/02 - Hades.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/01 - Shores in Flames.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/08 - Outro.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/03 - Baptised in Fire and Ice.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/05 - Song to Hall Up High.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/07 - One Rode to Asa Bay.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/02 - Valhalla.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/06 - Home of Once Brave.mp3
+Oct 26 12:27 : update: added Bathory/Hammerheart/04 - From Father to Son.mp3
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/02_Stepping_Stone.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/01_Beyond_Hope.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/05_Behind_The_Line.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/11_Chalkeia_Must_Fall.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/07_LZ_Nowhere.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/03_Steel_Pegasus(This_Is_War_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/10_Reaching_The_Convoy.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/06_Entrenched.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/08_Savior.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/09_Artillery_Inbound.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 13/04_Its_Over.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 06/02_Evolution.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 06/01_This_Is_War_(VR_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 06/03_Epic_Split.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/02_Combined_Arms.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/05_Survive.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/01_This_Is_War_(Main_Theme).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/06_Rebreather.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/03_Assault_at_Dusk.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 01/04_The_East_Wind.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/12_Win.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/07_Back_on_Stratis.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/06_Broken_Barricade.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/13_Altis_Requiem.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/08_In_The_Open.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/11_Unforeseen_Perdition.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/03_The_Trap.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/04_LZ_hot.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/01_Revenge.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/05_Alone.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/02_Just_Another_Day.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/10_Assembly.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 04/09_Farewell_Altis.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 11/02_This_Is_War.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 11/01_Flashpoint.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 11/04_Malden.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 11/03_Fighter_Jets.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/02_Acclivity_Dawn.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/12_Anomalies.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/06_Sharper_Claws.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/01_Transilience_(Main_Theme).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/10_Sunrise_Zero-Two.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/04_Contact.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/05_Infighting.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/14_Signal_#1.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/08_Night_Eyes_Zero-Two.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/11_Reveal.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/07_Night_Eyes_Zero-One.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/16_Signal_#3.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/09_Sunrise_Zero-One.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/03_Wavering_Base.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/13_Splintered.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 15/15_Signal_#2.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/04_Recon.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/03_Exit_Strategy.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/06_Radio_Silence.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/07_Canton_Protocol.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/09_Ambush.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/08_Signal_Lost.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/05_Beyond_Recognition.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/02_Resist.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 03/01_Adapt.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 05/02_Thunder.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 05/01_Lightning.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 12/01_This_is_War_(Laws_of_War_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 12/02_Memories.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 12/03_Actions_Have_Consequences.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 10/04_Reunion.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 10/02_Air_Power.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 10/01_Fighter_Jets.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 10/03_Carrier.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 08/01_This_Is_War_(Marksmen_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 08/03_Marksmen.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 08/02_Into_The_Sun.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/05_Through_The_Jungle.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/06_This_Is_War_(Apex_Remix-Alternative_1).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/08_No_Time_For_Questions.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/09_Eau_De_Arma.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/02_Welcome_To_Tanoa.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/03_An_Unknown_Enemy.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/01_This_Is_War_(Apex_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/04_Homeland.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 09/07_The_Breach.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/01_Conquistador.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/04_Fragmented.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/02_Proteus.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/06_On_The_Road.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/03_Aegis_Blues.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/07_Tactics.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 02/05_Horizon_Scan.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/08_Last_Stand.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/04_Way_Back.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/06_Iron_Gods.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/02_Hidden_Enemy.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/01_This_is_War_(Tanks_DLC_Version).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/05_Good_Neighbors.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/07_Wrath_Of_The_Giants.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 14/03_Fight_For_The_City.flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 07/01_This_Is_War_(Helicopters_Remix).flac
+Oct 26 12:27 : update: added Bohemia Interactive/Arma 3 Soundtrack/Disk 16/01_This_Is_War_(6th_Anniversary_Remix).flac
+Oct 26 12:27 : update: added Johnny Ciardullo/01 - The Edge of Time.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/04 - Buried and Forgotten.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/03 - The Third of the Storms.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/08 - Revelations of Doom.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/05 - Maniac.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/02 - Messiah.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/11 - Crucifixion.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/10 - Satanic Rites.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/01 - Intro.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/06 - Eurynomos.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/09 - Reaper.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/12 - Outro.mp3
+Oct 26 12:27 : update: added Hellhammer/Satanic Rites/07 - Triumph of Death.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/12 - Deceit.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/06 - Traces.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/09 - When No One Walks With You.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/02 - Dagger.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/01 - Shadow.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/05 - Östpeppar.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/08 - Måsstadens Nationalsång.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/03 - Eternal Golden Monk.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/11 - Nojja.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/10 - (Th)All These Feelings.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/04 - Benblåst.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/07 - Phobon Nika.mp3
+Oct 26 12:27 : update: added Vildjarta/Masstaden forte/13 - The Lone Deranger.mp3
+Oct 26 12:27 : update: added Ortus/Where Shadows Gather/03 - Nocturne.flac
+Oct 26 12:27 : update: added Ortus/Where Shadows Gather/04 - Where Shadows Gather.flac
+Oct 26 12:27 : update: added Ortus/Where Shadows Gather/01 - Echoes of past.flac
+Oct 26 12:27 : update: added Ortus/Where Shadows Gather/02 - To Enter Nightside.flac
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/02 - We Got the Moves.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/05 - Mindreader.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/07 - Parasite.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/01 - Pump It.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/06 - Arrow of Love.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/08 - Tekkno Train.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/03 - Fuckboi.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/09 - Hurrikan.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/04 - Spaceman.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/Tekkno/10 - Neon.mp3
+Oct 26 12:27 : update: added Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/10 - Care.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/09 - Recovery.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/02 - Abandon Us.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/11 - The Carcass King.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/03 - Begin Again.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/07 - Majesty.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/04 - Forced Divide.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/08 - Heretic.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/06 - Wrath.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/01 - The Seventh Sun.mp3
+Oct 26 12:27 : update: added Bury Tomorrow/The Seventh Sun/05 - Boltcutter.mp3
+Oct 26 12:27 : update: added Ai Mori/01 - The Rumbling.mp3
+Oct 26 12:27 : update: added Veter Daemonaz/Trivmph/04 - Trivmph.flac
+Oct 26 12:27 : update: added Veter Daemonaz/Trivmph/01 - Voice-Key.flac
+Oct 26 12:27 : update: added Veter Daemonaz/Trivmph/02 - Awakening.flac
+Oct 26 12:27 : update: added Veter Daemonaz/Trivmph/03 - Sine Reditvm.flac
+Oct 26 12:27 : update: added Nik Nocturnal/01 - The Rumbling.mp3
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/09 King Bran's Final Voyage.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/20 Fate Calls.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/24 Yes, I Do....flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/17 Eyes of the Wolf.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/34 Merchants of Novigrad.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/06 Commanding the Fury.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/01 The Trail.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/12 The Nightingale.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/31 The Hunt is Coming.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/14 The Hunter's Path.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/11 Whispers of Oxenfurt.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/07 Emhyr var Emreis.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/30 The Song of the Swordâ€“Dancer.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/02 Geralt of Rivia.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/22 Cloak and Dagger.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/25 Welcome, Imlerith.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/33 Ladies of the Woods.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/05 Aen Seidhe.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/29 Farewell, Old Friend.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/10 Silver for Monsters....flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/04 Wake Up, Ciri.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/16 Kaer Morhen.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/23 Forged in Fire.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/26 Drink Up, Thereâ€™s More!.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/27 After the Storm.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/13 City of Intrigues.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/28 Blood on the Cobblestones.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/18 Witch Hunters.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/19 ...Steel for Humans.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/03 Eredin, King of the Hunt.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/21 The Vagabond.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/35 Hunt or Be Hunted.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/08 Spikeroog.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/The Witcher 3 Wild Hunt - Official Soundtrack/32 The Fields of Ard Skellig.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/15 - P.T. Adamczyk - The Heist.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/01 - Marcin Przybylowicz - V.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Oct 26 12:27 : update: added Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Oct 26 12:27 : update: added Carcosa/Carcosa - Born To Lose.flac
+Oct 26 12:27 : update: added Carcosa/Carcosa - Nihilus.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/01 - Excerpt.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/05 - Vermin.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/02 - Hypnos.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/10 - A Plague.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/03 - Descensus.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/09 - Our Scars.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/08 - Vanta Black.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/07 - Present Precursor.flac
+Oct 26 12:27 : update: added Carcosa/Anthology/06 - Devoid.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/04 - Only One.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/01 - Slipknot.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/03 - Do Nothing.Bitchslap.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/06 - Confessions.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/02 - Gently.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/Hidden Track - Dogfish Rising.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/08 - Killers Are Quiet.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/07 - Some Feel.flac
+Oct 26 12:27 : update: added Slipknot/Mate.Feed.Kill.Repeat/05 - Tattered and Torn.flac
+Oct 26 12:27 : update: added Slipknot/Iowa/08 - Left Behind.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/11 - Skin Ticket.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/02. People=Shit.flac
+Oct 26 12:27 : update: added Slipknot/Iowa/03. Disasterpiece.flac
+Oct 26 12:27 : update: added Slipknot/Iowa/06 - The Heretic Anthem.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/09 - The Shape.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/12 - New Abortion.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/14 - Iowa.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/10 - I Am Hated.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/07 - Gently.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/05 - Everything Ends.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/13 - Metabolic.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/04 - My Plague.mp3
+Oct 26 12:27 : update: added Slipknot/Iowa/01. (515).flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - God is My Enemy.flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - The Pain of Existence.flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - Alone in Death.flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - Hellsphere.flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - Graverot.flac
+Oct 26 12:27 : update: added Crown Magnetar/Alone in Death/Crown Magnetar - Realistic Flesh Mask.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/El Huervo - Crush.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Scattle - Inner Animal.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/M_O_O_N - Crystals.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/M_O_O_N - Hydrogen.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Perturbator - Vengeance.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/M_O_O_N - Release.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Eirik Suhrke - A New Morning.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Perturbator - Miami Disco.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Scattle - It's Safe Now.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Scattle - To The Top.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Perturbator - Electric Dreams.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/El Huervo - Daisuke.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/M_O_O_N - Paris.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Sun Araw - Deep Cover.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Scattle - Knock Knock.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/El Huervo - Turf.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Jasper Byrne - Miami.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Scattle - Flatline.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Coconuts - Silver Lights.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Sun Araw - Horse Steppin.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Synthetical - Musikk Per Automatikk.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami -  Soundtrack/Jasper Byrne - Hotline.mp3
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/02 Detection.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/36 Richard.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/11 Divide.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/06 Dust.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/37 NARC.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/45 Fahkeet.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/20 Untitled.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/39 Le Perv.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/24 Java.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/47 Abyss Intro.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/28 Bloodline.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/26 Delay.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/48 Black Tar.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/23 Sexualizer.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/05 She Meditates.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/27 We're Sorry.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/44 Future Club.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/12 Hollywood Heights.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/07 Disturbance.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/25 Rust.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/29 Roller Mobster.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/21 Remorse.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/14 Chamber of Reflections.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/09 Guided Meditation.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/49 Escape From Midwitch Valley.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/32 Ghost.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/18 Around.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/13 Richard.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/34 Quixotic.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/03 Blizzard.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/40 Miss Minnie.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/10 Simma Hem.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/46 Abyss.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/19 In The Face Of Evil.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/22 Frantic Aerobics.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/08 Technoir (feat. Noir Deco).flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/30 Keep Calm.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/04 Voyager.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/43 Slum Lord.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/17 New Wave Hookers.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/42 Acid Spit.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/31 Run.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/33 Hotline Theme.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/41 She Swallowed Burning Coals.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/01 Untitled.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/38 The Rumble.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/16 Interlude.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/35 The Way Home.flac
+Oct 26 12:27 : update: added Various Aritst/Hotline Miami 2 Wrong Number - Soundtrack/15 Decade Dance.flac
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_track2.mp3
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_theEnd.mp3
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_track1.mp3
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_Penetration.mp3
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_Police.mp3
+Oct 26 12:27 : update: added Various Aritst/Beholder - Original Soundtrack/Beholder_track3.mp3
+Oct 26 12:27 : update: added Korgonthurus/Marras/02 - Mustan Usvan Kohdussa.flac
+Oct 26 12:27 : update: added Burzum/aske/01 - Stemmen fra tårnet.mp3
+Oct 26 12:27 : update: added Burzum/aske/03 - A Lost Forgotten Sad Spirit.mp3
+Oct 26 12:27 : update: added Burzum/aske/02 - Dominus Sathanas.mp3
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Gebrechlichkeit I.flac
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Jesus-' Tod.flac
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Dunkelheit.flac
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Rundgang Um Die Transzendentale Saule Der Singularitat.flac
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Gebrechlichkeit II.flac
+Oct 26 12:27 : update: added Burzum/Filosofem/Burzum - Erblicket Die Tochter Des Firmaments.flac
+Oct 26 12:27 : update: added Within Destruction/Lotus/03 - Nightmare.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/01 - Lotus.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/09 - Illusions.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/08 - Dehumanized.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/12 - Ultima.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/07 - Dying World.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/06 - Revenge.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/05 - Scars.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/10 - Neo-Yakuza.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/04 - Survival.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/02 - Toxic.mp3
+Oct 26 12:27 : update: added Within Destruction/Lotus/11 - P.O.P..mp3
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Ouroboros.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Demolisher.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - I Killed A Man.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Your Only.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Made In Russia.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Head On A Plate.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Agony.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Father.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Zavali Ebalo.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bonebreaker.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Baba Yaga.flac
+Oct 26 12:27 : update: added Slaughter To Prevail/Kostolom/Slaughter to Prevail - Bratva.flac
+Oct 26 12:28 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:31 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_Penetration.mp3
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_Police.mp3
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_theEnd.mp3
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_track1.mp3
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_track2.mp3
+Oct 26 12:33 : update: removing Various Aritst/Beholder - Original Soundtrack/Beholder_track3.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/05 - Beholder.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/03 - The End.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/06 - Cover.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/04 - Life.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/02 - Police.mp3
+Oct 26 12:33 : update: added Various Aritst/Beholder - Original Soundtrack/01 - Penetration.mp3
+Oct 26 15:10 : zeroconf: No global port, disabling zeroconf
+Oct 26 17:44 : zeroconf: No global port, disabling zeroconf
+Oct 26 19:33 : zeroconf: No global port, disabling zeroconf
+Oct 27 22:45 : zeroconf: No global port, disabling zeroconf
+Oct 27 22:48 : update: updating Bohemia Interactive/Arma 3 Soundtrack/Disk 16/01_This_Is_War_(6th_Anniversary_Remix).flac
+Oct 27 22:48 : update: added Mick Gordon/DOOM Eternal OST/04. Deag Nilox - First Priest Death.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/34. Fortress of Doom.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/26. You Cant Just Shoot A Hole Into The surface of Mars.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/05. Barging In.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/47. Cultist Prayer.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/15. Deag Ranak.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/02. S.O.S. from Earth.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/01. DOOM Eternal.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/38. Sinister.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/25. Phobos Base.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/06. Demonic Corruption .flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/36. Taras Nabad.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/24. Command and Control.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/07. Prayer of the Diminished.flac
+Oct 27 22:49 : update: added Mick Gordon/DOOM Eternal OST/16. Doomed Hunter.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/43. Urdak.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/44. Heart of the Beast.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/03. Hell On Earth.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/12. Infiltrate the Cult.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/08. King Novic.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/37. Eternal Prophecy.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/18. End of Level.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/21. Armored Response Coalition .flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/45. Paradise Lost.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/09. A Slayer City.flac
+Oct 27 22:50 : update: added Mick Gordon/DOOM Eternal OST/28. Phobos Space.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/50. Final Sin - Sandy City.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/19. Bio-organic Continuum Gate.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/27. BFG 10K.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/14. Doom Hunted.flac
+Oct 27 22:51 : player: played "Ortus/Where Shadows Gather/04 - Where Shadows Gather.flac"
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/32. Beast of the Arena.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/49. The Icon of Sin.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/30. Mars Core.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/40. Kalibas the Sightless Judge.flac
+Oct 27 22:51 : update: added Mick Gordon/DOOM Eternal OST/31. Welcome Home Great Slayer.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/35. BFG Division 2020.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/11. The Betrayer.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/41. Blood Sacrifice.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/22. Sams Base.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/17. The DOOM Hunter.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/29. Asteroids and Rockets.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/33. Gladiator Boss.flac
+Oct 27 22:52 : update: added Mick Gordon/DOOM Eternal OST/13. Cultist Base.flac
+Oct 27 22:53 : update: added Mick Gordon/DOOM Eternal OST/42. Metal Hell.flac
+Oct 27 22:53 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 22:53 : update: added Mick Gordon/DOOM Eternal OST/20. The Super Gore Nest.flac
+Oct 27 22:53 : update: added Mick Gordon/DOOM Eternal OST/10. Meathook.flac
+Oct 27 22:53 : update: added Mick Gordon/DOOM Eternal OST/39. Soul Extraction.flac
+Oct 27 22:53 : update: added Mick Gordon/DOOM Eternal OST/46. The Khan Maykr (Chad Mossholder Remix).flac
+Oct 27 22:54 : update: added Mick Gordon/DOOM Eternal OST/48. Massive Demonic Presence.flac
+Oct 27 22:54 : update: added Mick Gordon/DOOM Eternal OST/23. The Only Thing They Fear Is You.flac
+Oct 27 22:57 : update: added Korgonthurus/Marras/01 - Marraskyyneleet.flac
+Oct 27 22:57 : player: played "Veter Daemonaz/Trivmph/01 - Voice-Key.flac"
+Oct 27 22:58 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:11 : update: removing Burzum/aske/03 - A Lost Forgotten Sad Spirit.mp3
+Oct 27 23:11 : update: removing Burzum/aske/02 - Dominus Sathanas.mp3
+Oct 27 23:11 : update: removing Burzum/aske/01 - Stemmen fra tårnet.mp3
+Oct 27 23:11 : update: added Burzum/Aske/01 - Stemmen fra tårnet.mp3
+Oct 27 23:11 : update: added Burzum/Aske/03 - A Lost Forgotten Sad Spirit.mp3
+Oct 27 23:11 : update: added Burzum/Aske/02 - Dominus Sathanas.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/12 - Vittring.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/11 - Futility.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/10 - Sirens.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/09 - Väldet.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/08 - Tide.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/07 - Hadean.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/06 - Dehumanize.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/05 - Spectre.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/04 - Descent.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/03 - Earthless.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/02 - Glutton.mp3
+Oct 27 23:11 : update: removing Humanity's Last Breath/vaelde/01 - Dödsdans.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/03 - Earthless.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/11 - Futility.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/07 - Hadean.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/12 - Vittring.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/04 - Descent.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/06 - Dehumanize.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/05 - Spectre.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/01 - Dödsdans.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/09 - Väldet.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/02 - Glutton.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/08 - Tide.mp3
+Oct 27 23:11 : update: added Humanity's Last Breath/Välde/10 - Sirens.mp3
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/Hidden Track - Dogfish Rising.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/08 - Killers Are Quiet.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/07 - Some Feel.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/06 - Confessions.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/05 - Tattered and Torn.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/04 - Only One.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/03 - Do Nothing.Bitchslap.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/02 - Gently.flac
+Oct 27 23:11 : update: removing Slipknot/Mate.Feed.Kill.Repeat/01 - Slipknot.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/04 - Only One.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/01 - Slipknot.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/03 - Do Nothing.Bitchslap.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/06 - Confessions.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/02 - Gently.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/Hidden Track - Dogfish Rising.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/08 - Killers Are Quiet.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/07 - Some Feel.flac
+Oct 27 23:11 : update: added Slipknot/Mate. Feed. Kill. Repeat/05 - Tattered and Torn.flac
+Oct 27 23:17 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:17 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:17 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:17 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:17 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/06 - Marcin Przybylowicz - Cloudy Day.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/13 - P.T. Adamczyk - You Shall Never Have To Forgive Me Again.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/18 - Paul Leonard-Morgan - Mining Minds.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/14 - P.T. Adamczyk - Code Red Initiated.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/07 - Marcin Przybylowicz - Wushu Dolls.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/03 - P.T. Adamczyk - The Rebel Path.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/12 - Paul Leonard-Morgan - Trouble Finds Trouble.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/19 - P.T. Adamczyk - Rite Of Passage.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/17 - Marcin Przybylowicz - Patri(di)ots.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/11 - Paul Leonard-Morgan - There_s Gonna Be A Parade!.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/02 - Paul Leonard-Morgan - Extraction Action.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/09 - P.T. Adamczyk - Мусорщики.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/10 - Marcin Przybylowicz - Close Probing.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/05 - P.T. Adamczyk - Outsider No More.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/08 - P.T. Adamczyk - Scavenger Hunt.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/04 - Paul Leonard-Morgan - The Streets Are Long-Ass Gutters.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/16 - Marcin Przybylowicz - Streetfighters.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/15 - P.T. Adamczyk - The Heist.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd1/01 - Marcin Przybylowicz - V.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/08 - Paul Leonard-Morgan - Bells Of Laguna Bend.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/05 - Marcin Przybylowicz - Cyberwildlife Park.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/10 - P.T. Adamczyk - Atlantis.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/17 - Marcin Przybylowicz - Been Good To Know Ya.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/09 - Marcin Przybylowicz - Urban Downunder.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/14 - P.T. Adamczyk - To Hell and Back.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/15 - Paul Leonard-Morgan - Adam Smasher.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/18 - P.T. Adamczyk - Never Fade Away (SAMURAI Cover) - feat. Olga Jankowska.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/12 - Paul Leonard-Morgan - The Suits Are Scared.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/02 - Marcin Przybylowicz - Modern Anthill.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/03 - Paul Leonard-Morgan - The Sacred And The Profane.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/13 - Paul Leonard-Morgan - Tower Lockdown.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/16 - Paul Leonard-Morgan - Hanako _ Yorinobu.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/11 - Marcin Przybylowicz - Cyberninja.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/06 - Marcin Przybylowicz - Consumer Cathedral.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/01 - P.T. Adamczyk - The Voice In My Head.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/04 - P.T. Adamczyk - Kang Tao Down.flac
+Oct 27 23:19 : update: updating Marcin Przybyłowicz/Cyberpunk 2077 - Official Soundtrack/cd2/07 - P.T. Adamczyk - Juiced Up.flac
+Oct 31 07:41 : zeroconf: No global port, disabling zeroconf
+Oct 31 10:28 : zeroconf: No global port, disabling zeroconf
+Nov 02 14:08 : zeroconf: No global port, disabling zeroconf
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 14:59 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:00 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:00 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:00 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:00 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:00 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 15:01 : update: updating Eskimo Callboy/01 - Welcome to Raveland (Extended).mp3
+Nov 02 15:01 : exception: Failed to open /home/jogiwa/Music/playlists: No such file or directory
+Nov 02 20:28 : zeroconf: No global port, disabling zeroconf
+Nov 07 08:03 : zeroconf: No global port, disabling zeroconf
+Nov 07 14:02 : zeroconf: No global port, disabling zeroconf
+Nov 08 09:37 : zeroconf: No global port, disabling zeroconf
+Nov 08 11:24 : zeroconf: No global port, disabling zeroconf
+Nov 08 12:19 : zeroconf: No global port, disabling zeroconf
+Nov 08 22:50 : zeroconf: No global port, disabling zeroconf
+Nov 09 09:57 : zeroconf: No global port, disabling zeroconf
+Nov 15 17:09 : zeroconf: No global port, disabling zeroconf
+Nov 21 17:03 : zeroconf: No global port, disabling zeroconf
+Nov 21 20:00 : zeroconf: No global port, disabling zeroconf
+Nov 21 20:40 : player: played "Ortus/Where Shadows Gather/04 - Where Shadows Gather.flac"
+Nov 23 11:32 : zeroconf: No global port, disabling zeroconf
+Nov 23 13:58 : zeroconf: No global port, disabling zeroconf
+Nov 28 07:37 : zeroconf: No global port, disabling zeroconf
+Nov 28 11:32 : zeroconf: No global port, disabling zeroconf
+Nov 28 14:05 : zeroconf: No global port, disabling zeroconf
+Nov 29 14:02 : zeroconf: No global port, disabling zeroconf
+Nov 30 09:35 : zeroconf: No global port, disabling zeroconf
+Nov 30 14:14 : zeroconf: No global port, disabling zeroconf
+Dec 01 13:05 : zeroconf: No global port, disabling zeroconf
+Dec 05 07:58 : zeroconf: No global port, disabling zeroconf
+Dec 05 10:25 : zeroconf: No global port, disabling zeroconf
+Dec 05 11:36 : zeroconf: No global port, disabling zeroconf
+Dec 05 16:32 : zeroconf: No global port, disabling zeroconf
+Dec 06 13:53 : zeroconf: No global port, disabling zeroconf
+Dec 06 15:55 : zeroconf: No global port, disabling zeroconf
+Dec 07 09:51 : zeroconf: No global port, disabling zeroconf
+Dec 07 14:31 : zeroconf: No global port, disabling zeroconf
+Dec 12 07:47 : zeroconf: No global port, disabling zeroconf
+Dec 12 07:50 : zeroconf: No global port, disabling zeroconf
+Dec 12 11:41 : zeroconf: No global port, disabling zeroconf
+Dec 13 14:01 : zeroconf: No global port, disabling zeroconf
+Dec 14 10:37 : zeroconf: No global port, disabling zeroconf
+Dec 14 14:26 : zeroconf: No global port, disabling zeroconf
+Dec 19 07:46 : zeroconf: No global port, disabling zeroconf
+Dec 19 11:40 : zeroconf: No global port, disabling zeroconf
+Dec 19 14:29 : zeroconf: No global port, disabling zeroconf
+Dec 20 09:16 : zeroconf: No global port, disabling zeroconf
+Dec 21 14:09 : zeroconf: No global port, disabling zeroconf
+Jan 02 08:04 : zeroconf: No global port, disabling zeroconf
+Jan 02 21:58 : zeroconf: No global port, disabling zeroconf
+Jan 03 13:56 : zeroconf: No global port, disabling zeroconf
+Jan 09 07:36 : zeroconf: No global port, disabling zeroconf
+Jan 09 11:42 : zeroconf: No global port, disabling zeroconf
+Jan 09 14:05 : zeroconf: No global port, disabling zeroconf
+Jan 10 15:09 : zeroconf: No global port, disabling zeroconf
+Jan 10 15:49 : zeroconf: No global port, disabling zeroconf
+Jan 11 09:51 : zeroconf: No global port, disabling zeroconf
+Jan 11 14:04 : zeroconf: No global port, disabling zeroconf
+Jan 11 20:07 : zeroconf: No global port, disabling zeroconf
+Jan 11 23:14 : zeroconf: No global port, disabling zeroconf
+Jan 12 17:36 : zeroconf: No global port, disabling zeroconf
+Jan 12 21:01 : zeroconf: No global port, disabling zeroconf
+Jan 12 21:23 : player: played "Ortus/Where Shadows Gather/04 - Where Shadows Gather.flac"
+Jan 12 22:25 : zeroconf: No global port, disabling zeroconf
+Jan 13 15:22 : zeroconf: No global port, disabling zeroconf
+Jan 13 15:58 : zeroconf: No global port, disabling zeroconf
+Jan 14 15:29 : zeroconf: No global port, disabling zeroconf
+Jan 16 07:55 : zeroconf: No global port, disabling zeroconf
+Jan 16 11:40 : zeroconf: No global port, disabling zeroconf
+Jan 16 14:02 : zeroconf: No global port, disabling zeroconf
+Jan 17 14:04 : zeroconf: No global port, disabling zeroconf
+Jan 17 21:36 : zeroconf: No global port, disabling zeroconf
+Jan 18 10:47 : zeroconf: No global port, disabling zeroconf
+Jan 18 10:57 : zeroconf: No global port, disabling zeroconf
+Jan 18 11:39 : zeroconf: No global port, disabling zeroconf
+Jan 23 07:20 : zeroconf: No global port, disabling zeroconf
+Jan 23 07:50 : zeroconf: No global port, disabling zeroconf
+Jan 23 11:36 : zeroconf: No global port, disabling zeroconf
+Jan 23 13:32 : zeroconf: No global port, disabling zeroconf
+Jan 24 08:25 : zeroconf: No global port, disabling zeroconf
+Jan 24 10:52 : player: played "Bathory/Bathory/02 - Hades.mp3"
+Jan 24 15:32 : zeroconf: No global port, disabling zeroconf
+Jan 24 17:58 : zeroconf: No global port, disabling zeroconf
+Jan 24 22:46 : zeroconf: No global port, disabling zeroconf
+Jan 25 10:08 : zeroconf: No global port, disabling zeroconf
+Jan 25 14:53 : zeroconf: No global port, disabling zeroconf
+Jan 29 18:18 : zeroconf: No global port, disabling zeroconf
