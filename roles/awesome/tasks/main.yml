@@ -1,7 +1,7 @@
 ---
 - name: "awesome | Install awesome"
   pacman:
-    name: awesomewm
+    name: awesome
     state: present
   become: true
 
