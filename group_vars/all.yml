@@ -6,13 +6,13 @@ default_roles:
   - zsh           # making your shell prompt fancier than your weekend plans
 
   # === WM's ===
-  - awesome       # being ordinary is just not an option
-  - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
-  - i3            # because you don't want to waste time dragging windows around like a caveman
+# - awesome       # being ordinary is just not an option
+# - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
+# - i3            # because you don't want to waste time dragging windows around like a caveman
   - hypr          # calm and composed desktops are overrated
   - alacritty     # waiting for your terminal is for peasants
-  - suckless      # who needs features when you have the beauty of simplicity
-  - dunst         # notifications are the spice of life. Or just really annoying interruptions
+# - suckless      # who needs features when you have the beauty of simplicity
+# - dunst         # notifications are the spice of life. Or just really annoying interruptions
 # - herbstluftwm  # The only WM that makes you feel like you're outdoors
 # - xmonad        # because windows deserve a well-tailored Haskell suit
 
