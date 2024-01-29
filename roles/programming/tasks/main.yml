@@ -1,0 +1,20 @@
+---
+- name: "Programming | installing c/c++"
+  pacman:
+    name: gcc
+    state: present
+  become: true
+
+- name: "Programming | installing r"
+  pacman:
+    name: r
+    state: present
+  become: true
+
+- name: "Programming | installing java"
+  pacman:
+    name:
+      - jdk-openjdk
+      - maven
+    state: present
+  become: true
