@@ -11,7 +11,7 @@ This playbook needs
 * paru
 
 ## In this Repository
-* Setup wizzard for Arch systems
+* Postinstall-setup wizzard for Arch systems
 * More or less usefull Scripts either written by me or complied from various sources
 * Dotfiles for various programms i use, or have used at some point
  
