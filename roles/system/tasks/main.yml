@@ -15,7 +15,7 @@
 - name: "System | clone paru repository" 
   git:
     repo: https://github.com/Morganamilo/paru
-    dest: "{{ role_path }}/temp"
+    dest: "{{ role_path }}/temp/paru"
 
 - name: "System | Install paru"
   command: makepkg -si
