@@ -1,20 +1,26 @@
----Schule---
-https://www.th-owl.de/skim/nachrichten/feed.xml "~TH-OWL: SKim"
-https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml "~TH-OWL FB8"
+---School---
+https://www.th-owl.de/skim/nachrichten/feed.xml "~TH-OWL: SKim" school
+https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml "~TH-OWL FB8" school
 ---Anime---
-https://www.anime2you.de/feed/ "~Anime2You"
-https://feeds.feedburner.com/crunchyroll/animenews "~Crunchyroll news"
----Metal---
-http://loudwire.com/category/metal/feed/ "~Loudwire"
-https://feeds.feedburner.com/metalinjection "~Metal Injection"
-https://feeds.feedburner.com/metalunderground "~Metal Underground"
----Linux---
-https://archlinux.org/feeds/news/ "~Arch News"
-https://www.itsfoss.net/feed/ "~ITSFOSS"
-https://www.reddit.com/r/linux.rss "~REDDIT: r/linux"
-https://www.reddit.com/r/vim.rss "~REDDIT: r/vim"
-https://www.reddit.com/r/commandline.rss "~REDDIT: r/linux"
-https://www.reddit.com/r/unixporn.rss "~REDDIT: r/unixporn"
-https://www.reddit.com/r/terminal_porn.rss "~REDDIT: r/terminal_porn"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~YOUTUBE: DistroTube"
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~YOUTUBE: Mental Outlaw"
+https://www.anime2you.de/feed/ "~Anime2You" anime
+https://feeds.feedburner.com/crunchyroll/animenews "~Crunchyroll news" anime
+---Music---
+http://loudwire.com/category/metal/feed/ "~Loudwire" metal music
+https://feeds.feedburner.com/metalinjection "~Metal Injection" metal music
+https://feeds.feedburner.com/metalunderground "~Metal Underground" metal music
+---GNU/Linux---
+https://archlinux.org/feeds/news/ "~Arch News" linux foss
+https://www.itsfoss.net/feed/ "~ITSFOSS" linux foss
+https://www.reddit.com/r/linux.rss "~REDDIT: r/linux" linux
+https://www.reddit.com/r/vim.rss "~REDDIT: r/vim" 
+https://www.reddit.com/r/commandline.rss "~REDDIT: r/commandline" linux customisation cli
+https://www.reddit.com/r/terminal_porn.rss "~REDDIT: r/terminal_porn" linux customisation cli
+https://www.reddit.com/r/unixporn.rss "~REDDIT: r/unixporn" linux customisation
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~YOUTUBE: DistroTube" linux foss
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~YOUTUBE: Mental Outlaw" linux foss
+---Programming languages---
+https://blog.rust-lang.org/feed.xml "~RustBlog" prog rust
+---InfoSec---
+https://www.ccc.de/de/rss/updates.xml infosec
+---Misc---
+http://www.aaronsw.com/2002/feeds/pgessays.rss startup

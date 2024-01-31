@@ -201,7 +201,8 @@ require('lazy').setup({
     },
   },
 
-  'theprimeagen/harpoon',
+  
+
 
   {
     -- Highlight, edit, and navigate code
@@ -211,6 +212,9 @@ require('lazy').setup({
     },
     build = ':TSUpdate',
   },
+
+  'theprimeagen/harpoon',
+  'christoomey/vim-tmux-navigator',
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
