@@ -1,2 +1,5 @@
 callback_plugins/__pycache__
 roles/nvim/files/nvim/.config/nvim/lazy-lock.json
+roles/mpd/files/mpd/.config/mpd/log
+roles/zsh/files/zsh/.config/zsh/.zcompdump-dedsec00-5.9
+roles/zsh/files/zsh/.config/zsh/.zcompdump-dedsec00-5.9.zwc

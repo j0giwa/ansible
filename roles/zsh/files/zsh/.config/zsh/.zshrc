@@ -184,4 +184,4 @@ bindkey -s '^o' 'lfcd\n'
 bindkey -s '^b' 'tmux-windowizer ./ ./build\n'
 
 # Autostart
-#pokemon-colorscripts --random --no-title
+pokemon-colorscripts --random --no-title
