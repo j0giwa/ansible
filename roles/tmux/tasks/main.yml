@@ -1,0 +1,11 @@
+---
+- name: "tmux | installing tmux"
+  pacman:
+    name: alacritty
+    state: present
+  become: true
+
+- name: "tmux | stow configs"
+  command: stow -t {{ ansible_user_dir }} tmux
+  args:
+    chdir: "{{ role_path }}/files"
