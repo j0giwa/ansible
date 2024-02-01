@@ -11,9 +11,9 @@ This playbook needs
 * paru
 
 ## In this Repository
-* Postinstall-setup wizzard for Arch systems
-* More or less usefull Scripts either written by me or complied from various sources
-* Dotfiles for various programms i use, or have used at some point
+* Postinstall-setup wizzard for Arch based systems
+* More or less usefull scripts, either written by myself, or complied from various sources
+* Dotfiles for various programms i use, or had used at some point
  
 ### Configs
 #### WM's
@@ -39,7 +39,7 @@ This playbook needs
 - oh-my-zsh
 - rofi
 - sxhkd
-- tmux
+- tmux (role missing)
 - waybar
 - zathura
 - zellij
