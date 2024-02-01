@@ -39,7 +39,7 @@ This playbook needs
 - oh-my-zsh
 - rofi
 - sxhkd
-- tmux (role missing)
+- tmux
 - waybar
 - zathura
 - zellij
