@@ -1,71 +1,63 @@
 require("mason").setup()
-require("mason-lspconfig").setup({
-  ensure_installed = {
-    "lua_ls",
-    "jdtls",
-    "r_language_server",
-    "pyright",
-    "rust_analyzer",
-    "tsserver",
-  }
-})
-local on_attach = function(_, _)
-  vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, {})
-  vim.keymap.set("n", "gd", vim.lsp.buf.definition(), {})
-  vim.keymap.set("n", "K", vim.lsp.buf.hover(), {})
-  vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {})
-  vim.keymap.set("n", "<leader>vws", vim.lsp.buf.workspace_symbol(), {})
-  vim.keymap.set("n", "<leader>vd", vim.diagnostic.open_float(), {})
-  vim.keymap.set("n", "[d", vim.diagnostic.goto_next(), {})
-  vim.keymap.set("n", "]d", vim.diagnostic.goto_prev(), {})
-  vim.keymap.set("n", "<leader>vca", vim.lsp.buf.code_action(), {})
-  vim.keymap.set("n", "<leader>vrr", vim.lsp.buf.references(), {})
-  vim.keymap.set("n", "<leader>vrn", vim.lsp.buf.rename(), {})
-  vim.keymap.set("i", "<C-h>", vim.lsp.buf.signature_help(), {})
-end
 
-local lspconfig = require('lspconfig')
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
+local mason_lspconfig = require('mason-lspconfig')
 
-lspconfig.lua_ls.setup {
-  on_attach = on_attach,
-  capabilities = capabilities,
-  settings = {
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
+local servers = {
+  clangd = {},
+  jdtls= {},
+  --r_language_server = {},
+  pyright = {},
+  rust_analyzer = {},
+  tsserver = {},
+  html = {
+    filetypes = { 'html', 'twig', 'hbs'}
+  },
+  lua_ls = {
     Lua = {
       diagnostics = {
         globals = { "vim" },
       },
       workspace = {
+        checkThirdParty = false,
         library = {
           [vim.fn.expand "$VIMRUNTIME/lua"] = true,
           [vim.fn.stdpath "config" .. "/lua"] = true,
         },
       },
+      telemetry = { enable = false },
     },
-  }
+  },
 }
-lspconfig.clangd.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
-}
-lspconfig.jdtls.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
-}
-lspconfig.r_language_server.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
-}
-lspconfig.pyright.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
-}
-lspconfig.rust_analyzer.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
-}
-lspconfig.tsserver.setup {
-  on_attach = on_attach,
-  capabilitys = capabilitys,
+
+local on_attach = function(_, bufnr)
+  local opts = {buffer = bufnr, remap = false}
+
+  vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
+  vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
+  vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
+  vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
+  vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
+  vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
+  vim.keymap.set("n", "<leader>vd", function() vim.diagnostic.open_float() end, opts)
+  vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end, opts)
+  vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end, opts)
+  vim.keymap.set("n", "<leader>vca", function() vim.lsp.buf.code_action() end, opts)
+  vim.keymap.set("n", "<leader>vrr", function() vim.lsp.buf.references() end, opts)
+  vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end, opts)
+  vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+end
+
+mason_lspconfig.setup_handlers {
+  function(server_name)
+    require('lspconfig')[server_name].setup {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      settings = servers[server_name],
+      filetypes = (servers[server_name] or {}).filetypes,
+    }
+  end
 }
 

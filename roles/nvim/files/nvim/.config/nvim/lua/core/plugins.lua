@@ -1,7 +1,7 @@
 require("lazy").setup({
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
-  'ellisonleao/gruvbox.nvim',
+  'Mofiqul/dracula.nvim',
   'nvim-lualine/lualine.nvim',
   'theprimeagen/harpoon',
   'christoomey/vim-tmux-navigator',
