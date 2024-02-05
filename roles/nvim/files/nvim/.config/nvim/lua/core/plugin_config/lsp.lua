@@ -1,14 +1,13 @@
 require("mason").setup()
-
 local mason_lspconfig = require('mason-lspconfig')
-
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
+local borderstyle = "single"
 local servers = {
   clangd = {},
   jdtls= {},
-  --r_language_server = {},
+  r_language_server = {},
   pyright = {},
   rust_analyzer = {},
   tsserver = {},
@@ -59,5 +58,21 @@ mason_lspconfig.setup_handlers {
       filetypes = (servers[server_name] or {}).filetypes,
     }
   end
+}
+
+vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
+  vim.lsp.handlers.hover, {
+    border = borderstyle
+  }
+)
+
+vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
+  vim.lsp.handlers.signature_help, {
+    border = borderstyle
+  }
+)
+
+vim.diagnostic.config{
+  float={border=borderstyle}
 }
 
