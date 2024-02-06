@@ -53,3 +53,5 @@ vim.o.termguicolors = true
 -- Disable autoformat
 vim.g.autoformat = false -- globally
 vim.b.autoformat = false -- buffer-local:
+
+vim.o.conceallevel=2

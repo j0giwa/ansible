@@ -6,6 +6,15 @@ require("lazy").setup({
   'theprimeagen/harpoon',
   'christoomey/vim-tmux-navigator',
   {
+    "epwalsh/obsidian.nvim",
+    version = "*",
+    lazy = true,
+    ft = "markdown",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+  },
+  {
     -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     dependencies = {
@@ -20,7 +29,7 @@ require("lazy").setup({
   },
   {
     'neovim/nvim-lspconfig',
-    dependencies = { 
+    dependencies = {
       'williamboman/mason.nvim',
       'williamboman/mason-lspconfig.nvim',
     },
