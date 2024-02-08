@@ -9,9 +9,7 @@ xrandr --dpi 92
 # Remap some keys
 remaps
 
-wallpaper & # restore previous wallpaper
-#wallpaper $HOME/Pictures/wallpapers & # pick random wallpaper
-#wallpaper $HOME/Pictures/wallpapers/anime & # pick random weeb wallpaper
+setbg & # restore previous wallpaper
 
 # Load Xresources
 xrdb ${XDG_CONFIG_HOME:-$HOME.config}/X11/Xresources & xrdbpid=$!
