@@ -18,11 +18,10 @@ vim.opt.cursorline = true
 vim.opt.autoread = true
 
 -- old-school indentation
-vim.o.expandtab = true
-vim.o.smartindent = true
-vim.o.tabstop = 8
-vim.o.shiftwidth = 8
-vim.o.breakindent = true
+vim.opt.tabstop = 8
+vim.opt.softtabstop = 0
+vim.opt.shiftwidth = 8
+vim.opt.expandtab = false
 
 -- Save undo history
 vim.opt.swapfile = false
