@@ -1,0 +1,13 @@
+require("plugins.lazy")
+
+require("plugins.colors")
+require("plugins.lualine")
+require("plugins.tree-sitter")
+require("plugins.telescope")
+require("plugins.completions")
+require("plugins.harpoon")
+require("plugins.lsp")
+require("plugins.gitsigns")
+require("plugins.git-worktree")
+require("plugins.obsidian")
+require("plugins.nvim-tree")
