@@ -1,6 +1,3 @@
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
-
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
