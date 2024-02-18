@@ -3,4 +3,5 @@
 bindfs --resolve-symlinks Music Public/jellyfin/Music
 bindfs --resolve-symlinks Videos/Shows Public/jellyfin/Shows
 bindfs --resolve-symlinks Documents/Bücher  Public/jellyfin/Books
+bindfs --resolve-symlinks Videos/Movies  Public/jellyfin/Movies
 

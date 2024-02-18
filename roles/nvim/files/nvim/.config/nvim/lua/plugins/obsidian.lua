@@ -2,8 +2,8 @@ require("obsidian").setup({
   workspaces = {
     {
       name = "Obsidian",
-      --path = "~/Documents/Obsidian",
-      path = "/mnt/d/Dropbox/Dokumente/Obsidian",
+      path = "~/Documents/Obsidian",
+      --path = "/mnt/d/Dropbox/Dokumente/Obsidian",
     },
   },
   completion = {

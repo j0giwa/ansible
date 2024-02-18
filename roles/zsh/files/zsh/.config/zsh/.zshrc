@@ -118,13 +118,6 @@ alias vim="nvim"
 alias em="/usr/bin/emacs -nw"
 alias emacs="emacsclient -c -a 'emacs'"
 
-# ls
-alias ls='ls -CFhN --group-directories-first'
-alias la='ls -A'
-alias mv='mv -i'
-alias rm='rm -i'
-alias cp='cp -i'
-
 alias curl="curl --user-agent 'noleak'"
 alias wget="wget -c --user-agent 'noleak' --hsts-file='$XDG_DATA_HOME/wget-hsts'"
 #alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc" -- "$XDG_CONFIG_HOME/X11/xserverrc" vt1'
@@ -136,11 +129,8 @@ alias python='python3'
 alias open='xdg-open'
 
 # Pacman / paru
-alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
-alias pacsyyu='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
 alias yay='paru'
-alias yaysua='paru -Sua --noconfirm'             # update only AUR pkgs (paru)
-alias yaysyu='paru -Syu --noconfirm'             # update standard pkgs and AUR pkgs (paru)
+alias update='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 
@@ -159,23 +149,6 @@ alias hc='herbstclient'
 
 # Merge Xresources
 alias merge='xrdb merge ~/.config/X11/Xresources'
-
-# git
-alias addup='git add -u'
-alias addall='git add .'
-alias branch='git branch'
-alias checkout='git checkout'
-alias clone='git clone'
-alias commit='git commit -m'
-alias fetch='git fetch'
-alias pull='git pull origin'
-alias push='git push origin'
-alias stat='git status'  # 'status' is protected name so using 'stat' instead
-alias tag='git tag'
-alias newtag='git tag -a'
-alias gitcount='git log --pretty=format:"%an" | sort | uniq -c'
-alias gittree='git log --pretty=oneline --graph --decorate --all'
-alias config='/usr/bin/git --git-dir=$HOME/Documents/projekte/arch-config/ --work-tree=$HOME'
 
 # keybinds
 bindkey -s '^r' 'histsearch\n'

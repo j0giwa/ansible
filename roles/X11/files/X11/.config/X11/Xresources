@@ -1,5 +1,25 @@
 /* ### Xresources palettes ### */
 
-#include "./Xresources-themes/dracula.Xresources"
-!#include "./Xresources-themes/nord.Xresources"
-!#include "./Xresources-themes/gruvbox-dark.Xresources"
+/*
+*.foreground: #FFFFFF
+*.background: #000000
+*.color0:     #000000
+*.color1:     #800000
+*.color2:     #008000
+*.color3:     #808000
+*.color4:     #000080
+*.color5:     #800080
+*.color6:     #008080
+*.color7:     #c0c0c0
+*.color8:     #808080
+*.color10:     #00ff00
+*.color11:     #ffff00
+*.color12:     #0000ff
+*.color13:     #ff00ff
+*.color14:     #00ffff
+*.color15:     #ffffff
+*/
+
+#include "./themes/dracula"
+!#include "./themes/nord"
+!#include "./themes/gruvbox"
