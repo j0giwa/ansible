@@ -1,8 +1,7 @@
 /* ### Xresources palettes ### */
-
 /*
-*.foreground: #FFFFFF
-*.background: #000000
+*.foreground: #000000
+*.background: #FFFFFF
 *.color0:     #000000
 *.color1:     #800000
 *.color2:     #008000

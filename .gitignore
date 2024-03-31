@@ -3,3 +3,4 @@ roles/nvim/files/nvim/.config/nvim/lazy-lock.json
 roles/mpd/files/mpd/.config/mpd/log
 roles/zsh/files/zsh/.config/zsh/.zcompdump*
 roles/tmux/files/tmux/.config/tmux/plugins/*
+roles/zsh/files/zsh/.config/zsh/.zsh_history

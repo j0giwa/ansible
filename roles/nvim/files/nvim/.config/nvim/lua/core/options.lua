@@ -1,6 +1,8 @@
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
+vim.o.timeoutlen=2000
+
 -- Set highlight on search
 vim.o.ignorecase = true
 vim.o.smartcase = true
