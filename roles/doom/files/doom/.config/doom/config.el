@@ -57,7 +57,9 @@
 
 (setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
 
-(setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-one)
+;;(setq doom-theme 'doom-dracula)
+
 (map! :leader
       :desc "Load new theme" "t t" #'load-theme)
 
@@ -87,6 +89,20 @@
 (setq display-line-numbers-type 'relative)
 
 (+global-word-wrap-mode +1)
+
+(after! lsp-java
+
+  (setq lombok-library-path (concat doom-data-dir "lombok.jar"))
+
+  (unless (file-exists-p lombok-library-path)
+    (url-copy-file "https://projectlombok.org/downloads/lombok.jar" lombok-library-path))
+
+  (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx4G" "-Xms100m"))
+
+  (push (concat "-javaagent:"
+                  (expand-file-name lombok-library-path))
+          lsp-java-vmargs)
+)
 
 (set-face-attribute 'mode-line nil :font "Ubuntu-10")
 (setq doom-modeline-height 25     ;; sets modeline height

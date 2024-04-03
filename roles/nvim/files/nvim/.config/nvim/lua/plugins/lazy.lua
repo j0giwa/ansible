@@ -3,6 +3,7 @@ require("lazy").setup({
   'nvim-tree/nvim-web-devicons',
   "lewis6991/gitsigns.nvim",
   'Mofiqul/dracula.nvim',
+  'martineausimon/nvim-xresources',
   'nvim-lualine/lualine.nvim',
   'ThePrimeagen/harpoon',
   'ThePrimeagen/git-worktree.nvim',

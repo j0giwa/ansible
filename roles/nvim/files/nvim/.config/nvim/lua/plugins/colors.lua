@@ -24,5 +24,20 @@ dracula.setup({
   -- end,
 })
 
+require('nvim-xresources').setup({
+    --  Optional config:
+    xresources_path = os.getenv("HOME") .. '/.config/X11/Xresources',
+    --  auto_light = {
+    --    enable = true,
+    --    value = 0.5,
+    --    exclude = {},
+    --  },
+    --  contrast = 1,
+    --  bold = true,
+    --  palette_overrides = {},
+    fallback_theme = "dracula"
+})
+
 vim.o.termguicolors = true
 vim.cmd[[colorscheme dracula]]
+--vim.cmd('colorscheme xresources')
