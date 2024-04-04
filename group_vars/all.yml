@@ -1,6 +1,5 @@
 default_roles:
   # === core ===
-  - system        # managing the chaos of existence needs a system
   - scripts       # automate the boring stuff
   - zsh           # making your shell prompt fancier than your weekend plans
   - X11           # the stalwart warrior of graphical interfaces

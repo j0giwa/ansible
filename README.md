@@ -5,6 +5,10 @@ Personal GNU/Linux setup deployment sourcery
 > 
 > This works only on Arch btw ... or Arch based distros
 
+## Todo
++ make a script
++ tag roles
+
 ## Dependencys
 This playbook needs 
 * python-watchdog
