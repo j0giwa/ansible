@@ -5,8 +5,12 @@ Personal GNU/Linux setup deployment sourcery
 > 
 > This works only on Arch btw ... or Arch based distros
 
+## Quickstart
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/j0giwa/ansible/master/bin/dotfiles)"
+```
+
 ## Todo
-+ make a script
 + tag roles
 
 ## Dependencys
