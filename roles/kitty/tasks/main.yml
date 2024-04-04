@@ -1,5 +1,5 @@
 ---
-- name: "kitty | Install hyprland"
+- name: "kitty | Install kitty"
   pacman:
     name: kitty
     state: present

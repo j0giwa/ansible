@@ -1,5 +1,5 @@
 ---
-- name: "sxiv | installing rofi"
+- name: "sxiv | installing sxiv"
   pacman:
     name: sxiv
     state: present

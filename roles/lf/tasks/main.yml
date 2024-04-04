@@ -1,5 +1,5 @@
 ---
-- name: "lf | Install hyprland"
+- name: "lf | Install lf"
   pacman:
     name: lf
     state: present
