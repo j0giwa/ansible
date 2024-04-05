@@ -66,21 +66,8 @@
 (require 'elfeed-goodies)
 (elfeed-goodies/setup)
 (setq elfeed-goodies/entry-pane-size 0.5)
-(setq elfeed-feeds (quote
-                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" TH-OWL School)
-                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml" TH-OWL_FB8 School)
-                     ("https://www.anime2you.de/feed/" Anime2You Anime)
-                     ("https://feeds.feedburner.com/crunchyroll/animenews" Crunchyroll Anime)
-                     ("http://loudwire.com/category/metal/feed/" Loudwire Music)
-                     ("https://feeds.feedburner.com/metalinjection" Metal_Injection Music)
-                     ("https://feeds.feedburner.com/metalunderground" Metal_Underground  Music)
-                     ("https://www.metal-hammer.de/feed/" Metal-Hammer Music)
-                     ("https://www.metal-hammer.de/reviews/feed/" Metal-Hammer_Review Music)
-                     ("https://archlinux.org/feeds/news/" Arch Linux)
-                     ("https://www.itsfoss.net/feed/" itsFOSS Linux)
-                     ("https://blog.rust-lang.org/feed.xml" Rust_Blog Programming)
-                     ("https://blog.boot.dev/index.xml" Boot.dev_Blog Programming)
-                     ("https://www.ccc.de/de/rss/updates.xml" CCC InfoSec))))
+
+(add-hook 'elfeed-search-mode-hook #'elfeed-update)
 
 (setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
