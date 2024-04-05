@@ -5,19 +5,6 @@ Personal GNU/Linux setup deployment sourcery
 > 
 > This works only on Arch btw ... or Arch based distros
 
-## Quickstart
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/j0giwa/ansible/master/bin/dotfiles)"
-```
-
-## Todo
-+ tag roles
-
-## Dependencys
-This playbook needs 
-* python-watchdog
-* paru
-
 ## In this Repository
 * Postinstall-setup wizzard for Arch based systems
 * More or less usefull scripts, either written by myself, or complied from various sources
@@ -30,7 +17,7 @@ This playbook needs
 - herbstluftwm
 - hyprland
 - i3
-- [suckless software](https://github.com/j0giwa/suckless-desktop)( [dwm](https://github.com/j0giwa/dwm), [dmenu](https://github.com/j0giwa/dmenu), [st](https://github.com/j0giwa/st))
+- [suckless software](https://github.com/j0giwa/suckless-desktop) ([dwm](https://github.com/j0giwa/dwm), [dmenu](https://github.com/j0giwa/dmenu), [st](https://github.com/j0giwa/st))
 - xmonad
 
 #### Editors
@@ -51,3 +38,12 @@ This playbook needs
 - waybar
 - zathura
 - zellij
+
+## Quickstart
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/j0giwa/ansible/master/bin/dotfiles)"
+```
+
+ ## Todo
++ make it comtaible with debian based distros
++ tag roles
