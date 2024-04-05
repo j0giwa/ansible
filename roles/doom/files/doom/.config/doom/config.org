@@ -10,11 +10,10 @@ This is my private configuration.
 It is supposed to be used in DOOM Emacs
 Remember, you do not need to =doom sync= or =SCP h r r= after modifying this file!
 
- #+begin_src emacs-lisp :tangle yes
-;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
-#+end_src
-       
+
+
 * Table of Contents :toc:
+- [[#whatever-that-is][Whatever that is]]
 - [[#autosave][Autosave]]
 - [[#beacon][Beacon]]
 - [[#bookmarks-and-buffers][Bookmarks and Buffers]]
@@ -25,11 +24,11 @@ Remember, you do not need to =doom sync= or =SCP h r r= after modifying this fil
 - [[#dashboard][Dashboard]]
   - [[#splash][Splash]]
 - [[#doom-theme][DOOM Theme]]
-- [[#editor][Editor]]
 - [[#elfeed][ELFEED]]
 - [[#fonts][Fonts]]
   - [[#font-scale][Font scale]]
 - [[#identification][Identification]]
+- [[#indentation][Indentation]]
 - [[#line-settings][Line Settings]]
 - [[#lsp][LSP]]
   - [[#java][Java]]
@@ -43,9 +42,16 @@ Remember, you do not need to =doom sync= or =SCP h r r= after modifying this fil
   - [[#org-roam-ui][Org-Roam-UI]]
 - [[#rainbow-mode][Rainbow Mode]]
 - [[#shells][Shells]]
-- [[#whitespace-mode][Whitespace-mode]]
+
+* Whatever that is
+I don't know if this was important beacuse it was commented out by default, ill keep this here just in case
+
+ #+begin_src emacs-lisp :tangle yes
+;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
+#+end_src
 
 * Autosave
+Never ever loose files again
 
 #+begin_src emacs-lisp :tangle yes
 (setq auto-save-default t make-backup-files t)
@@ -137,14 +143,18 @@ I have also turned on Global Auto Revert on non-file buffers, which is especiall
 
 * Dashboard
 ** Splash
+Replacing the default splsh with something more personal
+
 *** Image
 Set an custom Slash image
+
 #+begin_src emacs-lisp :tangle yes
 (setq fancy-splash-image (concat doom-private-dir "splash/hlb-splash.png"))
 #+end_src
 
 *** Ascii
 Set asciiart as fallback
+
 #+begin_src emacs-lisp :tangle yes
 (defun dashboard-ascii ()
   (let* ((banner '("                                                                     .                "
@@ -200,41 +210,30 @@ To try out new themes: =M-x load-theme= or =SPC h t=.
       :desc "Load new theme" "t t" #'load-theme)
 #+end_src
 
-* Editor
-#+begin_src emacs-lisp :tangle yes
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 8)
-(setq indent-line-function 'insert-tab)
-#+end_src
-
 * ELFEED
-
- An RSS reader in emacs
+An RSS reader in emacs
 
 #+begin_src emacs-lisp :tangle yes
 (require 'elfeed-goodies)
 (elfeed-goodies/setup)
 (setq elfeed-goodies/entry-pane-size 0.5)
 (setq elfeed-feeds (quote
-                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" School)
-                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml " School)
-                     ("https://www.anime2you.de/feed/" Anime)
-                     ("https://feeds.feedburner.com/crunchyroll/animenews" Anime)
-                     ("http://loudwire.com/category/metal/feed/" Music)
-                     ("https://feeds.feedburner.com/metalinjection" Music)
-                     ("https://feeds.feedburner.com/metalunderground" Music)
-                     ("https://www.metal-hammer.de/feed/" Music)
-                     ("https://www.metal-hammer.de/reviews/feed/" Music)
-                     ("https://archlinux.org/feeds/news/" Linux)
-                     ("https://www.itsfoss.net/feed/" Linux)
-                     ("https://blog.rust-lang.org/feed.xml" Programming)
-                     ("https://blog.boot.dev/index.xml" Programming)
-                     ("https://www.ccc.de/de/rss/updates.xml" InfoSec)
-                     ("https://cdn.julephosting.de/podcasts/117-ohne-sinn-aber/feed.rss" Podcast)
-                     ("https://anchor.fm/s/149fd51c/podcast/rss" Podcast)
-                     ("http://www.aaronsw.com/2002/feeds/pgessays.rss" Misc)
-                     ("https://lukesmith.xyz/index.xml" Misc))))
+                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" TH-OWL School)
+                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml" TH-OWL_FB8 School)
+                     ("https://www.anime2you.de/feed/" Anime2You Anime)
+                     ("https://feeds.feedburner.com/crunchyroll/animenews" Crunchyroll Anime)
+                     ("http://loudwire.com/category/metal/feed/" Loudwire Music)
+                     ("https://feeds.feedburner.com/metalinjection" Metal_Injection Music)
+                     ("https://feeds.feedburner.com/metalunderground" Metal_Underground  Music)
+                     ("https://www.metal-hammer.de/feed/" Metal-Hammer Music)
+                     ("https://www.metal-hammer.de/reviews/feed/" Metal-Hammer_Review Music)
+                     ("https://archlinux.org/feeds/news/" Arch Linux)
+                     ("https://www.itsfoss.net/feed/" itsFOSS Linux)
+                     ("https://blog.rust-lang.org/feed.xml" Rust_Blog Programming)
+                     ("https://blog.boot.dev/index.xml" Boot.dev_Blog Programming)
+                     ("https://www.ccc.de/de/rss/updates.xml" CCC InfoSec))))
 #+end_src
+
 * Fonts
 Doom exposes five (optional) variables for controlling fonts in Doom:
 + =doom-font= -- the primary font to use
@@ -279,6 +278,15 @@ Some functionality uses this to identify you, e.g. GPG configuration, email clie
       user-mail-address "jonasschwind20021@gmx.de")
 #+end_src
 
+* Indentation
+I like 8 character tabs, it a callback to the old typewriter days.
+
+#+begin_src emacs-lisp :tangle yes
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 8)
+(setq indent-line-function 'insert-tab)
+#+end_src
+
 * Line Settings
 This determines the style of line numbers in effect.
 If set to =nil=, line numbers are disabled. For relative line numbers, set this to =relative=.
@@ -296,22 +304,16 @@ Automaticaly wrap lengthy lines.
 * LSP
 ** Java
 Fix issues with lombok
+
 #+begin_src emacs-lisp :tangle yes
 (after! lsp-java
-
   (setq lombok-library-path (concat doom-data-dir "lombok.jar"))
-
   (unless (file-exists-p lombok-library-path)
     (url-copy-file "https://projectlombok.org/downloads/lombok.jar" lombok-library-path))
-
   (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx4G" "-Xms100m"))
-
-  (push (concat "-javaagent:"
-                  (expand-file-name lombok-library-path))
-          lsp-java-vmargs)
+  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs)
 )
 #+end_src
-**
 
 * Minimap
 #+begin_src emacs-lisp :tangle yes
@@ -501,18 +503,3 @@ Settings for the various shells and terminal emulators within Emacs.
       :desc "Counsel eshell history" "e h" #'counsel-esh-history
       :desc "Vterm popup toggle"     "v t" #'+vterm/toggle)
 #+END_SRC
-
-* Whitespace-mode
-
-#+begin_src emacs-lisp :tangle yes
-(use-package! whitespace
-  :config
-  (setq
-    global-whitespace-mode +1
-    whitespace-style '(face tabs tab-mark spaces space-mark trailing lines-tail newline newline-mark)
-    whitespace-display-mappings '(
-      (space-mark   ?\     [?\u00B7]     [?.])
-      (space-mark   ?\xA0  [?\u00A4]     [?_])
-      (newline-mark ?\n    [?¬ ?\n])
-      (tab-mark     ?\t    [?\u00BB ?\t] [?\\ ?\t]))))
-#+end_src emacs-lisp

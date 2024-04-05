@@ -63,32 +63,24 @@
 (map! :leader
       :desc "Load new theme" "t t" #'load-theme)
 
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 8)
-(setq indent-line-function 'insert-tab)
-
 (require 'elfeed-goodies)
 (elfeed-goodies/setup)
 (setq elfeed-goodies/entry-pane-size 0.5)
 (setq elfeed-feeds (quote
-                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" School)
-                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml " School)
-                     ("https://www.anime2you.de/feed/" Anime)
-                     ("https://feeds.feedburner.com/crunchyroll/animenews" Anime)
-                     ("http://loudwire.com/category/metal/feed/" Music)
-                     ("https://feeds.feedburner.com/metalinjection" Music)
-                     ("https://feeds.feedburner.com/metalunderground" Music)
-                     ("https://www.metal-hammer.de/feed/" Music)
-                     ("https://www.metal-hammer.de/reviews/feed/" Music)
-                     ("https://archlinux.org/feeds/news/" Linux)
-                     ("https://www.itsfoss.net/feed/" Linux)
-                     ("https://blog.rust-lang.org/feed.xml" Programming)
-                     ("https://blog.boot.dev/index.xml" Programming)
-                     ("https://www.ccc.de/de/rss/updates.xml" InfoSec)
-                     ("https://cdn.julephosting.de/podcasts/117-ohne-sinn-aber/feed.rss" Podcast)
-                     ("https://anchor.fm/s/149fd51c/podcast/rss" Podcast)
-                     ("http://www.aaronsw.com/2002/feeds/pgessays.rss" Misc)
-                     ("https://lukesmith.xyz/index.xml" Misc))))
+                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" TH-OWL School)
+                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml" TH-OWL_FB8 School)
+                     ("https://www.anime2you.de/feed/" Anime2You Anime)
+                     ("https://feeds.feedburner.com/crunchyroll/animenews" Crunchyroll Anime)
+                     ("http://loudwire.com/category/metal/feed/" Loudwire Music)
+                     ("https://feeds.feedburner.com/metalinjection" Metal_Injection Music)
+                     ("https://feeds.feedburner.com/metalunderground" Metal_Underground  Music)
+                     ("https://www.metal-hammer.de/feed/" Metal-Hammer Music)
+                     ("https://www.metal-hammer.de/reviews/feed/" Metal-Hammer_Review Music)
+                     ("https://archlinux.org/feeds/news/" Arch Linux)
+                     ("https://www.itsfoss.net/feed/" itsFOSS Linux)
+                     ("https://blog.rust-lang.org/feed.xml" Rust_Blog Programming)
+                     ("https://blog.boot.dev/index.xml" Boot.dev_Blog Programming)
+                     ("https://www.ccc.de/de/rss/updates.xml" CCC InfoSec))))
 
 (setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
@@ -109,22 +101,20 @@
 (setq user-full-name "Jonas Schwind"
       user-mail-address "jonasschwind20021@gmx.de")
 
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 8)
+(setq indent-line-function 'insert-tab)
+
 (setq display-line-numbers-type 'relative)
 
 (+global-word-wrap-mode +1)
 
 (after! lsp-java
-
   (setq lombok-library-path (concat doom-data-dir "lombok.jar"))
-
   (unless (file-exists-p lombok-library-path)
     (url-copy-file "https://projectlombok.org/downloads/lombok.jar" lombok-library-path))
-
   (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx4G" "-Xms100m"))
-
-  (push (concat "-javaagent:"
-                  (expand-file-name lombok-library-path))
-          lsp-java-vmargs)
+  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs)
 )
 
 (set-face-attribute 'mode-line nil :font "Ubuntu-10")
