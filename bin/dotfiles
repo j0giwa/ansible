@@ -132,6 +132,7 @@ arch_setup
 # Update repo
 if ! [[ -d "$DOTFILES_DIR" ]]; then
   _task "Cloning repository"
+  [[ -d "$HOME/Projekte" ]] || mkdir "$HOME/Projekte" 
   _cmd "git clone --quiet https://github.com/j0giwa/ansible.git $DOTFILES_DIR"
 else
   _task "Updating repository"
