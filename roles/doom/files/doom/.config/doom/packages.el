@@ -10,13 +10,14 @@
                                         ;(package! some-package)
 
 (package! exwm)
-;(package! exwm-config)
+                                        ;(package! exwm-config)
 (package! xelb)
 (package! org-auto-tangle)
 (package! beacon)
 (package! latex-preview-pane)
 (package! org-roam-ui)
 (package! imenu-list)
+(package! elfeed-goodies)
 (unpin! (:lang java) (:tools lsp))
 
 ;; To install a package directly from a remote git repo, you must specify a

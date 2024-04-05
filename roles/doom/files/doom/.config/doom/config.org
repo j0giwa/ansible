@@ -26,6 +26,7 @@ Remember, you do not need to =doom sync= or =SCP h r r= after modifying this fil
   - [[#splash][Splash]]
 - [[#doom-theme][DOOM Theme]]
 - [[#editor][Editor]]
+- [[#elfeed][ELFEED]]
 - [[#fonts][Fonts]]
   - [[#font-scale][Font scale]]
 - [[#identification][Identification]]
@@ -206,6 +207,34 @@ To try out new themes: =M-x load-theme= or =SPC h t=.
 (setq indent-line-function 'insert-tab)
 #+end_src
 
+* ELFEED
+
+ An RSS reader in emacs
+
+#+begin_src emacs-lisp :tangle yes
+(require 'elfeed-goodies)
+(elfeed-goodies/setup)
+(setq elfeed-goodies/entry-pane-size 0.5)
+(setq elfeed-feeds (quote
+                    (("https://www.th-owl.de/skim/nachrichten/feed.xml" School)
+                     ("https://www.th-owl.de/umwelt/fachbereich/aktuelles/feed.xml " School)
+                     ("https://www.anime2you.de/feed/" Anime)
+                     ("https://feeds.feedburner.com/crunchyroll/animenews" Anime)
+                     ("http://loudwire.com/category/metal/feed/" Music)
+                     ("https://feeds.feedburner.com/metalinjection" Music)
+                     ("https://feeds.feedburner.com/metalunderground" Music)
+                     ("https://www.metal-hammer.de/feed/" Music)
+                     ("https://www.metal-hammer.de/reviews/feed/" Music)
+                     ("https://archlinux.org/feeds/news/" Linux)
+                     ("https://www.itsfoss.net/feed/" Linux)
+                     ("https://blog.rust-lang.org/feed.xml" Programming)
+                     ("https://blog.boot.dev/index.xml" Programming)
+                     ("https://www.ccc.de/de/rss/updates.xml" InfoSec)
+                     ("https://cdn.julephosting.de/podcasts/117-ohne-sinn-aber/feed.rss" Podcast)
+                     ("https://anchor.fm/s/149fd51c/podcast/rss" Podcast)
+                     ("http://www.aaronsw.com/2002/feeds/pgessays.rss" Misc)
+                     ("https://lukesmith.xyz/index.xml" Misc))))
+#+end_src
 * Fonts
 Doom exposes five (optional) variables for controlling fonts in Doom:
 + =doom-font= -- the primary font to use
