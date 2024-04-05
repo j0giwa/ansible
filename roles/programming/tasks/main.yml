@@ -11,6 +11,15 @@
     state: present
   become: true
 
+- name: "Programming | installing rustup"
+  pacman:
+    name: rustup
+    state: present
+  become: true
+
+- name: "Programming | setting up rust"
+  command: rustup default stable
+
 - name: "Programming | installing java"
   pacman:
     name:
