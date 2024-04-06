@@ -10,8 +10,6 @@ This is my private configuration.
 It is supposed to be used in DOOM Emacs
 Remember, you do not need to =doom sync= or =SCP h r r= after modifying this file!
 
-
-
 * Table of Contents :toc:
 - [[#whatever-that-is][Whatever that is]]
 - [[#autosave][Autosave]]
@@ -23,6 +21,7 @@ Remember, you do not need to =doom sync= or =SCP h r r= after modifying this fil
   - [[#keybindings-within-ibuffer-mode][Keybindings within ibuffer mode]]
 - [[#dashboard][Dashboard]]
   - [[#splash][Splash]]
+  - [[#menu][Menu]]
 - [[#doom-theme][DOOM Theme]]
 - [[#elfeed][ELFEED]]
 - [[#fonts][Fonts]]
@@ -196,6 +195,17 @@ Set asciiart as fallback
 (setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
 #+end_src
 
+** Menu
+
+#+begin_src emacs-lisp :tangle yes
+(add-to-list '+doom-dashboard-menu-sections
+             '("Read the news"
+               :icon (nerd-icons-faicon "nf-fa-newspaper_o" :face 'doom-dashboard-menu-title)
+               :when (featurep! :app rss +org)
+               :face (:inherit (doom-dashboard-menu-title bold))
+               :action elfeed))
+#+end_src
+
 * DOOM Theme
 There are two ways to load a theme. Both assume the theme is installed and available. You can either set =doom-theme= or manually load a theme with the =load-theme= function.
 To try out new themes: =M-x load-theme= or =SPC h t=.
@@ -236,9 +246,11 @@ See =C-h v doom-font= for documentation and more examples of what they accept.
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
       doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
+
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
+
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
@@ -298,8 +310,7 @@ Fix issues with lombok
   (unless (file-exists-p lombok-library-path)
     (url-copy-file "https://projectlombok.org/downloads/lombok.jar" lombok-library-path))
   (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx4G" "-Xms100m"))
-  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs)
-)
+  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs))
 #+end_src
 
 * Minimap
@@ -356,6 +367,7 @@ Set mixed pitch font for =org-mode= buffers
 #+end_src
 
 ** Org Agenda
+
 #+begin_src emacs-lisp :tangle yes
 (after! org
   (setq org-agenda-files '("~/Documents/org/agenda.org"))

@@ -57,6 +57,13 @@
 
 (setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
 
+(add-to-list '+doom-dashboard-menu-sections
+             '("Read the news"
+               :icon (nerd-icons-faicon "nf-fa-newspaper_o" :face 'doom-dashboard-menu-title)
+               :when (featurep! :app rss +org)
+               :face (:inherit (doom-dashboard-menu-title bold))
+               :action elfeed))
+
 (setq doom-theme 'doom-one)
 ;;(setq doom-theme 'doom-dracula)
 
@@ -73,9 +80,11 @@
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
       doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
       doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
+
 (after! doom-themes
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t))
+
 (custom-set-faces!
   '(font-lock-comment-face :slant italic)
   '(font-lock-keyword-face :slant italic))
@@ -101,8 +110,7 @@
   (unless (file-exists-p lombok-library-path)
     (url-copy-file "https://projectlombok.org/downloads/lombok.jar" lombok-library-path))
   (setq lsp-java-vmargs '("-XX:+UseParallelGC" "-XX:GCTimeRatio=4" "-XX:AdaptiveSizePolicyWeight=90" "-Dsun.zip.disableMemoryMapping=true" "-Xmx4G" "-Xms100m"))
-  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs)
-)
+  (push (concat "-javaagent:" (expand-file-name lombok-library-path)) lsp-java-vmargs))
 
 (set-face-attribute 'mode-line nil :font "Ubuntu-10")
 (setq doom-modeline-height 25     ;; sets modeline height
