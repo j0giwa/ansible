@@ -133,6 +133,7 @@ alias yay='paru'
 alias update='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
+alias dotfiles='~/Projekte/ansible/bin/dotfiles'
 
 # yt-dlp
 alias youtube-dl='yt-dlp'

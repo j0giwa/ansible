@@ -3,6 +3,7 @@ default_roles:
   - scripts       # automate the boring stuff
   - zsh           # making your shell prompt fancier than your weekend plans
   - X11           # the stalwart warrior of graphical interfaces
+  - picom
 
   # === WM's ===
   - awesome       # being ordinary is just not an option
@@ -10,9 +11,9 @@ default_roles:
   - dunst         # notifications are the spice of life. Or just really annoying interruptions
   - herbstluftwm  # The only WM that makes you feel like you're outdoors
   - hypr          # calm and composed desktops are overrated
-  - i3            # because you don't want to waste time dragging windows around like a caveman
+# - i3            # because you don't want to waste time dragging windows around like a caveman
 # - suckless      # who needs features when you have the beauty of simplicity
-  - xmonad        # because windows deserve a well-tailored Haskell suit
+# - xmonad        # because windows deserve a well-tailored Haskell suit
 
   # === Tools ===
   - alacritty     # waiting for your terminal is for peasants
