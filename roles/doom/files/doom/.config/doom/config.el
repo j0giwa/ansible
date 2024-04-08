@@ -58,8 +58,8 @@
 (setq +doom-dashboard-ascii-banner-fn #'dashboard-ascii)
 
 (add-to-list '+doom-dashboard-menu-sections
-             '("Read the news"
-               :icon (nerd-icons-faicon "nf-fa-newspaper_o" :face 'doom-dashboard-menu-title)
+             '("Open RSS feed"
+               :icon (nerd-icons-faicon "nf-fa-rss" :face 'doom-dashboard-menu-title)
                :when (featurep! :app rss +org)
                :face (:inherit (doom-dashboard-menu-title bold))
                :action elfeed))
@@ -75,6 +75,15 @@
 (setq elfeed-goodies/entry-pane-size 0.5)
 
 (add-hook 'elfeed-search-mode-hook #'elfeed-update)
+
+(evil-define-key 'normal elfeed-show-mode-map
+  (kbd "J") 'elfeed-goodies/split-show-next
+  (kbd "K") 'elfeed-goodies/split-show-prev)
+(evil-define-key 'normal elfeed-search-mode-map
+  (kbd "J") 'elfeed-goodies/split-show-next
+  (kbd "K") 'elfeed-goodies/split-show-prev)
+
+(map! :leader :desc "elfeed" "o n" #'elfeed)
 
 (setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
