@@ -4,8 +4,12 @@
     name: alacritty
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "alacritty | stow configs"
   command: stow -t {{ ansible_user_dir }} alacritty
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles

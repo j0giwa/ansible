@@ -4,8 +4,12 @@
     name: herbstluftwm
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "herbstluftwm | stow configs"
   command: stow -t {{ ansible_user_dir }} herbstluftwm
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles

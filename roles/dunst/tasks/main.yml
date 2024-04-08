@@ -4,8 +4,12 @@
     name: dunst
     state: present
   become: true
+  tags: 
+    - packages
 
 - name: "dunst | stow configs"
   command: stow -t {{ ansible_user_dir }} dunst
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles

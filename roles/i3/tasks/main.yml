@@ -6,8 +6,12 @@
       - i3status
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "i3wm | stowing configs"
   command: stow -t {{ ansible_user_dir }} i3 i3status
   args:
     chdir: "{{ role_dir }}/files"
+  tags:
+    - dotfiles

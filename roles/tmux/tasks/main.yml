@@ -4,14 +4,20 @@
     name: alacritty
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "tmux | stow configs"
   command: stow -t {{ ansible_user_dir }} tmux
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles
 
 - name: "tmux | install tpm" 
   git:
     repo: https://github.com/tmux-plugins/tpm 
     dest: "{{ ansible_user_dir }}/.config/plugins/tpm"
-
+  tags:
+    - packages
+    - dotfiles

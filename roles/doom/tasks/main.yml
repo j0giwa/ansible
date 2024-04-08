@@ -6,13 +6,26 @@
       - emacs
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "DOOM | clone Doom Emacs repository" 
   git:
     repo: https://github.com/hlissner/doom-emacs
     dest: "{{ ansible_user_dir }}/.config/emacs"
+  tags:
+    - packages
 
 - name: "DOOM | Install Doom Emacs"
   command: doom install
   args:
     chdir: "{{ ansible_user_dir }}/.config/emacs/bin"
+  tags:
+    - dotfiles
+
+- name: "doom | stow configs"
+  command: stow -t {{ ansible_user_dir }} doom
+  args:
+    chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles

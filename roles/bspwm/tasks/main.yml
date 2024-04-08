@@ -6,8 +6,12 @@
       - sxhkd
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "bspwm | stow configs"
   command: stow -t {{ ansible_user_dir }} bspwm sxhkd
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles

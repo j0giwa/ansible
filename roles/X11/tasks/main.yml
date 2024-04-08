@@ -11,8 +11,12 @@
       - ttf-firacode-nerd
     state: present
   become: true
+  tags:
+    - packages
 
 - name: "X11 | stow configs"
   command: stow -t {{ ansible_user_dir }} X11
   args:
     chdir: "{{ role_path }}/files"
+  tags:
+    - dotfiles
