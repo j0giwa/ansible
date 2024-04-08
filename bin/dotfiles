@@ -92,7 +92,7 @@ function _task_done {
 function arch_setup() {
 
   # Refrech pkg-dbs
-  _cmd "sudo pacman -S --noconfirm python-pip"
+  _cmd "sudo pacman -Syy"
 
   if ! [ -x "$(command -v ansible)" ]; then
     _task "Installing Ansible"
