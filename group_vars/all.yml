@@ -27,3 +27,4 @@ default_roles:
   - sxiv          # look mom, corny grafics
   - zellij        # because normal multiplexers were just too mainstream
   - zathura       # the PDF-reader that doesn't judge your document choices
+  - tmux
