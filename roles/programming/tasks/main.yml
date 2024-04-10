@@ -28,6 +28,12 @@
     state: present
   become: true
 
+- name: "Programming | installing plantuml"
+  pacman:
+    name: plantuml
+    state: present
+  become: true
+
 - name: "Programming | installing node"
   pacman:
     name: npm
