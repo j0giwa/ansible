@@ -3,16 +3,16 @@ default_roles:
   - scripts       # automate the boring stuff
   - zsh           # making your shell prompt fancier than your weekend plans
   - X11           # the stalwart warrior of graphical interfaces
-  - picom
+  - picom         # blur and transparency
 
   # === WM's ===
-  - awesome       # being ordinary is just not an option
-  - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
-  - dunst         # notifications are the spice of life. Or just really annoying interruptions
-  - herbstluftwm  # The only WM that makes you feel like you're outdoors
-  - hypr          # calm and composed desktops are overrated
+# - awesome       # being ordinary is just not an option
+# - bspwm         # when you want your windows tiled, but also have a deep appreciation for consonants
+# - dunst         # notifications are the spice of life. Or just really annoying interruptions
+# - herbstluftwm  # The only WM that makes you feel like you're outdoors
+# - hypr          # calm and composed desktops are overrated
 # - i3            # because you don't want to waste time dragging windows around like a caveman
-# - suckless      # who needs features when you have the beauty of simplicity
+  - suckless      # who needs features when you have the beauty of simplicity
 # - xmonad        # because windows deserve a well-tailored Haskell suit
 
   # === Tools ===
@@ -25,6 +25,6 @@ default_roles:
   - nvim          # because vim wasn't complicated enough
   - programming   # scripting but smarter
   - sxiv          # look mom, corny grafics
+  - tmux          # plain and simple multiplexing
   - zellij        # because normal multiplexers were just too mainstream
   - zathura       # the PDF-reader that doesn't judge your document choices
-  - tmux

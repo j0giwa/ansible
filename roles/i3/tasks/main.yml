@@ -4,6 +4,7 @@
     name:
       - i3
       - i3status
+      - gnu-free-fonts
     state: present
   become: true
   tags:
