@@ -64,8 +64,7 @@
                :face (:inherit (doom-dashboard-menu-title bold))
                :action elfeed))
 
-(setq doom-theme 'doom-one)
-;;(setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-rose-pine)
 
 (map! :leader
       :desc "Load new theme" "t t" #'load-theme)

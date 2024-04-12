@@ -121,12 +121,14 @@ alias emacs="emacsclient -c -a 'emacs'"
 alias curl="curl --user-agent 'noleak'"
 alias wget="wget -c --user-agent 'noleak' --hsts-file='$XDG_DATA_HOME/wget-hsts'"
 #alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc" -- "$XDG_CONFIG_HOME/X11/xserverrc" vt1'
+alias fetch='exec $FETCH'
 alias mysql-workbench='mysql-workbench --configdir="$XDG_DATA_HOME/mysql/workbench"'
 alias netbeans='netbeans --userdir "${XDG_CONFIG_HOME}"/netbeans'
 #alias lampp='/opt/lampp/manager-linux-x64.run'
 alias htdocs='cd /opt/lampp/htdocs'
 alias python='python3'
 alias open='xdg-open'
+alias bitchx='cp437 BitchX'
 
 # Pacman / paru
 alias yay='paru'
@@ -155,7 +157,6 @@ alias merge='xrdb merge ~/.config/X11/Xresources'
 bindkey -s '^r' 'histsearch\n'
 bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^o' 'lfcd\n'
-bindkey -s '^b' 'tmux-windowizer ./ ./build\n'
 
 # Autostart
 pokemon-colorscripts --random --no-title

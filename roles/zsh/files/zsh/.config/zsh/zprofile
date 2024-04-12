@@ -3,6 +3,7 @@
 export ZDOTDIR="$HOME"/.config/zsh
 
 # ==== Default Programms ====
+export FETCH="nitch"
 export TERMINAL="st"
 export BROWSER="firefox"
 export TERM="xterm-256color" # getting proper colors
