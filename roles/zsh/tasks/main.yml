@@ -29,9 +29,9 @@
     update: yes
     version: master
 
-- name: "zsh | install zsh-vimode-visual plugin" 
+- name: "zsh | install vi-mode plugin" 
   git:
-    repo: https://github.com/b4b4r07/vi-mode 
+    repo: https://github.com/nyquase/vi-mode
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/vi-mode"
     update: yes
     version: master
