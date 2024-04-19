@@ -3,6 +3,3 @@
   command: stow -t {{ ansible_user_dir }} scripts
   args:
     chdir: "{{ role_path }}/files"
-
-- name: "scripts | setting permissions"
-  command: chmod +s {{ ansible_user_dir }}.local/bin/*
