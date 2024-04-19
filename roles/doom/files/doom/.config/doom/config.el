@@ -16,6 +16,23 @@
 (global-auto-revert-mode 1)
 (setq global-auto-revert-non-file-buffers t)
 
+(setq centaur-tabs-set-bar 'over
+      centaur-tabs-set-icons t
+      centaur-tabs-gray-out-icons 'buffer
+      centaur-tabs-height 24
+      centaur-tabs-set-modified-marker t
+      centaur-tabs-style "bar"
+      centaur-tabs-modified-marker "•")
+
+;(map! :leader
+;      :desc "Toggle tabs globally" "t c" #'centaur-tabs-mode
+;      :desc "Toggle tabs local display" "t C" #'centaur-tabs-local-mode)
+
+(evil-define-key 'normal centaur-tabs-mode-map (kbd "g <right>") 'centaur-tabs-forward        ; default Doom binding is 'g t'
+                                               (kbd "g <left>")  'centaur-tabs-backward       ; default Doom binding is 'g T'
+                                               (kbd "g <down>")  'centaur-tabs-forward-group
+                                               (kbd "g <up>")    'centaur-tabs-backward-group)
+
 (setq fancy-splash-image (concat doom-private-dir "splash/hlb-splash.png"))
 
 (defun dashboard-ascii ()
@@ -64,7 +81,7 @@
                :face (:inherit (doom-dashboard-menu-title bold))
                :action elfeed))
 
-(setq doom-theme 'doom-rose-pine)
+(setq doom-theme 'doom-one)
 
 (map! :leader
       :desc "Load new theme" "t t" #'load-theme)

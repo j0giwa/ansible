@@ -71,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(archlinux colorize git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(archlinux colorize git vi-mode zsh-vimode-visual zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,7 +121,7 @@ alias emacs="emacsclient -c -a 'emacs'"
 alias curl="curl --user-agent 'noleak'"
 alias wget="wget -c --user-agent 'noleak' --hsts-file='$XDG_DATA_HOME/wget-hsts'"
 #alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc" -- "$XDG_CONFIG_HOME/X11/xserverrc" vt1'
-alias fetch='exec $FETCH'
+alias fetch='$FETCH'
 alias mysql-workbench='mysql-workbench --configdir="$XDG_DATA_HOME/mysql/workbench"'
 alias netbeans='netbeans --userdir "${XDG_CONFIG_HOME}"/netbeans'
 #alias lampp='/opt/lampp/manager-linux-x64.run'

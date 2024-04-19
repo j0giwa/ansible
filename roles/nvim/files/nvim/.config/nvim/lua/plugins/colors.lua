@@ -1,4 +1,6 @@
 local dracula = require("dracula")
+local rose_pine = require("rose-pine")
+
 dracula.setup({
   -- show the '~' characters after the end of buffers
   show_end_of_buffer = true, -- default false
@@ -24,20 +26,62 @@ dracula.setup({
   -- end,
 })
 
-require('nvim-xresources').setup({
-    --  Optional config:
-    xresources_path = os.getenv("HOME") .. '/.config/X11/Xresources',
-    --  auto_light = {
-    --    enable = true,
-    --    value = 0.5,
-    --    exclude = {},
-    --  },
-    --  contrast = 1,
-    --  bold = true,
-    --  palette_overrides = {},
-    fallback_theme = "dracula"
+rose_pine.setup({
+    variant = "auto", -- auto, main, moon, or dawn
+    dark_variant = "main", -- main, moon, or dawn
+    dim_inactive_windows = false,
+    extend_background_behind_borders = true,
+    disable_background = true,
+
+    enable = {
+        terminal = true,
+        legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
+        migrations = true, -- Handle deprecated options automatically
+    },
+
+    styles = {
+        bold = true,
+        italic = true,
+        transparency = false,
+    },
+
+    groups = {
+        border = "muted",
+        link = "iris",
+        panel = "surface",
+
+        error = "love",
+        hint = "iris",
+        info = "foam",
+        note = "pine",
+        todo = "rose",
+        warn = "gold",
+
+        git_add = "foam",
+        git_change = "rose",
+        git_delete = "love",
+        git_dirty = "rose",
+        git_ignore = "muted",
+        git_merge = "iris",
+        git_rename = "pine",
+        git_stage = "iris",
+        git_text = "rose",
+        git_untracked = "subtle",
+
+        h1 = "iris",
+        h2 = "foam",
+        h3 = "rose",
+        h4 = "gold",
+        h5 = "pine",
+        h6 = "foam",
+    },
+
+    highlight_groups = {
+        -- Comment = { fg = "foam" },
+        -- VertSplit = { fg = "muted", bg = "muted" },
+    },
 })
 
 vim.o.termguicolors = true
-vim.cmd[[colorscheme dracula]]
---vim.cmd('colorscheme xresources')
+--vim.cmd[[colorscheme dracula]]
+vim.cmd[[colorscheme rose-pine]]
