@@ -4,3 +4,4 @@ roles/mpd/files/mpd/.config/mpd/log
 roles/zsh/files/zsh/.config/zsh/.zcompdump*
 roles/tmux/files/tmux/.config/tmux/plugins/*
 roles/zsh/files/zsh/.config/zsh/.zsh_history
+group_vars/all.yml
