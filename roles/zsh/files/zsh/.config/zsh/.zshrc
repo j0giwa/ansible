@@ -159,4 +159,4 @@ bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^o' 'lfcd\n'
 
 # Autostart
-pokemon-colorscripts --random --no-title
+#pokemon-colorscripts --random --no-title
