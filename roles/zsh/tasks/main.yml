@@ -8,7 +8,46 @@
     state: present
   become: true
 
+- name: "zsh | install oh-my-zsh" 
+  git:
+    repo: https://github.com/ohmyzsh/ohmyzsh.git
+    dest: "{{ ansible_user_dir }}/.config/oh-my-zsh"
+    update: yes
+    version: master
+
+- name: "zsh | install zsh-autosuggestions plugin" 
+  git: 
+    repo: https://github.com/zsh-users/zsh-autosuggestions.git 
+    dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-autosuggestions"
+    update: yes
+    version: master
+
+- name: "zsh | install zsh-autosuggestions plugin" 
+  git: 
+    repo: https://github.com/zsh-users/zsh-syntax-highlighting.git 
+    dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
+    update: yes
+    version: master
+
+- name: "zsh | install zsh-vimode-visual plugin" 
+  git:
+    repo: https://github.com/b4b4r07/vi-mode 
+    dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/vi-mode"
+    update: yes
+    version: master
+
+- name: "zsh | install zsh-vimode-visual plugin" 
+  git:
+    repo: https://github.com/b4b4r07/zsh-vimode-visual 
+    dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-vimode-visual"
+    update: yes
+    version: master
+
 - name: "zsh | stow configs"
   command: stow -t {{ ansible_user_dir }} zsh
   args:
     chdir: "{{ role_path }}/files"
+
+- name: "zsh | link profile"
+  command: ln -f {{ ansible_user_dir }}/.config/zsh/zprofile {{ ansible_user_dir }}/.zprofile
+  
