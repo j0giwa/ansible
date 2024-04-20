@@ -49,5 +49,5 @@
     chdir: "{{ role_path }}/files"
 
 - name: "zsh | link profile"
-  command: ln -f {{ ansible_user_dir }}/.config/zsh/zprofile {{ ansible_user_dir }}/.zprofile
+  command: ln -sf {{ ansible_user_dir }}/.config/zsh/zprofile {{ ansible_user_dir }}/.zprofile
   
