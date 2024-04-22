@@ -1,7 +1,7 @@
 ---
 - name: "tmux | installing tmux"
   pacman:
-    name: alacritty
+    name: tmux
     state: present
   become: true
   tags:

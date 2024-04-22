@@ -1,7 +1,7 @@
 ---
 - name: "picom | Install picom"
   pacman:
-    name: neovim
+    name: picom
     state: present
   become: true
 
