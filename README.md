@@ -40,9 +40,15 @@ Personal GNU/Linux setup deployment sourcery
 - zellij
 
 ## Quickstart
+Run
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/j0giwa/ansible/master/bin/dotfiles)"
 ```
+Or 
+```bash
+curl -fsSL https://raw.githubusercontent.com/j0giwa/ansible/master/bin/dotfiles | bash -s -- --tags comma,seperated,tags
+```
+If you only want to run specific roles
 
  ## Todo
 + make it comtaible with debian based distros
