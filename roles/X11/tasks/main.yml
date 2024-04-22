@@ -8,7 +8,7 @@
       - xwallpaper
       - libnotify
       - brightnessctl
-      - ttf-jetbrains-mono
+      - ttf-jetbrains-mono-nerd
       - ttf-ubuntu-font-family
       - ttf-firacode-nerd
     state: present
