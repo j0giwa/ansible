@@ -5,4 +5,4 @@
     chdir: "{{ role_path }}/files"
 
 - name: "scripts | chmodding scripts"
-  command: chmod 755 {{ ansible_user_dir }}/.local/bin/*
+  command: chmod 755 -R {{ ansible_user_dir }}/.local/bin
