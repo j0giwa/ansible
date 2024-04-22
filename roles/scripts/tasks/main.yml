@@ -6,7 +6,7 @@
 
 - name: "scripts | chmodding scripts"
   ansible.builtin.file:
-    path: {{ ansible_user_dir }}/.local/bin/*
+    path: "{{ ansible_user_dir }}/.local/bin/*"
     owner: jogiwa
     group: jogiwa
     mode: '0755'
