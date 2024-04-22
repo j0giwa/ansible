@@ -6,6 +6,8 @@
       - xclip
       - xdotool
       - xwallpaper
+      - libnotify
+      - brightnessctl
       - ttf-jetbrains-mono
       - ttf-ubuntu-font-family
       - ttf-firacode-nerd
