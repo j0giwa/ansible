@@ -1,5 +1,6 @@
 ---
-- hosts: localhost
+- name: DotFiles
+  hosts: localhost
   connection: local
   
   pre_tasks:
