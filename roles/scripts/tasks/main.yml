@@ -4,5 +4,10 @@
   args:
     chdir: "{{ role_path }}/files"
 
+# Dirty fix to solve permission problems
 - name: "scripts | chmodding scripts"
   command: chmod 755 -R {{ ansible_user_dir }}/.local/bin
+
+- name: "scripts | chmodding dotfiles script"
+  command: chmod 755 {{ playbook_dir }}/bin/dotfiles
+
