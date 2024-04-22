@@ -5,10 +5,4 @@
     chdir: "{{ role_path }}/files"
 
 - name: "scripts | chmodding scripts"
-  ansible.builtin.file:
-    path: "{{ ansible_user_dir }}/.local/bin"
-    owner: jogiwa
-    group: jogiwa
-    mode: '0755'
-    recurse: yes
-    follow: yes
+  command: chmod 755 -r {{ ansible_user_dir }}/.local/bin/*
