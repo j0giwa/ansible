@@ -28,3 +28,4 @@ default_roles:
   - tmux          # plain and simple multiplexing
   - zellij        # because normal multiplexers were just too mainstream
   - zathura       # the PDF-reader that doesn't judge your document choices
+  - misc          # Everyday software i didN't now where to put

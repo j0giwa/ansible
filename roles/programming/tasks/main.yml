@@ -40,3 +40,20 @@
     state: present
   become: true
 
+- name: "Programming | installing fzf"
+  pacman:
+    name: fzf
+    state: present
+  become: true
+
+- name: "Programming | installing man"
+  pacman:
+    name: man
+    state: present
+  become: true
+
+- name: "Programming | installing tldr"
+  pacman:
+    name: tldr
+    state: present
+  become: true
