@@ -10,8 +10,7 @@ xrandr --dpi 92
 remaps
 
 setbg & # restore previous wallpaper
-
-xrandr --output "eDP-1" --scale 1.3x1.3 && setbg # Scales my display to 120%
+#xrandr --output "eDP-1" --scale 1.3x1.3 && setbg # Scales my display to 120%
 
 # Load Xresources
 xrdb ${XDG_CONFIG_HOME:-$HOME.config}/X11/Xresources & xrdbpid=$!
