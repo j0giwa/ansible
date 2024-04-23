@@ -16,17 +16,32 @@
 (global-auto-revert-mode 1)
 (setq global-auto-revert-non-file-buffers t)
 
+(defun my-centaur-tabs-exclude-buffer (buffer)
+  "Returns non-nil if BUFFER should be excluded from Centaur Tabs."
+  (or (string-prefix-p "*" (buffer-name buffer))
+      (string= (buffer-name buffer) "*doom*")
+      (string= (buffer-name buffer) "*scratch*")
+      (string= (buffer-name buffer) "*Messages*")
+      (string-prefix-p "*Treemacs-scoped-Buffer-Perspective" (buffer-name buffer))))
+
+(defun hide-centaur-tabs-in-treemacs (buffer)
+  "Return non-nil if BUFFER should not display a Centaur Tabs bar."
+  (with-current-buffer buffer
+    (derived-mode-p 'treemacs-mode)))
+
 (setq centaur-tabs-set-bar 'over
       centaur-tabs-set-icons t
       centaur-tabs-gray-out-icons 'buffer
       centaur-tabs-height 24
       centaur-tabs-set-modified-marker t
       centaur-tabs-style "bar"
-      centaur-tabs-modified-marker "•")
+      centaur-tabs-modified-marker "•"
+      centaur-tabs-hide-tab-function #'my-centaur-tabs-exclude-buffer
+      centaur-tabs-hide-tab-function #'hide-centaur-tabs-in-treemacs)
 
-;(map! :leader
-;      :desc "Toggle tabs globally" "t c" #'centaur-tabs-mode
-;      :desc "Toggle tabs local display" "t C" #'centaur-tabs-local-mode)
+(map! :leader
+      :desc "Toggle tabs globally" "t TAB" #'centaur-tabs-mode
+      :desc "Toggle tabs local display" "t <backtab>" #'centaur-tabs-local-mode)
 
 (evil-define-key 'normal centaur-tabs-mode-map (kbd "g <right>") 'centaur-tabs-forward        ; default Doom binding is 'g t'
                                                (kbd "g <left>")  'centaur-tabs-backward       ; default Doom binding is 'g T'
@@ -81,10 +96,7 @@
                :face (:inherit (doom-dashboard-menu-title bold))
                :action elfeed))
 
-(setq doom-theme 'doom-one)
-
-(map! :leader
-      :desc "Load new theme" "t t" #'load-theme)
+(setq doom-theme 'doom-dracula)
 
 (require 'elfeed-goodies)
 (elfeed-goodies/setup)
