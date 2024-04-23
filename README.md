@@ -32,6 +32,7 @@ Personal GNU/Linux setup deployment sourcery
 - ncmpcpp
 - neofetch
 - oh-my-zsh
+- picom ([jonaburg's fork](https://github.com/jonaburg/picom))
 - rofi
 - sxhkd
 - tmux
