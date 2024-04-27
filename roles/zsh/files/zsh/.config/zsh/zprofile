@@ -12,6 +12,8 @@ export EDITOR="nvim"         # $EDITOR use nvim in terminal
 #export VISUAL="emacsclient -c -a emacs" # $VISUAL use Emacs in GUI mode
 #export PAGER="sh -c 'col -bx | bat -l man -p'"
 
+export TEXPLATES="$HOME/Templates/latex"
+
 # ==== XDG ====
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
