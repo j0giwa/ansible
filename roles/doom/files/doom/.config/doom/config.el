@@ -16,7 +16,7 @@
 (global-auto-revert-mode 1)
 (setq global-auto-revert-non-file-buffers t)
 
-(defun my-centaur-tabs-exclude-buffer (buffer)
+(defun exclude-centaur-tabs-from-buffer (buffer)
   "Returns non-nil if BUFFER should be excluded from Centaur Tabs."
   (or (string-prefix-p "*" (buffer-name buffer))
       (string= (buffer-name buffer) "*doom*")
@@ -24,10 +24,14 @@
       (string= (buffer-name buffer) "*Messages*")
       (string-prefix-p "*Treemacs-scoped-Buffer-Perspective" (buffer-name buffer))))
 
-(defun hide-centaur-tabs-in-treemacs (buffer)
-  "Return non-nil if BUFFER should not display a Centaur Tabs bar."
-  (with-current-buffer buffer
-    (derived-mode-p 'treemacs-mode)))
+(defun hide-centaur-tabs-in-buffer  (buffer)
+  "Returns non-nil if BUFFER should be excluded from Centaur Tabs."
+  (or (string-prefix-p "*" (buffer-name buffer))
+      (string= (buffer-name buffer) "*doom*")
+      (string= (buffer-name buffer) "*scratch*")
+      (string= (buffer-name buffer) "*Messages*")
+      (with-current-buffer buffer
+        (derived-mode-p 'treemacs-mode))))
 
 (setq centaur-tabs-set-bar 'over
       centaur-tabs-set-icons t
@@ -36,8 +40,8 @@
       centaur-tabs-set-modified-marker t
       centaur-tabs-style "bar"
       centaur-tabs-modified-marker "•"
-      centaur-tabs-hide-tab-function #'my-centaur-tabs-exclude-buffer
-      centaur-tabs-hide-tab-function #'hide-centaur-tabs-in-treemacs)
+      centaur-tabs-hide-tab-function #'exclude-centaur-tabs-from-buffer
+      centaur-tabs-hide-tab-function #'hide-centaur-tabs-in-buffer)
 
 (map! :leader
       :desc "Toggle tabs globally" "t TAB" #'centaur-tabs-mode
@@ -96,7 +100,17 @@
                :face (:inherit (doom-dashboard-menu-title bold))
                :action elfeed))
 
-(setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-dracula
+      xterm-color-preserve-properties t)
+
+(setq-hook! 'prog-mode-hook +format-with nil)
+(setq +format-on-save-enabled-modes nil)
+
+(setq-default indent-tabs-mode nil
+              tab-width 8)
+(setq indent-line-function 'insert-tab)
+
+(setq scroll-margin 8)
 
 (require 'elfeed-goodies)
 (elfeed-goodies/setup)
@@ -134,13 +148,31 @@
 (setq user-full-name "Jonas Schwind"
       user-mail-address "jonasschwind20021@gmx.de")
 
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 8)
-(setq indent-line-function 'insert-tab)
-
 (setq display-line-numbers-type 'relative)
 
 (+global-word-wrap-mode +1)
+
+(map! :leader
+      :desc "Rename symbol" "r n" #'lsp-rename
+      :desc "Execute code action" "c a" #'lsp-execute-code-action
+      :desc "Search workspace symbols" "v w s" #'lsp-ivy-workspace-symbol
+      :desc "Find references" "v d" #'lsp-ui-peek-find-references
+      :desc "Execute code action" "v c a" #'lsp-execute-code-action
+      :desc "Find references" "v r r" #'lsp-find-references
+      :desc "Rename symbol" "v r n" #'lsp-rename)
+
+(map! :map lsp-mode-map
+      :desc "Show documentation" "K" #'lsp-hover
+      :desc "Go to definition" "g d" #'lsp-find-definition
+      :desc "Jump to next diagnostic" "[ d" #'lsp-ui-peek-jump-forward
+      :desc "Jump to previous diagnostic" "] d" #'lsp-ui-peek-jump-backward)
+
+(after! company
+  (map! :map company-active-map
+        :desc "Select previous candidate" "C-p" #'company-select-previous
+        :desc "Select next candidate" "C-n" #'company-select-next
+        :desc "Complete selection" "C-y" #'company-complete-selection
+        :desc "Complete" "C-SPC" #'company-complete))
 
 (after! lsp-java
   (setq lombok-library-path (concat doom-data-dir "lombok.jar"))
