@@ -10,7 +10,9 @@ fi
 # Start an xsession
 #exec emacs # fun test
 #exec i3
-exec ~/.config/suckless/dwm/scripts/run.sh
+#exec ~/.config/suckless/dwm/scripts/run.sh
 #exec xmonad
 #exec herbstluftwm --locked
 #exec startxfce4
+pidof -s $HOME/.config/suckless/scripts/bar.sh || $HOME/.config/suckless/scripts/bar.sh & # dwm bar
+exec dwm
