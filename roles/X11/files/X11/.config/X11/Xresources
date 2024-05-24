@@ -1,10 +1,10 @@
 /* ### Xresources palettes ### */
 
-#include "./themes/dracula"
+!#include "./themes/dracula"
 !#include "./themes/doom-one"
 !#include "./themes/rose-pine"
 !#include "./themes/nord"
-!#include "./themes/gruvbox"
+#include "./themes/gruvbox"
 
 /*
 *.foreground:  #000000
