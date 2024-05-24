@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Neotouch
+# Create a new file From template
+
+workdir="$(pwd)"
+template_dir="$HOME/Templates"
+
+category=$(find -L "$template_dir" -mindepth 1 -maxdepth 1 -type d | xargs -n 1 basename | fzf)
+template=$(find -L "$template_dir/$category" -mindepth 1 | xargs -n 1 basename | fzf)
+filename=$(echo "" | fzf --print-query --prompt="filename: ")
+
+cp $template_dir/$category/$template $workdir/$filename

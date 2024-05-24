@@ -104,6 +104,7 @@ alias vi="vim"
 alias vim="nvim"
 alias em="/usr/bin/emacs -nw"
 alias emacs="emacsclient -c -a 'emacs'"
+alias ntouch="neotouch"
 
 # override default options
 alias curl="curl --user-agent 'noleak'"
@@ -143,9 +144,10 @@ alias merge='xrdb merge ~/.config/X11/Xresources'
 bindkey -s '^r' 'histsearch\n'
 bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^o' 'lfcd\n'
+bindkey -s '^n' 'neotouch\n'
 
 # Autostart
-if [ -z $DISPLAY && $XDG_VTNR -eq 1 ]; then
+if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 	neofetch
 	startx
 else
