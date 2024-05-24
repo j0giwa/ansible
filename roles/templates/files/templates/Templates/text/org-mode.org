@@ -1,0 +1,4 @@
+#+TITLE: Org Mode Document
+#+AUTHOR:
+#+DESCRIPTION:
+#+STARTUP: showeverything

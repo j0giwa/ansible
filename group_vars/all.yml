@@ -4,6 +4,7 @@ default_roles:
   - zsh           # making your shell prompt fancier than your weekend plans
   - X11           # the stalwart warrior of graphical interfaces
   - picom         # blur and transparency
+  - templates
 
   # === WM's ===
 # - awesome       # being ordinary is just not an option

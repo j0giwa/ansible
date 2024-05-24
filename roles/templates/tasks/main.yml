@@ -1,0 +1,4 @@
+- name: "Templates | stowing templates"
+  command: stow -t {{ ansible_user_dir }} templates
+  args:
+    chdir: "{{ role_path }}/files"

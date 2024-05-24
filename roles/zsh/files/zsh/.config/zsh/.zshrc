@@ -17,7 +17,7 @@ ZSH_THEME="robbyrussell"
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -53,18 +53,6 @@ ZSH_THEME="robbyrussell"
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-#export HISTFILE="$XDG_STATE_HOME"/zsh/history
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -105,26 +93,24 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
-
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias diff='diff --color=auto'
 alias ip='ip --color=auto'
 
-# vim and emacs
+# editors
 alias vi="vim"
 alias vim="nvim"
 alias em="/usr/bin/emacs -nw"
 alias emacs="emacsclient -c -a 'emacs'"
 
+# override default options
 alias curl="curl --user-agent 'noleak'"
 alias wget="wget -c --user-agent 'noleak' --hsts-file='$XDG_DATA_HOME/wget-hsts'"
-#alias startx='startx "$XDG_CONFIG_HOME/X11/xinitrc" -- "$XDG_CONFIG_HOME/X11/xserverrc" vt1'
 alias fetch='$FETCH'
 alias mysql-workbench='mysql-workbench --configdir="$XDG_DATA_HOME/mysql/workbench"'
 alias netbeans='netbeans --userdir "${XDG_CONFIG_HOME}"/netbeans'
-#alias lampp='/opt/lampp/manager-linux-x64.run'
 alias htdocs='cd /opt/lampp/htdocs'
 alias python='python3'
 alias open='xdg-open'
@@ -159,4 +145,9 @@ bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^o' 'lfcd\n'
 
 # Autostart
-#pokemon-colorscripts --random --no-title
+if [ -z $DISPLAY && $XDG_VTNR -eq 1 ]; then
+	neofetch
+	startx
+else
+	pokemon-colorscripts --random --no-title
+fi
