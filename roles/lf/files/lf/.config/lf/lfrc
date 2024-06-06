@@ -7,7 +7,7 @@ set shell sh            # interpreter for shell commands
 set shellopts '-eu'     # set '-eu' options for safer shell commands.
 set ifs "\n"            # set internal field separator (IFS) to "\n" for shell commands
 set scrolloff 10
-
+set icons true
 
 # define a custom 'open' command
 # This command is uses an editor for text files and a file opener for the rest.
@@ -82,6 +82,6 @@ map <delete> trash
 #map <delete> delete
 
 # define a custom 'rename' command without prompt for overwrite
-cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
-map r push :rename<space>
+#cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
+#map r push :rename<space>
 
