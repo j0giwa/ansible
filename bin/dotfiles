@@ -146,6 +146,8 @@ function arch_setup() {
   _cmd "sudo localectl set-locale LANG=en_US.UTF-8"
 }
 
+sudo echo "" > /dev/null # get root
+
 source /etc/os-release
 _task "Loading Setup for detected OS: $ID"
 case $ID in

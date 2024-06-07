@@ -1,6 +1,6 @@
 ---
 - name: "Neovim | {{ ansible_distribution }} | Dependencies"
-  ansible.builtin.apt:
+  apt:
     name:
       - cmake
       - curl
@@ -12,8 +12,15 @@
     state: present
   become: true
 
-- name: "Neovim | {{ ansible_distribution }} | Install"
-  ansible.builtin.apt_repository:
+- name: "Neovim | {{ ansible_distribution }} | Install Repository"
+  apt_repository:
     repo: ppa:neovim-ppa/unstable
+    state: present
+  become: true
+
+- name: "Neovim | {{ ansible_distribution }} | Dependencies"
+  apt:
+    name:
+      - neovim
     state: present
   become: true
