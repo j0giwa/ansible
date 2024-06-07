@@ -3,12 +3,10 @@
   apt:
     name:
       - cmake
-      - curl
-      - pkg-config
-      - libtool
       - unzip
-      - ansible-lint
-      - ripgrep
+      - ninja-build
+      - gettext
+      - curl
     state: present
   become: true
   tags:
@@ -22,10 +20,9 @@
     - packages
 
 - name: "Neovim | {{ ansible_distribution }} | Install"
-  become: true
-  shell: "cd {{ lookup('env', 'HOME') }}/neovim && make install"
   command: "make install"
   args:
     chdir: "{{ ansible_user_dir }}/Projekte/neovim"
+  become: true
   tags:
     - packages
