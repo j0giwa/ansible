@@ -1,18 +1,18 @@
 ---
 - name: "Programming | installing c/c++"
-  pacman:
+  package:
     name: gcc
     state: present
   become: true
 
 - name: "Programming | installing r"
-  pacman:
+  package:
     name: r
     state: present
   become: true
 
 - name: "Programming | installing rustup"
-  pacman:
+  package:
     name: rustup
     state: present
   become: true
@@ -21,7 +21,7 @@
   command: rustup default stable
 
 - name: "Programming | installing java"
-  pacman:
+  package:
     name:
       - jdk-openjdk
       - maven
@@ -29,31 +29,31 @@
   become: true
 
 - name: "Programming | installing plantuml"
-  pacman:
+  package:
     name: plantuml
     state: present
   become: true
 
 - name: "Programming | installing node"
-  pacman:
+  package:
     name: npm
     state: present
   become: true
 
 - name: "Programming | installing fzf"
-  pacman:
+  package:
     name: fzf
     state: present
   become: true
 
 - name: "Programming | installing man"
-  pacman:
+  package:
     name: man
     state: present
   become: true
 
 - name: "Programming | installing tldr"
-  pacman:
+  package:
     name: tldr
     state: present
   become: true
