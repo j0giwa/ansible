@@ -17,12 +17,15 @@
 - name: "Neovim | {{ ansible_distribution }} | Clone"
   ansible.builtin.git:
     repo: 'https://github.com/neovim/neovim.git'
-    dest: "{{ lookup('env', 'HOME') }}Projekte/neovim"
+    dest: "{{ ansible_user_dir }}/Projekte/neovim"
   tags:
     - packages
 
 - name: "Neovim | {{ ansible_distribution }} | Install"
   become: true
   shell: "cd {{ lookup('env', 'HOME') }}/neovim && make install"
+  command: "make install"
+  args:
+    chdir: "{{ ansible_user_dir }}/Projekte/neovim"
   tags:
     - packages
