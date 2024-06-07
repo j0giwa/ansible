@@ -127,10 +127,10 @@
 
 (map! :leader :desc "elfeed" "o n" #'elfeed)
 
-(setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
-      doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
-      doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
-      doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
+;(setq doom-font (font-spec :family "JetBrains Mono" :size 9.0 :weight 'normal :slant 'normal :height 1.0)
+;      doom-variable-pitch-font (font-spec :family "Ubuntu" :height 1.3)
+;      doom-big-font (font-spec :family "JetBrains Mono" :size 24.0)
+;      doom-unicode-font (font-spec :family "FiraCode Nerd Font Mono" :size 11))
 
 (after! doom-themes
   (setq doom-themes-enable-bold t
