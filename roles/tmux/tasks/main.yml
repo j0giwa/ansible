@@ -1,23 +1,23 @@
 ---
-- name: "tmux | installing tmux"
-  pacman:
-    name: tmux
-    state: present
-  become: true
-  tags:
-    - packages
+- name: "Tmux | Checking for Distribution Config: {{ ansible_distribution }}"
+  ansible.builtin.stat:
+    path: "{{ role_path }}/tasks/{{ ansible_distribution }}.yml"
+  register: tmux_distribution_config
 
-- name: "tmux | install tpm" 
+- name: "Tmux | Run Tasks: {{ ansible_distribution }}"
+  ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
+  when: tmux_distribution_config.stat.exists
+
+- name: "Tmux | Install TPM" 
   git:
     repo: https://github.com/tmux-plugins/tpm 
     dest: "{{ ansible_user_dir }}/.tmux/plugins/tpm"
   tags:
     - packages
 
-- name: "tmux | stow configs"
+- name: "Tmux | Stow Configs"
   command: stow -t {{ ansible_user_dir }} tmux
   args:
     chdir: "{{ role_path }}/files"
   tags:
     - dotfiles
-
