@@ -1,0 +1,11 @@
+---
+- name: "DOOM | Install Depends"
+  apt:
+    name:
+      - fd-find
+      - ripgrep
+      - emacs
+    state: present
+  become: true
+  tags:
+    - packages
