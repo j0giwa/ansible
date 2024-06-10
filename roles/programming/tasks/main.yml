@@ -34,18 +34,6 @@
     state: present
   become: true
 
-- name: "Programming | installing node"
-  package:
-    name: npm
-    state: present
-  become: true
-
-- name: "Programming | installing fzf"
-  package:
-    name: fzf
-    state: present
-  become: true
-
 - name: "Programming | installing man"
   package:
     name: man
