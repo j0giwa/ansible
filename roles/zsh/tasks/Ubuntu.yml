@@ -1,0 +1,10 @@
+---
+- name: "ZSH | Installing zsh"
+  ansible.builtin.apt:
+    name:
+      - zsh
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+    state: present
+  become: true
+

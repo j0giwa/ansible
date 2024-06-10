@@ -1,53 +1,53 @@
 ---
-- name: "zsh | installing zsh"
-  pacman:
-    name:
-      - zsh
-      - zsh-autosuggestions
-      - zsh-syntax-highlighting
-    state: present
-  become: true
+- name: "ZSH | Checking for Distribution Config: {{ ansible_distribution }}"
+  ansible.builtin.stat:
+    path: "{{ role_path }}/tasks/{{ ansible_distribution }}.yml"
+  register: doom_distribution_config
 
-- name: "zsh | install oh-my-zsh" 
+- name: "ZSH | Run Tasks: {{ ansible_distribution }}"
+  ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
+  when: doom_distribution_config.stat.exists
+
+- name: "ZSH | Install oh-my-zsh" 
   git:
     repo: https://github.com/ohmyzsh/ohmyzsh.git
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh"
     update: yes
     version: master
 
-- name: "zsh | install zsh-autosuggestions plugin" 
+- name: "ZSH | Install zsh-autosuggestions Plugin" 
   git: 
     repo: https://github.com/zsh-users/zsh-autosuggestions.git 
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-autosuggestions"
     update: yes
     version: master
 
-- name: "zsh | install zsh-autosuggestions plugin" 
+- name: "ZSH | Install zsh-autosuggestions Plugin" 
   git: 
     repo: https://github.com/zsh-users/zsh-syntax-highlighting.git 
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
     update: yes
     version: master
 
-- name: "zsh | install vi-mode plugin" 
+- name: "ZSH | Install vi-mode Plugin" 
   git:
     repo: https://github.com/nyquase/vi-mode
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/vi-mode"
     update: yes
     version: master
 
-- name: "zsh | install zsh-vimode-visual plugin" 
+- name: "ZSH | Install zsh-vimode-visual Plugin" 
   git:
     repo: https://github.com/b4b4r07/zsh-vimode-visual 
     dest: "{{ ansible_user_dir }}/.config/oh-my-zsh/custom/plugins/zsh-vimode-visual"
     update: yes
     version: master
 
-- name: "zsh | stow configs"
+- name: "ZSH | Stowing Configs"
   command: stow -t {{ ansible_user_dir }} zsh
   args:
     chdir: "{{ role_path }}/files"
 
-- name: "zsh | link profile"
+- name: "ZSH | Link Profile"
   command: ln -sf {{ ansible_user_dir }}/.config/zsh/zprofile {{ ansible_user_dir }}/.zprofile
   

@@ -1,0 +1,10 @@
+---
+- name: "ZSH | Installing zsh"
+  ansible.builtin.pacman:
+    name:
+      - zsh
+      - zsh-autosuggestions
+      - zsh-syntax-highlighting
+    state: present
+  become: true
+

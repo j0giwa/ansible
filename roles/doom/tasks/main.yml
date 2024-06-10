@@ -8,14 +8,14 @@
   ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
   when: doom_distribution_config.stat.exists
 
-- name: "DOOM | install Doom Emacs" 
+- name: "DOOM | Install Doom Emacs" 
   git:
     repo: https://github.com/hlissner/doom-emacs
     dest: "{{ ansible_user_dir }}/.config/emacs"
   tags:
     - packages
 
-- name: "DOOM | stow configs (remember to 'doom sync')"
+- name: "DOOM | Stowing configs (remember to 'doom sync')"
   command: stow -t {{ ansible_user_dir }} doom
   args:
     chdir: "{{ role_path }}/files"
