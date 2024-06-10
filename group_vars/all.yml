@@ -24,10 +24,13 @@ default_roles:
 # - mpd           # life is a playlist, and silence is not on it.
 # - ncmpcpp       # loud and relentless
   - nvim          # because vim wasn't complicated enough
-  - npm
-# - programming   # scripting but smarter
 # - sxiv          # look mom, corny grafics
   - tmux          # plain and simple multiplexing
 # - zellij        # because normal multiplexers were just too mainstream
 # - zathura       # the PDF-reader that doesn't judge your document choices
 # - misc          # Everyday software i didN't now where to put
+
+  # === Languages ====
+# - programming   # scripting but smarter
+  - npm
+  - rust
