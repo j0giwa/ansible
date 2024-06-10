@@ -1,13 +1,14 @@
 ---
-- name: "alacritty | installing alacritty"
-  pacman:
-    name: alacritty
-    state: present
-  become: true
-  tags:
-    - packages
+- name: "Alacritty | Checking for Distribution Config: {{ ansible_distribution }}"
+  ansible.builtin.stat:
+    path: "{{ role_path }}/tasks/{{ ansible_distribution }}.yml"
+  register: alacritty_distribution_config
 
-- name: "alacritty | stow configs"
+- name: "Alacritty | Run Tasks: {{ ansible_distribution }}"
+  ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
+  when: alacritty_distribution_config.stat.exists
+
+- name: "Alacritty | Stowing Configs"
   command: stow -t {{ ansible_user_dir }} alacritty
   args:
     chdir: "{{ role_path }}/files"

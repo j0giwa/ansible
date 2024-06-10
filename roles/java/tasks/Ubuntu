@@ -1,0 +1,8 @@
+---
+- name: "Java | Installing Java"
+  ansible.builtin.apt:
+    name:
+      - default-jdk
+      - maven
+    state: present
+  become: true

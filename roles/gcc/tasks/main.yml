@@ -1,0 +1,6 @@
+---
+- name: "Programming | installing c/c++"
+  package:
+    name: gcc
+    state: present
+  become: true

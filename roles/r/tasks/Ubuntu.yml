@@ -1,0 +1,6 @@
+---
+- name: "R | Installing R"
+  ansible.builtin.apt:
+    name: r-base
+    state: present
+  become: true

@@ -1,6 +1,6 @@
 ---
 - name: "Misc | installing firefox"
-  pacman:
+  package:
     name: firefox
     state: present
   become: true

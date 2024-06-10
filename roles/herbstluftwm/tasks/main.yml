@@ -1,6 +1,6 @@
 ---
 - name: "herbstluftwm | Install herbstluftwm"
-  pacman:
+  package:
     name: herbstluftwm
     state: present
   become: true

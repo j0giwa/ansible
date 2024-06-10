@@ -1,6 +1,6 @@
 ---
 - name: "Neovim | {{ ansible_distribution }} | Dependencies"
-  apt:
+  ansible.builtin.apt:
     name:
       - cmake
       - unzip
@@ -16,6 +16,8 @@
   ansible.builtin.git:
     repo: 'https://github.com/neovim/neovim.git'
     dest: "{{ ansible_user_dir }}/Projekte/neovim"
+    update: yes
+    version: master
   tags:
     - packages
 

@@ -2,11 +2,11 @@
 - name: "ZSH | Checking for Distribution Config: {{ ansible_distribution }}"
   ansible.builtin.stat:
     path: "{{ role_path }}/tasks/{{ ansible_distribution }}.yml"
-  register: doom_distribution_config
+  register: zsh_distribution_config
 
 - name: "ZSH | Run Tasks: {{ ansible_distribution }}"
   ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
-  when: doom_distribution_config.stat.exists
+  when: zsh_distribution_config.stat.exists
 
 - name: "ZSH | Install oh-my-zsh" 
   git:

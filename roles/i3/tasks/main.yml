@@ -1,6 +1,6 @@
 ---
 - name: "i3wm | installing i3"
-  pacman:
+  package:
     name:
       - i3
       - i3status

@@ -1,0 +1,8 @@
+---
+#- name: "Alacritty | installing alacritty"
+#  ansible.builtin.apt:
+#    name: alacritty
+#    state: present
+#  become: true
+#  tags:
+#    - packages

@@ -31,6 +31,8 @@ default_roles:
 # - misc          # Everyday software i didN't now where to put
 
   # === Languages ====
-# - programming   # scripting but smarter
   - npm
   - rust
+  - java
+  - gcc
+  - r

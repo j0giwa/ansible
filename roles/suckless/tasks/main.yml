@@ -1,11 +1,11 @@
 - name: "suckless | Install Depends"
-  pacman:
+  ansible.builtin.pacman:
     name: libx11
     state: present
   become: true
 
 - name: "Suckless | clone repository" 
-  git:
+  ansible.builtin.git:
     repo: https://github.com/j0giwa/suckless-desktop
     dest: "{{ ansible_user_dir }}/.config/suckless"
     update: yes
