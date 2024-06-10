@@ -1,7 +1,7 @@
 default_roles:
   # === core ===
   - scripts       # automate the boring stuff
-# - zsh           # making your shell prompt fancier than your weekend plans
+  - zsh           # making your shell prompt fancier than your weekend plans
 # - X11           # the stalwart warrior of graphical interfaces
 # - picom         # blur and transparency
   - templates
@@ -17,13 +17,14 @@ default_roles:
 # - xmonad        # because windows deserve a well-tailored Haskell suit
 
   # === Tools ===
-# - alacritty     # waiting for your terminal is for peasants
+  - alacritty     # waiting for your terminal is for peasants
   - doom          # an Emacs framework for the stubborn martian hacker
 # - kitty         # 🐱
 # - lf            # navigating the filesystem should be more straightforward than your love life
 # - mpd           # life is a playlist, and silence is not on it.
 # - ncmpcpp       # loud and relentless
   - nvim          # because vim wasn't complicated enough
+  - npm
 # - programming   # scripting but smarter
 # - sxiv          # look mom, corny grafics
   - tmux          # plain and simple multiplexing
