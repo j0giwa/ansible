@@ -1,0 +1,10 @@
+---
+- name: "Rust | Installing Rustup"
+  ansible.builtin.pacman:
+    name: rustup
+    state: present
+  become: true
+
+- name: "Rust | Setting up Rust"
+  command: rustup default stable
+
