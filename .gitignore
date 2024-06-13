@@ -5,3 +5,4 @@ roles/zsh/files/zsh/.config/zsh/.zcompdump-*
 roles/zsh/files/zsh/.config/zsh/.zsh_history
 roles/tmux/files/tmux/.config/tmux/plugins/*
 #group_vars/all.yml
+roles/scripts/files/scripts/.local/bin/fzf

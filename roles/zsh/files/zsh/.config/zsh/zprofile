@@ -43,3 +43,11 @@ path+=$HOME/.config/emacs/bin
 path+=$HOME/.local/bin
 path+=$JAVA_HOME/bin
 export PATH
+
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+  --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626
+  --color=hl:#bd93f9,hl+:#5fd7ff,info:#ffb86c,marker:#ff79c6
+  --color=prompt:#50fa7b,spinner:#ffb86c,pointer:#ff79c6,header:#6272a4
+  --color=border:#262626,label:#aeaeae,query:#d9d9d9
+  --border="rounded" --border-label="" --preview-window="border-rounded" --prompt="> "
+  --marker=">" --pointer="◆" --separator="─" --scrollbar="│"'
