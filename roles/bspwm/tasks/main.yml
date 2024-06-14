@@ -1,15 +1,14 @@
 ---
-- name: "bspwm | Install bspwm"
-  pacman:
-    name:
-      - bspwm
-      - sxhkd
-    state: present
-  become: true
-  tags:
-    - packages
+- name: "BSPWM | Checking for Distribution Config: {{ ansible_distribution }}"
+  ansible.builtin.stat:
+    path: "{{ role_path }}/tasks/{{ ansible_distribution }}.yml"
+  register: bspwm_distribution_config
 
-- name: "bspwm | stow configs"
+- name: "BSPWM | Run Tasks: {{ ansible_distribution }}"
+  ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
+  when: bspwm_distribution_config.stat.exists
+
+- name: "BSPWM | stow configs"
   command: stow -t {{ ansible_user_dir }} bspwm sxhkd
   args:
     chdir: "{{ role_path }}/files"

@@ -1,0 +1,8 @@
+---
+- name: "DUNST | Install dunst"
+  pacman:
+    name: dunst
+    state: present
+  become: true
+  tags: 
+    - packages

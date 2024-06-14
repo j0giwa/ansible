@@ -1,0 +1,8 @@
+---
+- name: "HerbstluftWM | Install herbstluftwm"
+  package:
+    name: herbstluftwm
+    state: present
+  become: true
+  tags:
+    - packages

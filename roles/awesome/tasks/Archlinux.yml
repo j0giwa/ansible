@@ -1,0 +1,8 @@
+---
+- name: "Awesome | Install awesome"
+  ansible.builtin.pacman:
+    name: awesome
+    state: present
+  become: true
+  tags:
+    - packages

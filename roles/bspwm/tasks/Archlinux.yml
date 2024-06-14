@@ -1,0 +1,10 @@
+---
+- name: "BSPWM | Install bspwm"
+  ansible.builtin.pacman:
+    name:
+      - bspwm
+      - sxhkd
+    state: present
+  become: true
+  tags:
+    - packages
