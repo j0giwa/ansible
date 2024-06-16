@@ -151,5 +151,5 @@ if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 	neofetch
 	startx
 else
-	pokemon-colorscripts --random --no-title
+	pokemon-colorscripts --random --no-title 2> /dev/null
 fi
