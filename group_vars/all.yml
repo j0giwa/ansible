@@ -26,7 +26,7 @@ default_roles:
 # - lf            # navigating the filesystem should be more straightforward than your love life
 # - mpd           # life is a playlist, and silence is not on it.
 # - ncmpcpp       # loud and relentless
-  - nvim          # because vim wasn't complicated enough
+# - nvim          # because vim wasn't complicated enough
   - ssh
 # - sxiv          # look mom, corny grafics
   - tmux          # plain and simple multiplexing
