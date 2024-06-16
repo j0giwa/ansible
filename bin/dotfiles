@@ -41,6 +41,7 @@ DOTFILES_LOG="$HOME/.dotfiles.log"
 set -e
 
 # Paths
+VAULT_SECRET="$HOME/.ansible-vault/vault.secret"
 DOTFILES_DIR="$HOME/Projekte/ansible" # Tailored to me, path won't change
 IS_FIRST_RUN="$HOME/.dotfiles_run"
 
