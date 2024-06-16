@@ -27,11 +27,11 @@
     scope: global
     value: main
 
-- name: "Git | Set pull.rebase"
-  community.general.git_config:
-    name: pull.rebase
-    scope: global
-    value: trueo
+#- name: "Git | Set pull.rebase"
+#  community.general.git_config:
+#    name: pull.rebase
+#    scope: global
+#    value: true
 
 - name: "Git | Set user.email"
   community.general.git_config:
