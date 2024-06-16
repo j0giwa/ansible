@@ -16,19 +16,22 @@ default_roles:
 # - suckless      # who needs features when you have the beauty of simplicity
 # - xmonad        # because windows deserve a well-tailored Haskell suit
 
-  # === Tools ===
-  - alacritty     # waiting for your terminal is for peasants
-  - doom          # an Emacs framework for the stubborn martian hacker
+  # === Terms ===
+# - alacritty     # waiting for your terminal is for peasants
 # - kitty         # 🐱
+
+  # === Tools ===
+# - doom          # an Emacs framework for the stubborn martian hacker
+  - git
 # - lf            # navigating the filesystem should be more straightforward than your love life
 # - mpd           # life is a playlist, and silence is not on it.
 # - ncmpcpp       # loud and relentless
-# - nvim          # because vim wasn't complicated enough
+  - nvim          # because vim wasn't complicated enough
+  - ssh
 # - sxiv          # look mom, corny grafics
   - tmux          # plain and simple multiplexing
 # - zellij        # because normal multiplexers were just too mainstream
 # - zathura       # the PDF-reader that doesn't judge your document choices
-# - misc          # Everyday software i didN't now where to put
   - fzf
 
   # === Languages ====
@@ -36,4 +39,16 @@ default_roles:
   - rust
   - java
   - gcc
-  - r
+# - r
+
+git_user_name: "j0giwa"
+git_user_email: !vault |
+    $ANSIBLE_VAULT;1.1;AES256
+    34303432356632613466356462393332326336386437333830653633636536393931633130653535
+    3430623935386662653132313833346639313163646663620a316566343537313566656264386365
+    64613730396532313863393462303034623532313031643135333632376232643366316134323737
+    6562636634663331630a303566343266383765326138353038363266623834636239313435653962
+    38353239313162333430373461373866663236633362356561396431613664323339653163633061
+    3866313639326561373066353035666536386561303666626165
+
+
