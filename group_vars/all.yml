@@ -22,7 +22,7 @@ default_roles:
 
   # === Tools ===
   - docker
-# - doom          # an Emacs framework for the stubborn martian hacker
+  - doom          # an Emacs framework for the stubborn martian hacker
   - git
 # - lf            # navigating the filesystem should be more straightforward than your love life
 # - mpd           # life is a playlist, and silence is not on it.
