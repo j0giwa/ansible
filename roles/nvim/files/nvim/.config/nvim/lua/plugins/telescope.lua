@@ -28,6 +28,8 @@ telescope.setup({
   },
 })
 
+--vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
+--vim.keymap.set('n', '<C-p>', builtin.git_files, {})
 vim.keymap.set('n', '<leader>pf', function() pickers.prettyFilesPicker( { picker = 'find_files' }) end)
 vim.keymap.set('n', '<C-p>', function() pickers.prettyFilesPicker({ picker = 'git_files' })  end)
 

@@ -31,7 +31,7 @@ export GKT2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
 export LESSHISTFILE="-" #Disable file
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
-export JAVA_HOME='/usr/lib/jvm/java-22-openjdk'
+export JAVA_HOME='/usr/lib/jvm/jdk-22-oracle-x64'
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME/java"
 export JDTLS_JVM_ARGS="-javaagent:$HOME/.local/share/java/lombok.jar"
 
@@ -51,3 +51,7 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
   --color=border:#262626,label:#aeaeae,query:#d9d9d9
   --border="rounded" --border-label="" --preview-window="border-rounded" --prompt="> "
   --marker=">" --pointer="◆" --separator="─" --scrollbar="│"'
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
