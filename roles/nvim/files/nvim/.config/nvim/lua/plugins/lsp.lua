@@ -50,6 +50,10 @@ local on_attach = function(_, bufnr)
   vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end
 
+mason_lspconfig.setup {
+  ensure_installed = vim.tbl_keys(servers),
+}
+
 mason_lspconfig.setup_handlers {
   function(server_name)
     require('lspconfig')[server_name].setup {
