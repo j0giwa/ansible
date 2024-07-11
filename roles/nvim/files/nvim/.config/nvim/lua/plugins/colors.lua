@@ -1,13 +1,7 @@
-local dracula = require("dracula")
-
-dracula.setup({
-  -- show the '~' characters after the end of buffers
+require("dracula").setup({
   show_end_of_buffer = true, -- default false
-  -- use transparent background
   transparent_bg = true, -- default false
-  -- set custom lualine background color
   lualine_bg_color = "#44475a", -- default nil
-  -- set italic comment
   italic_comment = true, -- default false
   -- overrides the default highlights with table see `:h synIDattr`
   overrides = {},
@@ -25,5 +19,23 @@ dracula.setup({
   -- end,
 })
 
-vim.o.termguicolors = true
-vim.cmd[[colorscheme dracula]]
+require("rose-pine").setup({
+  disable_background = true,
+  dim_inactive_windows = false,
+  extend_background_behind_borders = true,
+
+  styles = {
+    transparency = true,
+  },
+})
+
+function ColorMyPencils(color)
+  color = color or "rose-pine-moon"
+  vim.cmd.colorscheme(color)
+  vim.o.termguicolors = true
+
+  vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+end
+
+ColorMyPencils()
