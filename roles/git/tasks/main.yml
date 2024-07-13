@@ -33,6 +33,12 @@
     scope: global
     value: true
 
+- name: "Git | Set line endings"
+  community.general.git_config:
+    name: core.autocrlf
+    scope: global
+    value: true
+
 - name: "Git | Set user.email"
   community.general.git_config:
     name: user.email
