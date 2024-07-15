@@ -1,3 +1,5 @@
+require("jogiwa.lazy.colors")
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
@@ -16,11 +18,11 @@ vim.opt.cursorline = true
 vim.opt.autoread = true
 
 -- old-school indentation
-vim.o.smartindent = true
 vim.o.tabstop = 8
 vim.opt.softtabstop = 0
 vim.o.shiftwidth = 8
-vim.o.breakindent = true
+vim.o.expandtab = true
+vim.o.smartindent = true
 
 -- Save undo history
 vim.opt.swapfile = false
@@ -45,8 +47,7 @@ vim.o.timeoutlen = 300
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
--- NOTE: You should make sure your terminal supports this
-vim.o.termguicolors = true
+ColorMyPencils()
 
 -- Disable autoformat
 vim.g.autoformat = false -- globally
