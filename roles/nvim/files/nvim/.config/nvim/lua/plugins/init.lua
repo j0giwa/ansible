@@ -10,6 +10,10 @@ require("lazy").setup({
   "ThePrimeagen/git-worktree.nvim",
   "christoomey/vim-tmux-navigator",
   {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+  },
+  {
     "epwalsh/obsidian.nvim",
     version = "*",
     lazy = true,
@@ -55,3 +59,4 @@ require("plugins.gitsigns")
 require("plugins.git-worktree")
 require("plugins.obsidian")
 require("plugins.nvim-tree")
+require("plugins.todo")
