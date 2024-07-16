@@ -11,7 +11,7 @@ return {
     config = function()
 
       require("mason").setup()
-      
+
       local mason_lspconfig = require('mason-lspconfig')
 
       local cmp = require("cmp")
@@ -50,7 +50,6 @@ return {
 
         vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
         vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
-        vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
         vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
         vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
         vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
@@ -98,6 +97,18 @@ return {
 	  { name = 'buffer' },
         }),
      })
+
+     vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
+       vim.lsp.handlers.hover, {
+         border = "single"
+       }
+     )
+
+     vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
+       vim.lsp.handlers.signature_help, {
+         border = "single"
+       }
+     )
 
      vim.diagnostic.config({
        -- update_in_insert = true,
