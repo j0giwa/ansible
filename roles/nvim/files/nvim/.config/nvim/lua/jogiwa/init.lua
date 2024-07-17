@@ -1,6 +1,6 @@
-require("jogiwa.keymaps")
+require("jogiwa.remaps")
 require("jogiwa.lazy_init")
-require("jogiwa.options")
+require("jogiwa.set")
 
 local augroup = vim.api.nvim_create_augroup
 local JogiwaGroup = augroup('Jogiwa', {})

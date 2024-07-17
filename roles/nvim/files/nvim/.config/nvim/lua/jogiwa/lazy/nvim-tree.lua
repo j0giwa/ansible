@@ -19,5 +19,5 @@ return {
       vim.keymap.set('n', '<C-n>', ':NvimTreeFindFileToggle<CR>')
     end
   },
-  "nvim-tree/nvim-web-devicons",
+  { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
 }
