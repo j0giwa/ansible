@@ -10,6 +10,8 @@ return {
       "hrsh7th/cmp-cmdline",
       "hrsh7th/nvim-cmp",
       "L3MON4D3/LuaSnip",
+      "saadparwaiz1/cmp_luasnip",
+      "j-hui/fidget.nvim",
     },
     config = function()
       local cmp = require("cmp")
@@ -45,6 +47,7 @@ return {
         },
       }
 
+      require("fidget").setup({})
       require("mason").setup()
       require('mason-lspconfig').setup {
         ensure_installed = vim.tbl_keys(servers),
@@ -52,7 +55,6 @@ return {
           function(server_name)
             require('lspconfig')[server_name].setup {
               capabilities = capabilities,
-              on_attach = on_attach,
               settings = servers[server_name],
               filetypes = (servers[server_name] or {}).filetypes,
             }
@@ -78,8 +80,8 @@ return {
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
         },
-	{
-	  { name = 'buffer' },
+        {
+          { name = 'buffer' },
         })
      })
 
