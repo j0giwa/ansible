@@ -21,8 +21,8 @@ default_roles:
 # - kitty         # 🐱
 
   # === Tools ===
-  - docker
-  - doom          # an Emacs framework for the stubborn martian hacker
+# - docker
+# - doom          # an Emacs framework for the stubborn martian hacker
   - git
 # - lf            # navigating the filesystem should be more straightforward than your love life
 # - mpd           # life is a playlist, and silence is not on it.
@@ -37,9 +37,9 @@ default_roles:
 
   # === Languages ====
 # - npm
-  - rust
-  - java
-  - gcc
+# - rust
+# - java
+# - gcc
 # - r
 
 git_user_name: "j0giwa"
