@@ -28,7 +28,7 @@ return {
         --r_language_server = {},
         pyright = {},
         rust_analyzer = {},
-        tsserver = {},
+        csharp_ls = {},
         html = {},
         lua_ls = {
           Lua = {

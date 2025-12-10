@@ -38,6 +38,7 @@ export JDTLS_JVM_ARGS="-javaagent:$HOME/.local/lib/java/lombok.jar"
 #export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
 export ICEAUTHORITY="$XDG_CACHE_HOME/ICEauthority"
 export KDEHOME="$XDG_CONFIG_HOME/kde"
+export DALAMUD_HOME="/mnt/c/Users/jonas/AppData/Roaming/XIVLauncher/addon/Hooks/dev"
 
 path+=$HOME/.config/emacs/bin
 path+=$HOME/.local/bin
